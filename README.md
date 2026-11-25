@@ -1,6 +1,6 @@
 # Process Intelligence: from ticket logs to plain-language findings
 
-**Live dashboard:** STREAMLIT_URL_PLACEHOLDER
+**Live dashboard:** [STREAMLIT_URL_PLACEHOLDER](https://process-intelligence-demo.streamlit.app/)
 
 A prototype that reads a ticketing platform's exports (tickets, audit log, comments, SOP documents) and answers:
 *where does work get stuck, does it follow the SOP, what do the comments really say, and which new tickets are likely to be late?*
