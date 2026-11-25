@@ -63,9 +63,9 @@ Both holdout misses are the same scenario, SC05 (a rise in "Incorrect category" 
 
 | Model | Clean SOPs | Messy SOPs | Median seconds per SOP |
 |---|---|---|---|
-| **llama3.1 8B** (chosen) | 0.978 | **0.947** | **23** |
-| granite4.1 8B | 0.984 | 0.921 | 33 |
-| ministral-3 8B | 0.998 | 0.877 | 43 |
+| **llama3.1 8B** (chosen) | 0.978 | **0.947** | **23 s** |
+| granite4.1 8B | 0.984 | 0.921 | 33 s |
+| ministral-3 8B | 0.998 | 0.877 | 43 s |
 
 The SOP review results: on the 9 structured SOPs, drafts had the right structure on 8, and the one invented approval was caught by the checks. All 12 older free-text SOPs were correctly flagged as too vague to check against.
 
