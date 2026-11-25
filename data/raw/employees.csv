@@ -1,0 +1,37 @@
+employee_id,employee_name,department,role,reporting_to,active_status
+E1001,Finance Executor 1,Finance,Executor,MFIN01,Active
+E1002,Finance Executor 2,Finance,Executor,MFIN01,Active
+E1003,Finance Executor 3,Finance,Executor,MFIN01,Active
+E1004,Finance Executor 4,Finance,Executor,MFIN01,Active
+E1005,Finance Executor 5,Finance,Executor,MFIN01,Active
+E1006,Finance Executor 6,Finance,Executor,MFIN01,Active
+MFIN01,Finance Incharge,Finance,Incharge,LFIN01,Active
+LFIN01,Finance Lead,Finance,Lead,HFIN01,Active
+HFIN01,Finance HOD,Finance,HOD,,Active
+E1007,Procurement Executor 1,Procurement,Executor,MPRC01,Active
+E1008,Procurement Executor 2,Procurement,Executor,MPRC01,Active
+E1009,Procurement Executor 3,Procurement,Executor,MPRC01,Active
+E1010,Procurement Executor 4,Procurement,Executor,MPRC01,Active
+E1011,Procurement Executor 5,Procurement,Executor,MPRC01,Active
+E1012,Procurement Executor 6,Procurement,Executor,MPRC01,Active
+MPRC01,Procurement Incharge,Procurement,Incharge,LPRC01,Active
+LPRC01,Procurement Lead,Procurement,Lead,HPRC01,Active
+HPRC01,Procurement HOD,Procurement,HOD,,Active
+E1013,Operations Executor 1,Operations,Executor,MOPS01,Active
+E1014,Operations Executor 2,Operations,Executor,MOPS01,Active
+E1015,Operations Executor 3,Operations,Executor,MOPS01,Active
+E1016,Operations Executor 4,Operations,Executor,MOPS01,Active
+E1017,Operations Executor 5,Operations,Executor,MOPS01,Active
+E1018,Operations Executor 6,Operations,Executor,MOPS01,Active
+MOPS01,Operations Incharge,Operations,Incharge,LOPS01,Active
+LOPS01,Operations Lead,Operations,Lead,HOPS01,Active
+HOPS01,Operations HOD,Operations,HOD,,Active
+E1019,HR Executor 1,HR,Executor,MHR01,Active
+E1020,HR Executor 2,HR,Executor,MHR01,Active
+E1021,HR Executor 3,HR,Executor,MHR01,Active
+E1022,HR Executor 4,HR,Executor,MHR01,Active
+E1023,HR Executor 5,HR,Executor,MHR01,Active
+E1024,HR Executor 6,HR,Executor,MHR01,Active
+MHR01,HR Incharge,HR,Incharge,LHR01,Active
+LHR01,HR Lead,HR,Lead,HHR01,Active
+HHR01,HR HOD,HR,HOD,,Active

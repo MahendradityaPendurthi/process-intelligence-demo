@@ -1,0 +1,77 @@
+{
+  "sop_id": "SOP-020",
+  "file": "SOP-020_Leave_Approval.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "0c74796072170c5ebb762112e6df7297d0ac3f7ffabeceb490a5c81ce11b1a30",
+  "drafted_at": "2026-11-21T13:34:28",
+  "seconds": 17.5,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-020",
+    "title": "Leave Application Processing",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Check balance and eligibility",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Record dates, exclude holidays and weekly offs, and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge approval",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and resubmit on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "The Incharge approves or rejects with a reason code."
+      },
+      {
+        "stage": "Lead",
+        "condition": "more than 10 days",
+        "evidence": "A (more than 10 days)"
+      }
+    ],
+    "dependencies": [],
+    "rework_reasons": [
+      "Wrong quantity",
+      "Amount mismatch",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.95
+  },
+  "checks": [],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 5,
+    "detail": ""
+  }
+}

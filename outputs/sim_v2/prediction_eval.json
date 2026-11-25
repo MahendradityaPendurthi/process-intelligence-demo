@@ -1,0 +1,118 @@
+{
+  "tickets": 2390,
+  "months": [
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "duration": {
+    "model": {
+      "p50_mae_h": 1.142,
+      "p50_median_abs_pct_err": 0.186,
+      "p90_coverage": 0.898,
+      "p90_pinball": 0.321,
+      "p50_pinball": 0.571
+    },
+    "segment_baseline": {
+      "p50_mae_h": 1.224,
+      "p50_median_abs_pct_err": 0.198,
+      "p90_coverage": 0.883,
+      "p90_pinball": 0.393,
+      "p50_pinball": 0.612
+    },
+    "sop_estimate": {
+      "p50_mae_h": 1.609,
+      "p50_median_abs_pct_err": 0.273,
+      "p90_coverage": 0.682,
+      "p90_pinball": 0.576,
+      "p50_pinball": 0.804
+    }
+  },
+  "sla_risk": {
+    "model": {
+      "late_share": 0.054,
+      "brier": 0.0249,
+      "top10pct_precision": 0.418,
+      "top10pct_recall": 0.769,
+      "auc": 0.972
+    },
+    "segment_baseline": {
+      "late_share": 0.054,
+      "brier": 0.0273,
+      "top10pct_precision": 0.41,
+      "top10pct_recall": 0.754,
+      "auc": 0.958
+    }
+  },
+  "by_month": {
+    "2026-04": {
+      "tickets": 382,
+      "p50_mae_h": 1.042,
+      "p50_median_abs_pct_err": 0.171,
+      "p90_coverage": 0.969,
+      "p90_pinball": 0.336,
+      "p50_pinball": 0.521,
+      "seg_p90_coverage": 0.927,
+      "late_share": 0.047,
+      "auc": 0.988
+    },
+    "2026-05": {
+      "tickets": 367,
+      "p50_mae_h": 1.056,
+      "p50_median_abs_pct_err": 0.164,
+      "p90_coverage": 0.88,
+      "p90_pinball": 0.301,
+      "p50_pinball": 0.528,
+      "seg_p90_coverage": 0.891,
+      "late_share": 0.049,
+      "auc": 0.981
+    },
+    "2026-06": {
+      "tickets": 390,
+      "p50_mae_h": 1.111,
+      "p50_median_abs_pct_err": 0.21,
+      "p90_coverage": 0.91,
+      "p90_pinball": 0.271,
+      "p50_pinball": 0.555,
+      "seg_p90_coverage": 0.921,
+      "late_share": 0.046,
+      "auc": 0.967
+    },
+    "2026-07": {
+      "tickets": 405,
+      "p50_mae_h": 1.107,
+      "p50_median_abs_pct_err": 0.178,
+      "p90_coverage": 0.896,
+      "p90_pinball": 0.281,
+      "p50_pinball": 0.554,
+      "seg_p90_coverage": 0.914,
+      "late_share": 0.047,
+      "auc": 0.974
+    },
+    "2026-08": {
+      "tickets": 371,
+      "p50_mae_h": 1.225,
+      "p50_median_abs_pct_err": 0.197,
+      "p90_coverage": 0.868,
+      "p90_pinball": 0.388,
+      "p50_pinball": 0.612,
+      "seg_p90_coverage": 0.871,
+      "late_share": 0.073,
+      "auc": 0.965
+    },
+    "2026-09": {
+      "tickets": 475,
+      "p50_mae_h": 1.28,
+      "p50_median_abs_pct_err": 0.196,
+      "p90_coverage": 0.869,
+      "p90_pinball": 0.347,
+      "p50_pinball": 0.64,
+      "seg_p90_coverage": 0.796,
+      "late_share": 0.063,
+      "auc": 0.965
+    }
+  }
+}

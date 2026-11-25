@@ -1,0 +1,22 @@
+sop_id,format,valid,steps,approvals,dependencies,errors,warnings,agreement_with_yaml,seconds
+SOP-001,legacy,True,8,HOD,1,2,1,,25.7
+SOP-002,legacy,True,8,HOD,1,2,1,,25.5
+SOP-003,legacy,True,8,HOD,1,2,1,,25.3
+SOP-004,legacy,True,8,Incharge > Lead > HOD,1,2,1,,29.4
+SOP-005,legacy,True,8,HOD,1,2,1,,25.5
+SOP-006,legacy,True,8,HOD,1,2,1,,25.5
+SOP-007,legacy,True,8,HOD,1,2,1,,25.3
+SOP-008,legacy,True,8,HOD,1,2,1,,25.6
+SOP-009,legacy,True,8,Incharge > Lead > HOD,1,2,1,,29.6
+SOP-010,legacy,True,8,HOD,1,2,1,,25.5
+SOP-011,legacy,True,8,HOD,1,2,1,,25.7
+SOP-012,legacy,True,8,HOD,1,2,1,,25.4
+SOP-013,schema,True,8,Incharge > Lead,1,1,0,1.0,22.9
+SOP-014,schema,True,9,Incharge > Lead > HOD,1,0,0,1.0,30.3
+SOP-015,schema,True,9,Incharge > Lead,1,0,1,1.0,29.7
+SOP-016,schema,True,6,Incharge > Lead,0,2,0,1.0,17.1
+SOP-017,schema,True,14,Incharge > Lead > HOD,2,0,2,1.0,35.3
+SOP-018,schema,True,7,Incharge > Lead,0,1,0,0.8,19.4
+SOP-019,schema,True,13,Incharge > Lead > HOD,2,0,0,1.0,33.6
+SOP-020,schema,True,5,Incharge > Lead,0,0,0,1.0,17.5
+SOP-021,schema,True,10,Incharge > Lead,1,3,0,1.0,23.9

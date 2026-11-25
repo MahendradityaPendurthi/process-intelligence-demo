@@ -1,0 +1,164 @@
+{
+  "sop_id": "SOP-017",
+  "file": "SOP-017_Vendor_Onboarding.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "99243e86b222ae9901e1acf4d434bf771a2fe193a884fba98b633072ae2afd2d",
+  "drafted_at": "2026-11-21T13:33:17",
+  "seconds": 35.3,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-017",
+    "title": "Vendor Onboarding and Due Diligence",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Collect registration form and statutory documents",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Verify PAN, GSTIN and MSME status",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Request bank account validation",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Request sanctions, blacklist and conflict-of-interest screening",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Assess capability and quality",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S7",
+        "name": "Assign risk category",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S8",
+        "name": "Check payment terms, NDA and code-of-conduct acknowledgement",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S9",
+        "name": "Draft vendor master record and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S10",
+        "name": "Log DependencyWait while bank validation or screening clearance is outstanding",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge review",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "A2",
+        "name": "Lead approval",
+        "role": "Lead",
+        "type": "approval"
+      },
+      {
+        "step_id": "A3",
+        "name": "HOD approval and activation",
+        "role": "HOD",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and resubmit on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "Approval"
+      },
+      {
+        "stage": "Lead",
+        "condition": "always",
+        "evidence": "Approval"
+      },
+      {
+        "stage": "HOD",
+        "condition": "always",
+        "evidence": "Approval"
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "Finance",
+        "item": "bank account validation",
+        "parallel_group": "P1",
+        "evidence": "Request bank account validation"
+      },
+      {
+        "dep_id": "D2",
+        "provider": "Legal/Compliance",
+        "item": "screening clearance",
+        "parallel_group": "P1",
+        "evidence": "Request sanctions, blacklist and conflict-of-interest screening"
+      }
+    ],
+    "rework_reasons": [
+      "Required document missing",
+      "Incorrect category",
+      "Amount mismatch",
+      "Wrong quantity"
+    ],
+    "first_pass_yield_target": 0.85
+  },
+  "checks": [
+    {
+      "severity": "warning",
+      "field": "dependencies",
+      "item": "D1 Finance",
+      "message": "The quote does not name this provider"
+    },
+    {
+      "severity": "warning",
+      "field": "dependencies",
+      "item": "D2 Legal/Compliance",
+      "message": "The quote does not name this provider"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 13,
+    "detail": ""
+  }
+}

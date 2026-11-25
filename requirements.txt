@@ -1,0 +1,11 @@
+pandas>=2.1
+numpy>=1.26
+pyyaml>=6.0
+scipy>=1.11
+pytest>=8
+# Phase 2
+pydantic>=2.6
+scikit-learn>=1.5   # time prediction (gradient-boosted quantile + risk models)
+ollama>=0.4         # Python client; models run locally in the Ollama app (not needed for the dashboard)
+streamlit>=1.40     # dashboard + SOP review screen (app/)
+altair>=5

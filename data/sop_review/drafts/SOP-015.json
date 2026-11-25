@@ -1,0 +1,122 @@
+{
+  "sop_id": "SOP-015",
+  "file": "SOP-015_Invoice_Verification.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "e0a24b45c67bd44e6d67ee2201e850d1fe1885a6e328a14720f712f05e608bb0",
+  "drafted_at": "2026-11-21T13:32:25",
+  "seconds": 29.7,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-015",
+    "title": "Invoice Verification (Three-Way Match)",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Validate vendor GSTIN and PAN, check for duplicates",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Match invoice, PO and GRN line by line",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Compute GST input credit and TDS",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Adjust advances and other deductions",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Prepare payment voucher and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "D1",
+        "name": "Wait for GRN or completion certificate confirmation",
+        "role": "Executor",
+        "type": "decision"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge verifies and approves or rejects",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and resubmit on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "The Incharge verifies and approves or rejects with a reason code."
+      },
+      {
+        "stage": "Lead",
+        "condition": "out-of-tolerance or high-value invoices",
+        "evidence": "Out-of-tolerance or high-value invoices add a Lead approval."
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "Stores",
+        "item": "GRN or completion certificate confirmation",
+        "parallel_group": "P1",
+        "evidence": "After submission, if the GRN or completion certificate is not yet confirmed, log `DependencyWait` (D1)."
+      }
+    ],
+    "rework_reasons": [
+      "Amount mismatch",
+      "Wrong quantity",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.9
+  },
+  "checks": [
+    {
+      "severity": "warning",
+      "field": "dependencies",
+      "item": "D1 Stores",
+      "message": "The quote does not name this provider"
+    },
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 8,
+    "detail": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "model": "llama3.1:latest",
+  "combined": 0.962,
+  "by_variant": {
+    "clean": 0.978,
+    "messy": 0.947
+  },
+  "median_seconds": 23.15,
+  "ranking": [
+    {
+      "model": "llama3.1:latest",
+      "clean": 0.978,
+      "messy": 0.947,
+      "combined": 0.962,
+      "median_seconds": 23.15
+    },
+    {
+      "model": "granite4.1:8b",
+      "clean": 0.984,
+      "messy": 0.921,
+      "combined": 0.952,
+      "median_seconds": 32.55
+    },
+    {
+      "model": "ministral-3:8b",
+      "clean": 0.998,
+      "messy": 0.877,
+      "combined": 0.938,
+      "median_seconds": 43.55
+    }
+  ],
+  "task": "SOP structure extraction from prose (SOP-013..021): official text and messy rewrites"
+}

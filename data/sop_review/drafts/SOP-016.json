@@ -1,0 +1,96 @@
+{
+  "sop_id": "SOP-016",
+  "file": "SOP-016_Expense_Approval.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "6b659a4b7f25a5e6a2b95fbd7528e1a3a5dcec965af01822e5326c9a99bfa758",
+  "drafted_at": "2026-11-21T13:32:42",
+  "seconds": 17.1,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-016",
+    "title": "Employee Expense Claim Approval",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Check policy limits",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Match receipts",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Compute reimbursable amount and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge approval",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and resubmit on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "Policy and receipt checks | Activity | Executor | Incharge | Lead |"
+      },
+      {
+        "stage": "Lead",
+        "condition": "exceptions only",
+        "evidence": "Policy and receipt checks | Activity | Executor | Incharge | Lead |"
+      }
+    ],
+    "dependencies": [],
+    "rework_reasons": [
+      "Amount mismatch",
+      "Wrong quantity",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.95
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Incharge (always)",
+      "message": "Quoted evidence is not in the text"
+    },
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Lead (exceptions only)",
+      "message": "Quoted evidence is not in the text"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 6,
+    "detail": ""
+  }
+}

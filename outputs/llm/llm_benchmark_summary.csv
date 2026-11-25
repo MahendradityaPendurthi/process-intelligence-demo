@@ -1,0 +1,7 @@
+variant,model,overall,steps,approvals,dependencies,reasons,fpy,valid_json,median_seconds,sops
+clean,ministral-3:8b,0.998,0.99,1.0,1.0,1.0,1.0,1.0,43.7,9
+clean,granite4.1:8b,0.984,0.994,1.0,0.926,1.0,1.0,1.0,31.6,9
+clean,llama3.1:latest,0.978,1.0,0.889,1.0,1.0,1.0,1.0,20.2,9
+messy,llama3.1:latest,0.947,0.847,1.0,0.889,1.0,1.0,1.0,24.3,9
+messy,granite4.1:8b,0.921,0.826,0.778,1.0,1.0,1.0,1.0,33.5,9
+messy,ministral-3:8b,0.877,0.72,0.667,1.0,1.0,1.0,1.0,43.4,9

@@ -1,0 +1,121 @@
+{
+  "sop_id": "SOP-014",
+  "file": "SOP-014_Purchase_Request.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "8b8ce14083b8fee6c7772739ed9ee3f3f1b7d6e9d07b33ae02910b1d803e96fc",
+  "drafted_at": "2026-11-21T13:31:55",
+  "seconds": 30.3,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-014",
+    "title": "Purchase Request Processing",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Validate item descriptions, quantities, specifications and required-by date",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Check the budget head and cost centre against the latest budget report",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Choose the sourcing route (rate contract, competitive quotes, or single source) and estimate the value",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Prepare the PR note and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Log DependencyWait (D1) if Finance has not yet confirmed budget availability",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge review",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "A2",
+        "name": "Lead approval",
+        "role": "Lead",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and resubmit on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "Review and approval"
+      },
+      {
+        "stage": "Lead",
+        "condition": "always",
+        "evidence": "Review and approval"
+      },
+      {
+        "stage": "HOD",
+        "condition": "above HOD limit",
+        "evidence": "Review and approval"
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "Finance",
+        "item": "budget confirmation",
+        "parallel_group": "P1",
+        "evidence": "After submission, if Finance has not yet confirmed budget availability, log `DependencyWait` (D1)."
+      }
+    ],
+    "rework_reasons": [
+      "Wrong quantity",
+      "Amount mismatch",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.9
+  },
+  "checks": [
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 8,
+    "detail": ""
+  }
+}

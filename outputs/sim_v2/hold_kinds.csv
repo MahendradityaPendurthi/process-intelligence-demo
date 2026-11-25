@@ -1,0 +1,10 @@
+task_type,external_dependency,approver_queue,missing_info,unclear,holds,sop_has_dependency,not_an_external_dependency
+BOQ Review,539,0,0,0,539,True,0
+Daily Operations Report,41,148,124,0,313,False,272
+Employee Document Verification,533,0,0,0,533,True,0
+Expense Approval,35,141,110,0,286,False,251
+Incident Review,568,0,0,0,568,True,0
+Invoice Verification,496,0,0,0,496,True,0
+Leave Approval,42,151,121,0,314,False,272
+Purchase Request,473,0,0,0,473,True,0
+Vendor Onboarding,494,0,0,0,494,True,0

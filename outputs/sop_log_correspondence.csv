@@ -1,0 +1,10 @@
+task_type,sop_id,sop_department,tickets,fits,fits_with_known_deviations,does_not_fit,correspondence,path_score_own,best_other_sop_by_path,path_score_best_other,observed_median_h,sop_expected_elapsed_h,time_ratio_own,closest_sop_by_time,known_deviation_counts,structural_mismatches,verdict,notes
+BOQ Review,SOP-013,Procurement,129,129,0,0,1.0,1.0,SOP-014,0.5,2.7667,5.8931,0.4695,SOP-013,,none,corresponds,
+Daily Operations Report,SOP-018,Operations,122,0,122,0,1.0,0.5,SOP-019,0.5,1.0333,1.3382,0.7722,SOP-018,approvals_more_than_sop:122; hold_not_allowed_by_sop:117,none,corresponds,audit path cannot distinguish it from SOP-019; time scale and the task_type label decide
+Employee Document Verification,SOP-021,HR,135,135,0,0,1.0,1.0,SOP-020,0.5,2.8,5.8625,0.4776,SOP-021,,none,corresponds,
+Expense Approval,SOP-016,Finance,129,9,120,0,1.0,0.5349,SOP-015,1.0,1.95,1.816,1.0738,SOP-016,hold_not_allowed_by_sop:120,none,corresponds,"audit path resembles SOP-015 (Invoice Verification) more closely (path score 1.00 vs 0.53), because of known deviations: hold_not_allowed_by_sop"
+Incident Review,SOP-019,Operations,135,135,0,0,1.0,1.0,SOP-013,0.0,7.0667,10.4098,0.6788,SOP-019,,none,corresponds,
+Invoice Verification,SOP-015,Finance,150,150,0,0,1.0,1.0,SOP-016,0.5,3.0167,5.1222,0.5889,SOP-015,,none,corresponds,
+Leave Approval,SOP-020,HR,126,5,121,0,1.0,0.5198,SOP-021,1.0,1.825,1.3771,1.3253,SOP-020,hold_not_allowed_by_sop:121,none,corresponds,"audit path resembles SOP-021 (Employee Document Verification) more closely (path score 1.00 vs 0.52), because of known deviations: hold_not_allowed_by_sop"
+Purchase Request,SOP-014,Procurement,129,129,0,0,1.0,1.0,SOP-017,0.5,5.95,6.2236,0.956,SOP-014,,none,corresponds,
+Vendor Onboarding,SOP-017,Procurement,145,0,145,0,1.0,0.5,SOP-014,1.0,8.3333,9.706,0.8586,SOP-017,approvals_fewer_than_sop:145,none,corresponds,"audit path resembles SOP-014 (Purchase Request) more closely (path score 1.00 vs 0.50), because of known deviations: approvals_fewer_than_sop | time comparison excludes SOP stages never logged on the platform: HOD"

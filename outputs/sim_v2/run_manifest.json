@@ -1,0 +1,173 @@
+{
+  "run_at": "2026-11-21T11:52:03",
+  "versions": {
+    "baseline": "BL-v1",
+    "complexity_score": "CS-v1",
+    "sop_schema": "1.2"
+  },
+  "raw_files_sha256": {
+    "audit_logs.csv": "99c3a5384a44a17711e5dbff83ebb4bd702f4e1400e91140aba0406c1f5173d0",
+    "employees.csv": "f8ff9358e1a0ac82ba89e9383cb04654a8c8b01f803b77899a6aec737ee54d20",
+    "task_types.csv": "011030e0afcc4fa3b7b1ce6bec94684965bfecba23f56a527d76c4455d5652bc",
+    "tickets.csv": "c21bab22306a9d778980631163a092b76204fb551286af2b4acb6fa9fe8ab439"
+  },
+  "sop_files_sha256": {
+    "SOP-001_New_Hire_Onboarding.md": "4778c2179a9aea74c2377f373aff6c3c0bbc91a7e1daf5b6eaa59120777948f9",
+    "SOP-002_Purchase_Request_Processing.md": "2ce2434679ee18470196c2d3eab9238aab78c18dc047ed0109b023a81de1e866",
+    "SOP-003_Invoice_Verification.md": "7b3cd21c239e155c122c84810542a9d1ff834e594e1174045483f283b9b2d997",
+    "SOP-004_Expense_Approval.md": "cfc7a31e689862b21fe7f7f568a0b960ac7e7f90f6f125e68a8a4de75ed51d04",
+    "SOP-005_Leave_Correction.md": "7d1e2ce9af231d1df9f217f9e7c7d37f982201eb85c08b333e8576f3aec1f2b6",
+    "SOP-006_Employee_Access_Provisioning.md": "41634d6de873b94e54d568e498b40f2e84a6a8592b45d2a0ce037f5fce7ce511",
+    "SOP-007_IT_Incident_Resolution.md": "eb9c83ae3a4d583e2740281cabaa0ae99c45d71326ef1e4012bdbabd72326ccf",
+    "SOP-008_Customer_Escalation.md": "785f7beb28dc9547f6c6a017212942696ce75558de7da0032f75b7f7be27824b",
+    "SOP-009_Service_Request.md": "6fc1b3141d5c8f81542be2b9abaad6803f11ce6515831c7e2b229a36c980174c",
+    "SOP-010_Maintenance_Request.md": "e1750a5d200b9beca3339644c30418fdbef34ecac5215d1d31089a8a7e2d4783",
+    "SOP-011_Sales_Order_Check.md": "6fde45bbffc52a076bccf1913043374a2263c2903068eb66517c8adf70bc8b10",
+    "SOP-012_Budget_Approval.md": "9cd2f067ff7ec2c984f58464e92f55cc1fb52fbfd1ff7a875e37ce387334fe6a",
+    "SOP-013_BOQ_Review.md": "9ae4aed8dafda8df5297669963f2a3129e8dd87536803aeffe62f8b9ee49f5e2",
+    "SOP-014_Purchase_Request.md": "fc7ee83f5a4ac3c15fe26f0eb62a5a1d450a6eaca75d9b2faecb941758ce9d83",
+    "SOP-015_Invoice_Verification.md": "f111d8bc14d3ae3402cef0d19765b39663cb3547f6a14791fd828dbdfd14db66",
+    "SOP-016_Expense_Approval.md": "05e24dfa230cef7e4ac5a29579a33bc5df6f1ab0b454ee4d5aa0733765e888d8",
+    "SOP-017_Vendor_Onboarding.md": "8eeeae1903601d244b42f4316851ab44e1b587ec9e3cf34e7c178cb6ec7fbc57",
+    "SOP-018_Daily_Operations_Report.md": "7af98bd5af237752456d69bd83adee2c033b7d03fafcc32321c1fb815256414f",
+    "SOP-019_Incident_Review.md": "6fa68e8918a164419a702c2524225e7794abd84993ddf3670fa09244499aba0e",
+    "SOP-020_Leave_Approval.md": "3a4f0f1cd7d92c6fc265fc4dbf1bfccd53b50555a3d39f849a3cf2d703af6335",
+    "SOP-021_Employee_Document_Verification.md": "ad6853a25ab7282158741b63718de2aa251eb000da372e3abff6de07a3f61544"
+  },
+  "sops_used": {
+    "BOQ Review": {
+      "sop_id": "SOP-013",
+      "version": "1.1.0"
+    },
+    "Daily Operations Report": {
+      "sop_id": "SOP-018",
+      "version": "1.1.0"
+    },
+    "Employee Document Verification": {
+      "sop_id": "SOP-021",
+      "version": "1.1.0"
+    },
+    "Expense Approval": {
+      "sop_id": "SOP-016",
+      "version": "1.1.0"
+    },
+    "Incident Review": {
+      "sop_id": "SOP-019",
+      "version": "1.1.0"
+    },
+    "Invoice Verification": {
+      "sop_id": "SOP-015",
+      "version": "1.1.0"
+    },
+    "Leave Approval": {
+      "sop_id": "SOP-020",
+      "version": "1.1.0"
+    },
+    "Purchase Request": {
+      "sop_id": "SOP-014",
+      "version": "1.1.0"
+    },
+    "Vendor Onboarding": {
+      "sop_id": "SOP-017",
+      "version": "1.1.0"
+    }
+  },
+  "row_counts": {
+    "tickets": 4663,
+    "events": 28490,
+    "quarantined": 0,
+    "deviations": 357
+  },
+  "cs_spearman_rho": 0.9167,
+  "sop_log_correspondence": {
+    "BOQ Review": {
+      "sop_id": "SOP-013",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Daily Operations Report": {
+      "sop_id": "SOP-018",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Employee Document Verification": {
+      "sop_id": "SOP-021",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Expense Approval": {
+      "sop_id": "SOP-016",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Incident Review": {
+      "sop_id": "SOP-019",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Invoice Verification": {
+      "sop_id": "SOP-015",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Leave Approval": {
+      "sop_id": "SOP-020",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Purchase Request": {
+      "sop_id": "SOP-014",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    },
+    "Vendor Onboarding": {
+      "sop_id": "SOP-017",
+      "verdict": "corresponds",
+      "correspondence": 1.0
+    }
+  },
+  "thresholds": {
+    "BOTTLENECK_HIGH": 2.0,
+    "BOTTLENECK_MIN_N": 20,
+    "BOTTLENECK_RATIO_THRESHOLD": 1.3,
+    "CONFORMANCE_MIN_N": 5,
+    "CONFORMANCE_MIN_SHARE": 0.05,
+    "CONTEXT_COMPLEXITY_SHIFT_PTS": 0.15,
+    "CONTEXT_REJECTION_INCREASE_PTS": 0.1,
+    "CONTEXT_WORKLOAD_INCREASE": 1.3,
+    "CORRESPONDENCE_MIN": 0.95,
+    "CORRESPONDENCE_PARTIAL": 0.8,
+    "DOMINANT_SHARE_HIGH_CONF": 0.6,
+    "DOMINANT_SHARE_MED_CONF": 0.4,
+    "DURATION_RATIO_HIGH": 2.5,
+    "DURATION_RATIO_THRESHOLD": 1.75,
+    "EFFORT_COVERAGE_HIGH": 1.0,
+    "EFFORT_COVERAGE_LOW": 0.5,
+    "EFFORT_COVERAGE_MIN_N": 20,
+    "MIN_BASELINE_N": 20,
+    "PERSIST_MIN_PERIODS": 2,
+    "PERSIST_MIN_TICKETS_PER_PERIOD": 5,
+    "PERSIST_MIN_VOLUME_SHARE": 0.5,
+    "PERSIST_P_VALUE": 0.0001,
+    "PERSIST_RATIO_THRESHOLD": 1.0,
+    "PERSIST_SELF_CHANGE": 1.2,
+    "REJECTION_MIN_COUNT": 4,
+    "REJECTION_RATE_MULTIPLIER": 2.0,
+    "REWORK_INCREASE_FACTOR": 2.0,
+    "REWORK_INCREASE_PTS": 0.05,
+    "REWORK_MIN_N": 20,
+    "REWORK_P_VALUE": 0.0001,
+    "REWORK_SOP_MIN_COUNT": 5,
+    "REWORK_SOP_MULTIPLIER": 1.25,
+    "SLA_DROP_MIN_N": 20,
+    "SLA_DROP_PTS": 0.07,
+    "SOP_BAND_TAIL_SHARE": 0.2,
+    "WAIT_INCREASE_MIN_H": 0.5,
+    "WAIT_INCREASE_MIN_N": 15,
+    "WAIT_INCREASE_RATIO": 1.5,
+    "WINDOW_BASELINE_PERIODS": 6,
+    "WINDOW_MIN_HISTORY_PERIODS": 2,
+    "WINDOW_MIN_RUN": 2,
+    "Z_P10_P90": 1.2816
+  }
+}

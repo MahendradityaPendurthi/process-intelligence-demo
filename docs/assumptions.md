@@ -1,0 +1,33 @@
+# Assumptions and Design Decisions (Phase 1)
+
+| # | Topic | Assumption / decision | Why | Where |
+|---|---|---|---|---|
+| A1 | Time | Calendar hours, naive timestamps, one timezone; no business-hours calendar. | No timezone or calendar in the data; all tickets finish within ~15h. | `config.TIMESTAMP_FORMAT` |
+| A2 | Ordering | Events sorted by `timestamp`, then `event_id`. | Required by the context doc; also handles out-of-order exports. | `normalization.py` |
+| A3 | Segment attribution | The interval after each event is assigned to the state the ticket entered at that event (queue / processing / rework / approval_wait / dependency_wait). | Deterministic and explainable. | `lifecycle.py` |
+| A4 | Processing is estimated | "Processing" = time the executor holds the ticket, not active effort. Labeled `_est`. | The audit log cannot show active work. | `features.py` |
+| A5 | Waiting attribution | Approval/dependency waits are attributed to the stage of the *next decision event* (Approved/Rejected). | Credits the wait to the approver whose decision ended it. | `lifecycle.py` |
+| A6 | DependencyWait ambiguity | `DependencyWait -> Approved` cannot be split into dependency vs reviewer time. Bottleneck checks use the full submission-to-decision wait, compared only within the same declared `dependency_count`. | 358 tickets log DependencyWait with `dependency_count=0`, and that interval differs by department for 0-dependency tasks. | `deviations.process_bottlenecks` |
+| A7 | Closure | Last `Approved` = closure when there is no Closed event. `completed_at` matched the last event for 1,200/1,200 tickets. | Export has no Closed event. | `lifecycle.py` |
+| A8 | Rework | Rework = time from Rejected until the next (Re)Submitted. Corrections = Updated events inside that window. | Matches SOP "Correction and Rework" step. | `lifecycle.py` |
+| A9 | Baselines | Most specific group with n >= 20: task_type+complexity+priority, else task_type+complexity. Median/P75/P90/MAD. In-sample. | Robust to outliers; enough data per group (96% use L2). | `baselines.py` |
+| A10 | Workload | `expected_effort_h` = sum of each ticket's baseline median duration. Raw ticket count is never the primary measure. | Complexity-weighted workload (context doc requirement). | `metrics.py` |
+| A11 | Ticket deviation | `duration_ratio >= 1.75` (demo threshold). Excess time over each component's baseline median is ranked to find the dominant contributor. | Explainable and evidence-ranked. | `deviations.ticket_deviations` |
+| A12 | Persistent deviation | Executor processing ratio (rework excluded) >= 1.25 in each of the last 2 months (>= 5 tickets each), and >= 1.2x the employee's own earlier level. Then context checks: complexity shift, workload, team-wide trend, reassignment. | One bad ticket or month is not persistent. A stable elevated level is not a decline. | `deviations.employee_persistent_deviations` |
+| A13 | Rejections vs processing | Rework time is excluded from the processing ratio, so a rise in rejections is a *co-occurring signal*, not an explanation. | Prevents double counting. | same |
+| A14 | Leave | No absence data. Every employee-level deviation says so explicitly instead of assuming no leave. | Never present a missing check as passed. | `deviations.LEAVE_NOTE` |
+| A15 | Approvals | `approval_count=3` tasks show 2 approval events; `approval_count=0` tasks still show 1. Reported, not corrected. | Data finding to raise with the platform owners. | DQ report |
+| A16 | No data dropped | Duplicates and untimed events go to `data/processed/events_quarantined.csv` with a reason. | Engineering rule: never discard silently. | `normalization.py` |
+| A17 | Language | Outputs say "deviation requiring review", never "underperforming". | Project principle. | all |
+| A18 | Scope | No ML, no LLM, no API/dashboard in Phase 1. `explanation` text is a deterministic template. | Phase 1 definition. | - |
+| A19 | SOP sequence | Stages run SOPs -> parameters -> logs -> time/complexity -> deviations -> reasons -> report (schema §11). Logs are read before analysis because every comparison needs them. | Requested order, with the log stage inserted. | `pipeline.py` |
+| A20 | SOP independence | SOP standard times and FPY are read, never edited to fit data; disagreements are reported as findings. | Otherwise SOP-vs-actual is circular. | schema §3.1 |
+| A21 | Parallel dependencies | Waits in the same `parallel_group` combine as a maximum (Clark's normal approximation); groups are sequential. | One DependencyWait covers several dependencies requested together. | `sop._prior` |
+| A22 | Missing drivers | Driver-dependent effort scaling contributes 0 and conditional approvals are routed from the ticket's `approval_count`; estimates are flagged. | The export carries no driver values. | `sop._prior` |
+| A23 | Effort coverage | SOP executor effort vs median WIP-adjusted executor hold, task type x month, n >= 20 only, never per employee. Above 1 = standard exceeds the observed upper bound. | Hold time is an upper bound on effort; per-person comparison would be unfair. | `sop_analysis.effort_coverage` |
+| A24 | Retrospective conformance | Tickets created before an SOP's effective date are checked but labelled `retrospective`. | The SOPs took effect after the data period. | `conformance.check_all` |
+| A25 | First-decision component | SOP first approval queue + review effort + blocking dependency waits is compared with `pre_decision_wait_h`. | The log cannot separate the DependencyWait interval from reviewer wait. | schema §7.3 |
+| A26 | Competing hypotheses | When the log cannot discriminate between causes (e.g. undeclared holds), both are listed and confidence is low. | Avoid unsupported causal claims. | `root_cause._nonconformance` |
+| A27 | SOP-log correspondence | A task type's logs are accepted as the SOP's process only if >= 95% of tickets replay on the SOP model (departments, roles, approval stages, order, detectors, closure) and the time scale is closest to that SOP. Approval-count, forbidden-hold and reason mismatches count as conformance deviations of the same process, not a different process. | Prevents judging logs against the wrong process. | `correspondence.py` |
+| A28 | Like-for-like time scale | SOP approval stages the platform never logs (HOD) are excluded from the correspondence time comparison. | Ticket completion is logged at the last recorded approval. | `correspondence.evaluate` |
+| A29 | Limits of identification | Work steps leave no audit footprint, so SOPs with the same routing differ in the logs only by time scale; the `task_type` label decides. Reported as a note. | Honest statement of what the logs can prove. | `correspondence.evaluate` |

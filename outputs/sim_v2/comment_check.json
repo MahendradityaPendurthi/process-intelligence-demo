@@ -1,0 +1,93 @@
+{
+  "model": "llama3.1:latest",
+  "data": "data/simulated/v2",
+  "messy_benchmark": {
+    "holdout": {
+      "items": 24,
+      "llm_accuracy": 0.917,
+      "keyword_accuracy": 0.417,
+      "by_context": {
+        "correction": {
+          "llm_accuracy": 1.0,
+          "keyword_accuracy": 1.0
+        },
+        "hold": {
+          "llm_accuracy": 1.0,
+          "keyword_accuracy": 0.3
+        },
+        "rejection": {
+          "llm_accuracy": 0.778,
+          "keyword_accuracy": 0.222
+        }
+      }
+    },
+    "tuning": {
+      "items": 57,
+      "llm_accuracy": 0.982,
+      "keyword_accuracy": 0.579,
+      "by_context": {
+        "correction": {
+          "llm_accuracy": 1.0,
+          "keyword_accuracy": 0.7
+        },
+        "hold": {
+          "llm_accuracy": 1.0,
+          "keyword_accuracy": 0.5
+        },
+        "rejection": {
+          "llm_accuracy": 0.966,
+          "keyword_accuracy": 0.586
+        }
+      }
+    }
+  },
+  "summary": {
+    "rejections_with_comment": 492,
+    "reason_code_mismatches": 78,
+    "mismatch_share": 0.159,
+    "mismatch_by_confidence": {
+      "high": 51,
+      "medium": 23,
+      "low": 4
+    },
+    "unclear_comments": 0,
+    "mismatch_by_task_type": {
+      "Vendor Onboarding": 17,
+      "Invoice Verification": 11,
+      "Employee Document Verification": 10,
+      "Leave Approval": 9,
+      "Incident Review": 8,
+      "Purchase Request": 6,
+      "BOQ Review": 6,
+      "Daily Operations Report": 6,
+      "Expense Approval": 5
+    },
+    "holds": 4016,
+    "holds_on_sops_without_dependency": 913,
+    "of_which_approver_queue": 440,
+    "of_which_missing_info": 355,
+    "dependency_holds_not_external": 0
+  },
+  "llm_errors": 0,
+  "seconds": 247.5,
+  "label_accuracy": {
+    "correction": {
+      "comments": 358,
+      "distinct_texts": 136,
+      "llm_accuracy": 0.916,
+      "keyword_accuracy": 1.0
+    },
+    "hold": {
+      "comments": 4016,
+      "distinct_texts": 105,
+      "llm_accuracy": 0.971,
+      "keyword_accuracy": 1.0
+    },
+    "rejection": {
+      "comments": 492,
+      "distinct_texts": 322,
+      "llm_accuracy": 0.992,
+      "keyword_accuracy": 1.0
+    }
+  }
+}

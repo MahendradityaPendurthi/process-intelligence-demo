@@ -1,0 +1,10 @@
+task_type,department,complexity,sop_steps,approval_count,dependency_count
+BOQ Review,Procurement,Medium,3,1,1
+Purchase Request,Procurement,Medium,4,2,1
+Invoice Verification,Finance,Medium,5,1,1
+Expense Approval,Finance,Simple,3,1,0
+Vendor Onboarding,Procurement,Complex,8,3,2
+Daily Operations Report,Operations,Simple,4,0,0
+Incident Review,Operations,Complex,7,2,2
+Leave Approval,HR,Simple,2,1,0
+Employee Document Verification,HR,Medium,5,1,1

@@ -1,0 +1,15 @@
+id,name,level,department,entity,task_type,start,end,effect,expected
+SC01,finance_incharge_slowdown,process,Finance,Finance:Incharge,,2026-02-01,2026-03-31,Finance Incharge response latency x3 and review effort x2,APPROVAL_STAGE_BOTTLENECK|TICKET_DURATION
+SC02,executor_unexplained_slowdown,employee,Finance,E1003,,2026-07-01,2026-09-30,E1003 executor work x1.7 with unchanged workload,PERSISTENT_UNEXPLAINED_PROCESSING_INCREASE
+SC03,executor_slowdown_with_workload,employee,Operations,E1015,,2026-06-01,2026-09-30,E1015 receives 3x assignment share; work x1.4,PERSISTENT_PROCESSING_INCREASE_WITH_CONTEXT
+SC04,executor_long_leave,control,HR,E1021,,2026-04-06,2026-04-24,E1021 on approved leave; no tickets assigned. Must not be flagged,
+SC05,invoice_category_rework_spike,process,Finance,Invoice Verification,Invoice Verification,2026-05-01,2026-06-30,Incorrect category rejections x5 (GL mapping control broken),REWORK_ABOVE_SOP_EXPECTATION|TICKET_DURATION
+SC06,purchase_lead_approval_skipped,process,Procurement,Purchase Request,Purchase Request,2026-07-01,2026-09-30,Lead approval skipped on 45% of Purchase Requests,SOP_NONCONFORMANCE
+SC07,vendor_screening_delay,process,Procurement,Vendor Onboarding,Vendor Onboarding,2026-01-01,2026-02-28,Legal/Compliance screening (D2) wait x3,TICKET_DURATION
+SC08,operations_overload,process,Operations,Operations,,2026-08-15,2026-09-30,Operations volume x1.8; approver latency x2.5; executor work x1.2,SLA_DETERIORATION
+SC09,undeclared_holds,process,,Expense Approval|Leave Approval|Daily Operations Report,,2025-10-01,2026-09-30,Tickets with no SOP dependency put on hold (approver queue or missing info),SOP_NONCONFORMANCE
+SC10,hod_approval_not_logged,platform,Procurement,Vendor Onboarding,Vendor Onboarding,2025-10-01,2026-09-30,HOD approval happens but the platform never logs it,SOP_NONCONFORMANCE
+SC11,dor_default_approval,process,Operations,Daily Operations Report,Daily Operations Report,2025-10-01,2026-09-30,Incharge approval on every report although the SOP makes it conditional,SOP_NONCONFORMANCE
+SC12,sop_standards_high,sop_standard,,most task types,,2025-10-01,2026-09-30,Real executor effort is 40-70% of SOP standard for most task types,SOP_EFFORT_STANDARD|SOP_ELAPSED_BELOW_STANDARD
+SC13,reason_code_mislabel,ticket,,all,,2025-10-01,2026-09-30,15% of rejections carry a platform reason code that contradicts the reviewer's comment,LLM_COMMENT_CHECK
+SC14,steady_executor,control,Finance,E1004,,2025-10-01,2026-09-30,Normal performer throughout. Must not be flagged,

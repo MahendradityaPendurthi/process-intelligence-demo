@@ -1,0 +1,129 @@
+{
+  "sop_id": "SOP-009",
+  "file": "SOP-009_Service_Request.md",
+  "format": "legacy",
+  "model": "llama3.1:latest",
+  "source_sha256": "0a2df46b2563037a187f04ca4b2864da53920478cc7dd6830341abd1576a024b",
+  "drafted_at": "2026-11-21T13:29:45",
+  "seconds": 29.6,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-009",
+    "title": "IT: Standard Service Request",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Request Submission",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Initial Review",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correction and Rework",
+        "role": "Incharge",
+        "type": "rework"
+      },
+      {
+        "step_id": "S3",
+        "name": "Business Validation",
+        "role": "Lead",
+        "type": "approval"
+      },
+      {
+        "step_id": "S4",
+        "name": "Approval",
+        "role": "HOD",
+        "type": "approval"
+      },
+      {
+        "step_id": "S5",
+        "name": "Operational Processing",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Exception Handling",
+        "role": "Lead",
+        "type": "work"
+      },
+      {
+        "step_id": "S7",
+        "name": "Completion and Closure",
+        "role": "Incharge",
+        "type": "work"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "The Incharge shall verify completeness, data accuracy, and compliance with applicable process requirements."
+      },
+      {
+        "stage": "Lead",
+        "condition": "always",
+        "evidence": "The Lead shall validate the business requirement, supporting evidence, and applicable policy requirements."
+      },
+      {
+        "stage": "HOD",
+        "condition": "always",
+        "evidence": "Where approval is required, the workflow shall be routed to the appropriate authority according to organizational delegation rules."
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "External",
+        "item": "External dependencies",
+        "parallel_group": "P1",
+        "evidence": "Requests affected by external dependencies, missing information, policy exceptions, or operational blockers shall be placed on hold or escalated as appropriate."
+      }
+    ],
+    "rework_reasons": [
+      "Incorrect category",
+      "Incorrect category",
+      "Incorrect category"
+    ],
+    "first_pass_yield_target": null
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "HOD (always)",
+      "message": "The quote does not mention the HOD"
+    },
+    {
+      "severity": "warning",
+      "field": "approvals",
+      "item": "HOD (always)",
+      "message": "Marked 'always' but the quote states a condition"
+    },
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    },
+    {
+      "severity": "error",
+      "field": "rework_reasons",
+      "item": "Incorrect category",
+      "message": "Listed but not mentioned in the text"
+    },
+    {
+      "severity": "info",
+      "field": "first_pass_yield_target",
+      "item": "",
+      "message": "No first-pass yield target found"
+    }
+  ],
+  "comparison": null
+}

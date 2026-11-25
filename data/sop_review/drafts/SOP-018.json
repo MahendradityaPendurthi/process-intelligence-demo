@@ -1,0 +1,96 @@
+{
+  "sop_id": "SOP-018",
+  "file": "SOP-018_Daily_Operations_Report.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "aeaa1a4f8bb498fef836a871012584dde5fabde099ba35ba5d8d13e2bcea982a",
+  "drafted_at": "2026-11-21T13:33:37",
+  "seconds": 19.4,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-018",
+    "title": "Daily Operations Report",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket and assign to self",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Collect production, downtime and manpower data",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Reconcile against plan and compute KPIs",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Record incidents, deviations and actions taken",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Compile and publish report",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge review and approval",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correct and republish on rejection",
+        "role": "Executor",
+        "type": "rework"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "KPI breach or safety event flagged",
+        "evidence": "Only when a KPI breach or safety event is flagged, the Incharge reviews and approves or rejects."
+      },
+      {
+        "stage": "Lead",
+        "condition": "always",
+        "evidence": "Routine reports need no approval (`approval_count = 0`)."
+      }
+    ],
+    "dependencies": [],
+    "rework_reasons": [
+      "Wrong quantity",
+      "Amount mismatch",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.95
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Lead (always)",
+      "message": "The quote does not mention the Lead"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 0.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 0.8,
+    "evidenced_steps": 7,
+    "detail": "approvals: gold [('Incharge', False)] (+ exception approvals []), got [('Incharge', False), ('Lead', True)]"
+  }
+}

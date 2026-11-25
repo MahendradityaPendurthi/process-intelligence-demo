@@ -1,0 +1,10 @@
+task_type,sop_id,sop_department,tickets,fits,fits_with_known_deviations,does_not_fit,correspondence,path_score_own,best_other_sop_by_path,path_score_best_other,observed_median_h,sop_expected_elapsed_h,time_ratio_own,closest_sop_by_time,known_deviation_counts,structural_mismatches,verdict,notes
+BOQ Review,SOP-013,Procurement,539,539,0,0,1.0,1.0,SOP-014,0.5,4.9817,5.8931,0.8453,SOP-013,,none,corresponds,
+Daily Operations Report,SOP-018,Operations,540,0,540,0,1.0,0.5,SOP-019,0.5,2.1542,1.3382,1.6098,SOP-018,approvals_more_than_sop:540; hold_not_allowed_by_sop:313,none,corresponds,audit path cannot distinguish it from SOP-019; time scale and the task_type label decide
+Employee Document Verification,SOP-021,HR,533,533,0,0,1.0,1.0,SOP-020,0.5,5.2381,5.8625,0.8935,SOP-021,,none,corresponds,
+Expense Approval,SOP-016,Finance,487,201,286,0,1.0,0.7064,SOP-015,1.0,3.0236,1.816,1.665,SOP-016,hold_not_allowed_by_sop:286,none,corresponds,"audit path resembles SOP-015 (Invoice Verification) more closely (path score 1.00 vs 0.71), because of known deviations: hold_not_allowed_by_sop"
+Incident Review,SOP-019,Operations,568,568,0,0,1.0,1.0,SOP-013,0.0,8.9878,10.4098,0.8634,SOP-019,,none,corresponds,
+Invoice Verification,SOP-015,Finance,496,496,0,0,1.0,1.0,SOP-016,0.5,5.0419,5.1222,0.9843,SOP-015,,none,corresponds,
+Leave Approval,SOP-020,HR,533,219,314,0,1.0,0.7054,SOP-021,1.0,2.2219,1.3771,1.6135,SOP-020,hold_not_allowed_by_sop:314,none,corresponds,"audit path resembles SOP-021 (Employee Document Verification) more closely (path score 1.00 vs 0.71), because of known deviations: hold_not_allowed_by_sop"
+Purchase Request,SOP-014,Procurement,473,407,66,0,1.0,0.9302,SOP-017,0.5,5.5364,6.2236,0.8896,SOP-014,approvals_fewer_than_sop:66,none,corresponds,
+Vendor Onboarding,SOP-017,Procurement,494,0,494,0,1.0,0.5,SOP-014,1.0,8.9022,9.706,0.9172,SOP-017,approvals_fewer_than_sop:494,none,corresponds,"audit path resembles SOP-014 (Purchase Request) more closely (path score 1.00 vs 0.50), because of known deviations: approvals_fewer_than_sop | time comparison excludes SOP stages never logged on the platform: HOD"

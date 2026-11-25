@@ -1,0 +1,37 @@
+task_type,sop_id,completed_month,n,median_wip_adj_hold_h,median_raw_hold_h,sop_effort_exec_h,effort_coverage,coverage_flag
+BOQ Review,SOP-013,2026-06,33,0.5833,0.7,1.8458,3.1643,standard_exceeds_hold
+BOQ Review,SOP-013,2026-07,42,0.7083,0.7083,1.8458,2.6059,standard_exceeds_hold
+BOQ Review,SOP-013,2026-08,31,0.7,0.7,1.8458,2.6369,standard_exceeds_hold
+BOQ Review,SOP-013,2026-09,23,0.55,0.55,1.8458,3.3561,standard_exceeds_hold
+Daily Operations Report,SOP-018,2026-06,28,0.375,0.375,0.9438,2.5167,standard_exceeds_hold
+Daily Operations Report,SOP-018,2026-07,30,0.2917,0.2917,0.9438,3.2357,standard_exceeds_hold
+Daily Operations Report,SOP-018,2026-08,35,0.2833,0.3167,0.9438,3.3309,standard_exceeds_hold
+Daily Operations Report,SOP-018,2026-09,29,0.4167,0.4167,0.9438,2.265,standard_exceeds_hold
+Employee Document Verification,SOP-021,2026-06,38,0.7417,0.7417,1.3986,1.8858,standard_exceeds_hold
+Employee Document Verification,SOP-021,2026-07,34,0.6917,0.6917,1.3986,2.0221,standard_exceeds_hold
+Employee Document Verification,SOP-021,2026-08,30,0.8333,0.85,1.3986,1.6783,standard_exceeds_hold
+Employee Document Verification,SOP-021,2026-09,33,0.6333,0.65,1.3986,2.2083,standard_exceeds_hold
+Expense Approval,SOP-016,2026-06,39,0.2667,0.2667,0.5326,1.9974,standard_exceeds_hold
+Expense Approval,SOP-016,2026-07,37,0.3417,0.35,0.5326,1.5589,standard_exceeds_hold
+Expense Approval,SOP-016,2026-08,33,0.6333,0.65,0.5326,0.841,plausible
+Expense Approval,SOP-016,2026-09,20,0.4583,0.4583,0.5326,1.1621,standard_exceeds_hold
+Incident Review,SOP-019,2026-06,26,1.3,1.3167,3.7792,2.9071,standard_exceeds_hold
+Incident Review,SOP-019,2026-07,40,1.3667,1.4833,3.7792,2.7652,standard_exceeds_hold
+Incident Review,SOP-019,2026-08,45,1.6333,1.6333,3.7792,2.3138,standard_exceeds_hold
+Incident Review,SOP-019,2026-09,24,1.5167,1.6,3.7792,2.4918,standard_exceeds_hold
+Invoice Verification,SOP-015,2026-06,35,0.6667,0.6667,1.325,1.9875,standard_exceeds_hold
+Invoice Verification,SOP-015,2026-07,41,0.6333,0.65,1.325,2.0921,standard_exceeds_hold
+Invoice Verification,SOP-015,2026-08,40,0.6167,0.6417,1.325,2.1486,standard_exceeds_hold
+Invoice Verification,SOP-015,2026-09,34,0.95,0.95,1.325,1.3947,standard_exceeds_hold
+Leave Approval,SOP-020,2026-06,31,0.3,0.3,0.1965,0.6551,plausible
+Leave Approval,SOP-020,2026-07,37,0.35,0.35,0.1965,0.5615,plausible
+Leave Approval,SOP-020,2026-08,36,0.3083,0.3083,0.1965,0.6374,plausible
+Leave Approval,SOP-020,2026-09,22,0.2833,0.2833,0.1965,0.6936,plausible
+Purchase Request,SOP-014,2026-06,47,0.6833,0.7333,1.2042,1.7622,standard_exceeds_hold
+Purchase Request,SOP-014,2026-07,33,0.6667,0.6667,1.2042,1.8062,standard_exceeds_hold
+Purchase Request,SOP-014,2026-08,29,0.6833,0.7333,1.2042,1.7622,standard_exceeds_hold
+Purchase Request,SOP-014,2026-09,20,0.7,0.7,1.2042,1.7202,standard_exceeds_hold
+Vendor Onboarding,SOP-017,2026-06,39,1.4,1.4667,2.8313,2.0223,standard_exceeds_hold
+Vendor Onboarding,SOP-017,2026-07,38,1.3583,1.3583,2.8313,2.0844,standard_exceeds_hold
+Vendor Onboarding,SOP-017,2026-08,33,1.3833,1.3833,2.8313,2.0467,standard_exceeds_hold
+Vendor Onboarding,SOP-017,2026-09,35,1.4667,1.4667,2.8313,1.9304,standard_exceeds_hold

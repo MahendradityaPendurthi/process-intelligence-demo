@@ -1,0 +1,140 @@
+{
+  "sop_id": "SOP-021",
+  "file": "SOP-021_Employee_Document_Verification.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "6df1f9b8bd6caa283ef1f5a6fc948dd5f2c7277caddc3cea404c7f590819f19b",
+  "drafted_at": "2026-11-21T13:34:52",
+  "seconds": 23.9,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-021",
+    "title": "Employee Document Verification",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create ticket",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Check checklist completeness",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Verify identity and address proofs",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Send education and employment confirmations",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Cross-check documents",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Record verification status and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "D1",
+        "name": "Credential confirmation",
+        "role": "Executor",
+        "type": "decision"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge approval",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Rework on rejection",
+        "role": "Executor",
+        "type": "rework"
+      },
+      {
+        "step_id": "A2",
+        "name": "Lead approval (discrepancies only)",
+        "role": "Lead",
+        "type": "approval"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "See RACI table"
+      },
+      {
+        "stage": "Lead",
+        "condition": "discrepancies only",
+        "evidence": "See RACI table"
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "Issuer / BGV agency",
+        "item": "Credential confirmation",
+        "parallel_group": "P1",
+        "evidence": "See RACI table"
+      }
+    ],
+    "rework_reasons": [
+      "Required document missing",
+      "Incorrect category",
+      "Amount mismatch",
+      "Wrong quantity"
+    ],
+    "first_pass_yield_target": 0.9
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Incharge (always)",
+      "message": "Quoted evidence is not in the text"
+    },
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Lead (discrepancies only)",
+      "message": "Quoted evidence is not in the text"
+    },
+    {
+      "severity": "error",
+      "field": "dependencies",
+      "item": "D1 Issuer / BGV agency",
+      "message": "Quoted evidence is not in the text"
+    },
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 8,
+    "detail": ""
+  }
+}

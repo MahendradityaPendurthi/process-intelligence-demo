@@ -1,0 +1,82 @@
+task_type,sop_task_type,path_score,share_not_fit,time_ratio,time_distance,sop_id
+BOQ Review,BOQ Review,1.0,0.0,0.8453,0.168,SOP-013
+BOQ Review,Daily Operations Report,0.0,1.0,3.7227,1.3144,SOP-018
+BOQ Review,Employee Document Verification,0.0,1.0,0.8498,0.1628,SOP-021
+BOQ Review,Expense Approval,0.0,1.0,2.7433,1.0091,SOP-016
+BOQ Review,Incident Review,0.0,1.0,0.4786,0.737,SOP-019
+BOQ Review,Invoice Verification,0.0,1.0,0.9726,0.0278,SOP-015
+BOQ Review,Leave Approval,0.0,1.0,3.6175,1.2858,SOP-020
+BOQ Review,Purchase Request,0.5,0.0,0.8004,0.2226,SOP-014
+BOQ Review,Vendor Onboarding,0.5,0.0,0.5133,0.667,SOP-017
+Daily Operations Report,BOQ Review,0.0,1.0,0.3655,1.0064,SOP-013
+Daily Operations Report,Daily Operations Report,0.5,0.0,1.6098,0.4761,SOP-018
+Daily Operations Report,Employee Document Verification,0.0,1.0,0.3674,1.0012,SOP-021
+Daily Operations Report,Expense Approval,0.0,1.0,1.1862,0.1708,SOP-016
+Daily Operations Report,Incident Review,0.5,0.0,0.2069,1.5753,SOP-019
+Daily Operations Report,Invoice Verification,0.0,1.0,0.4206,0.8662,SOP-015
+Daily Operations Report,Leave Approval,0.0,1.0,1.5643,0.4474,SOP-020
+Daily Operations Report,Purchase Request,0.0,1.0,0.3461,1.0609,SOP-014
+Daily Operations Report,Vendor Onboarding,0.0,1.0,0.2219,1.5053,SOP-017
+Employee Document Verification,BOQ Review,0.0,1.0,0.8889,0.1178,SOP-013
+Employee Document Verification,Daily Operations Report,0.0,1.0,3.9143,1.3646,SOP-018
+Employee Document Verification,Employee Document Verification,1.0,0.0,0.8935,0.1126,SOP-021
+Employee Document Verification,Expense Approval,0.0,1.0,2.8844,1.0593,SOP-016
+Employee Document Verification,Incident Review,0.0,1.0,0.5032,0.6868,SOP-019
+Employee Document Verification,Invoice Verification,0.0,1.0,1.0226,0.0224,SOP-015
+Employee Document Verification,Leave Approval,0.5,0.0,3.8037,1.336,SOP-020
+Employee Document Verification,Purchase Request,0.0,1.0,0.8416,0.1724,SOP-014
+Employee Document Verification,Vendor Onboarding,0.0,1.0,0.5397,0.6168,SOP-017
+Expense Approval,BOQ Review,0.0,1.0,0.5131,0.6673,SOP-013
+Expense Approval,Daily Operations Report,0.0,1.0,2.2595,0.8151,SOP-018
+Expense Approval,Employee Document Verification,0.0,1.0,0.5158,0.6621,SOP-021
+Expense Approval,Expense Approval,0.7064,0.0,1.665,0.5098,SOP-016
+Expense Approval,Incident Review,0.0,1.0,0.2905,1.2363,SOP-019
+Expense Approval,Invoice Verification,1.0,0.0,0.5903,0.5271,SOP-015
+Expense Approval,Leave Approval,0.0,1.0,2.1957,0.7865,SOP-020
+Expense Approval,Purchase Request,0.0,1.0,0.4858,0.7219,SOP-014
+Expense Approval,Vendor Onboarding,0.0,1.0,0.3115,1.1663,SOP-017
+Incident Review,BOQ Review,0.0,1.0,1.5251,0.4221,SOP-013
+Incident Review,Daily Operations Report,0.0,1.0,6.7163,1.9045,SOP-018
+Incident Review,Employee Document Verification,0.0,1.0,1.5331,0.4273,SOP-021
+Incident Review,Expense Approval,0.0,1.0,4.9493,1.5992,SOP-016
+Incident Review,Incident Review,1.0,0.0,0.8634,0.1469,SOP-019
+Incident Review,Invoice Verification,0.0,1.0,1.7547,0.5623,SOP-015
+Incident Review,Leave Approval,0.0,1.0,6.5267,1.8759,SOP-020
+Incident Review,Purchase Request,0.0,1.0,1.4441,0.3675,SOP-014
+Incident Review,Vendor Onboarding,0.0,1.0,0.926,0.0769,SOP-017
+Invoice Verification,BOQ Review,0.0,1.0,0.8556,0.156,SOP-013
+Invoice Verification,Daily Operations Report,0.0,1.0,3.7677,1.3265,SOP-018
+Invoice Verification,Employee Document Verification,0.0,1.0,0.86,0.1508,SOP-021
+Invoice Verification,Expense Approval,0.5,0.0,2.7764,1.0212,SOP-016
+Invoice Verification,Incident Review,0.0,1.0,0.4843,0.725,SOP-019
+Invoice Verification,Invoice Verification,1.0,0.0,0.9843,0.0158,SOP-015
+Invoice Verification,Leave Approval,0.0,1.0,3.6613,1.2978,SOP-020
+Invoice Verification,Purchase Request,0.0,1.0,0.8101,0.2106,SOP-014
+Invoice Verification,Vendor Onboarding,0.0,1.0,0.5195,0.6549,SOP-017
+Leave Approval,BOQ Review,0.0,1.0,0.377,0.9754,SOP-013
+Leave Approval,Daily Operations Report,0.0,1.0,1.6604,0.5071,SOP-018
+Leave Approval,Employee Document Verification,1.0,0.0,0.379,0.9702,SOP-021
+Leave Approval,Expense Approval,0.0,1.0,1.2236,0.2018,SOP-016
+Leave Approval,Incident Review,0.0,1.0,0.2134,1.5444,SOP-019
+Leave Approval,Invoice Verification,0.0,1.0,0.4338,0.8352,SOP-015
+Leave Approval,Leave Approval,0.7054,0.0,1.6135,0.4784,SOP-020
+Leave Approval,Purchase Request,0.0,1.0,0.357,1.03,SOP-014
+Leave Approval,Vendor Onboarding,0.0,1.0,0.2289,1.4744,SOP-017
+Purchase Request,BOQ Review,0.1395,0.8605,0.9395,0.0624,SOP-013
+Purchase Request,Daily Operations Report,0.0,1.0,4.1372,1.42,SOP-018
+Purchase Request,Employee Document Verification,0.0,1.0,0.9444,0.0572,SOP-021
+Purchase Request,Expense Approval,0.0,1.0,3.0487,1.1147,SOP-016
+Purchase Request,Incident Review,0.0,1.0,0.5318,0.6314,SOP-019
+Purchase Request,Invoice Verification,0.0,1.0,1.0809,0.0778,SOP-015
+Purchase Request,Leave Approval,0.0,1.0,4.0204,1.3914,SOP-020
+Purchase Request,Purchase Request,0.9302,0.0,0.8896,0.117,SOP-014
+Purchase Request,Vendor Onboarding,0.5,0.0,0.5704,0.5614,SOP-017
+Vendor Onboarding,BOQ Review,0.0,1.0,1.5106,0.4125,SOP-013
+Vendor Onboarding,Daily Operations Report,0.0,1.0,6.6524,1.895,SOP-018
+Vendor Onboarding,Employee Document Verification,0.0,1.0,1.5185,0.4177,SOP-021
+Vendor Onboarding,Expense Approval,0.0,1.0,4.9022,1.5897,SOP-016
+Vendor Onboarding,Incident Review,0.0,1.0,0.8552,0.1564,SOP-019
+Vendor Onboarding,Invoice Verification,0.0,1.0,1.738,0.5527,SOP-015
+Vendor Onboarding,Leave Approval,0.0,1.0,6.4645,1.8663,SOP-020
+Vendor Onboarding,Purchase Request,1.0,0.0,1.4304,0.358,SOP-014
+Vendor Onboarding,Vendor Onboarding,0.5,0.0,0.9172,0.0864,SOP-017

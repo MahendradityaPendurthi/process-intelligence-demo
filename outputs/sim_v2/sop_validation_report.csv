@@ -1,0 +1,338 @@
+check_id,sop_id,check,severity,status,details
+SV001,SOP-001,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV002,SOP-002,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV003,SOP-003,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV004,SOP-004,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV005,SOP-005,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV006,SOP-006,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV007,SOP-007,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV008,SOP-008,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV009,SOP-009,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV010,SOP-010,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV011,SOP-011,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV012,SOP-012,legacy_free_text_sop,info,pass,"no YAML front matter; listed, not parsed"
+SV013,SOP-013,yaml_parses,error,pass,
+SV014,SOP-013,required_fields_present,error,pass,
+SV015,SOP-013,schema_version,error,pass,"found 1.2, expected 1.2"
+SV016,SOP-013,enum:status,error,pass,'Approved'
+SV017,SOP-013,enum:owner_role,error,pass,'Lead'
+SV018,SOP-013,enum:complexity_declared,error,pass,'Medium'
+SV019,SOP-013,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV020,SOP-013,enum:quality_targets_source,error,pass,'unconfirmed'
+SV021,SOP-013,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'D-VAR', 'S4', 'A1', 'R1']"
+SV022,SOP-013,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV023,SOP-013,work_steps_have_skill_level,error,pass,[]
+SV024,SOP-013,task_type_in_task_types,error,pass,BOQ Review
+SV025,SOP-013,department_matches,error,pass,Procurement vs Procurement
+SV026,SOP-013,complexity_declared_matches,error,pass,Medium vs Medium
+SV027,SOP-013,sop_steps_matches_task_types,error,pass,3 vs 3
+SV028,SOP-013,dependency_count_matches_task_types,error,pass,1 vs 1
+SV029,SOP-013,task_approval_count_in_range,error,pass,"1 in [1, 1]"
+SV030,SOP-013,sop_steps_equals_counted_work_steps,error,pass,"declared 3, counted 3"
+SV031,SOP-013,approval_base_equals_always_rows,error,pass,1 vs 1
+SV032,SOP-013,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV033,SOP-013,matrix_stages_have_approval_steps,error,pass,[]
+SV034,SOP-013,dependencies_listed,error,pass,"1 listed, 1 declared"
+SV035,SOP-013,dependencies_well_formed,error,pass,[]
+SV036,SOP-013,dependencies_have_parallel_group,warning,pass,
+SV037,SOP-013,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV038,SOP-013,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV039,SOP-013,rework_detected_at_approval_step,error,pass,[]
+SV040,SOP-013,first_pass_yield_in_range,error,pass,0.9
+SV041,SOP-013,rework_effort_three_point,error,pass,
+SV042,SOP-013,superseded_sops_exist,warning,pass,[]
+SV043,SOP-013,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV044,SOP-013,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV045,SOP-013,standard_time_source,info,pass,illustrative_expert_estimate
+SV046,SOP-013,markdown_body_present,warning,pass,
+SV047,SOP-013,derived_complexity_matches_declared,warning,pass,CS 12.50 -> Medium vs declared Medium
+SV048,SOP-014,yaml_parses,error,pass,
+SV049,SOP-014,required_fields_present,error,pass,
+SV050,SOP-014,schema_version,error,pass,"found 1.2, expected 1.2"
+SV051,SOP-014,enum:status,error,pass,'Approved'
+SV052,SOP-014,enum:owner_role,error,pass,'Lead'
+SV053,SOP-014,enum:complexity_declared,error,pass,'Medium'
+SV054,SOP-014,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV055,SOP-014,enum:quality_targets_source,error,pass,'unconfirmed'
+SV056,SOP-014,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'D-SRC', 'S4', 'S5', 'A1', 'A2', 'D-HOD', 'R1']"
+SV057,SOP-014,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV058,SOP-014,work_steps_have_skill_level,error,pass,[]
+SV059,SOP-014,task_type_in_task_types,error,pass,Purchase Request
+SV060,SOP-014,department_matches,error,pass,Procurement vs Procurement
+SV061,SOP-014,complexity_declared_matches,error,pass,Medium vs Medium
+SV062,SOP-014,sop_steps_matches_task_types,error,pass,4 vs 4
+SV063,SOP-014,dependency_count_matches_task_types,error,pass,1 vs 1
+SV064,SOP-014,task_approval_count_in_range,error,pass,"2 in [2, 2]"
+SV065,SOP-014,sop_steps_equals_counted_work_steps,error,pass,"declared 4, counted 4"
+SV066,SOP-014,approval_base_equals_always_rows,error,pass,2 vs 2
+SV067,SOP-014,approval_max_equals_matrix_length,error,pass,2 vs 2
+SV068,SOP-014,matrix_stages_have_approval_steps,error,pass,[]
+SV069,SOP-014,dependencies_listed,error,pass,"1 listed, 1 declared"
+SV070,SOP-014,dependencies_well_formed,error,pass,[]
+SV071,SOP-014,dependencies_have_parallel_group,warning,pass,
+SV072,SOP-014,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV073,SOP-014,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV074,SOP-014,rework_detected_at_approval_step,error,pass,[]
+SV075,SOP-014,first_pass_yield_in_range,error,pass,0.9
+SV076,SOP-014,rework_effort_three_point,error,pass,
+SV077,SOP-014,superseded_sops_exist,warning,pass,[]
+SV078,SOP-014,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV079,SOP-014,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV080,SOP-014,standard_time_source,info,pass,illustrative_expert_estimate
+SV081,SOP-014,markdown_body_present,warning,pass,
+SV082,SOP-014,derived_complexity_matches_declared,warning,pass,CS 16.25 -> Medium vs declared Medium
+SV083,SOP-015,yaml_parses,error,pass,
+SV084,SOP-015,required_fields_present,error,pass,
+SV085,SOP-015,schema_version,error,pass,"found 1.2, expected 1.2"
+SV086,SOP-015,enum:status,error,pass,'Approved'
+SV087,SOP-015,enum:owner_role,error,pass,'Lead'
+SV088,SOP-015,enum:complexity_declared,error,pass,'Medium'
+SV089,SOP-015,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV090,SOP-015,enum:quality_targets_source,error,pass,'unconfirmed'
+SV091,SOP-015,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'D-TOL', 'S4', 'S5', 'S6', 'A1', 'R1']"
+SV092,SOP-015,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV093,SOP-015,work_steps_have_skill_level,error,pass,[]
+SV094,SOP-015,task_type_in_task_types,error,pass,Invoice Verification
+SV095,SOP-015,department_matches,error,pass,Finance vs Finance
+SV096,SOP-015,complexity_declared_matches,error,pass,Medium vs Medium
+SV097,SOP-015,sop_steps_matches_task_types,error,pass,5 vs 5
+SV098,SOP-015,dependency_count_matches_task_types,error,pass,1 vs 1
+SV099,SOP-015,task_approval_count_in_range,error,pass,"1 in [1, 1]"
+SV100,SOP-015,sop_steps_equals_counted_work_steps,error,pass,"declared 5, counted 5"
+SV101,SOP-015,approval_base_equals_always_rows,error,pass,1 vs 1
+SV102,SOP-015,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV103,SOP-015,matrix_stages_have_approval_steps,error,pass,[]
+SV104,SOP-015,dependencies_listed,error,pass,"1 listed, 1 declared"
+SV105,SOP-015,dependencies_well_formed,error,pass,[]
+SV106,SOP-015,dependencies_have_parallel_group,warning,pass,
+SV107,SOP-015,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV108,SOP-015,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV109,SOP-015,rework_detected_at_approval_step,error,pass,[]
+SV110,SOP-015,first_pass_yield_in_range,error,pass,0.9
+SV111,SOP-015,rework_effort_three_point,error,pass,
+SV112,SOP-015,superseded_sops_exist,warning,pass,[]
+SV113,SOP-015,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV114,SOP-015,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV115,SOP-015,standard_time_source,info,pass,illustrative_expert_estimate
+SV116,SOP-015,markdown_body_present,warning,pass,
+SV117,SOP-015,derived_complexity_matches_declared,warning,pass,CS 15.30 -> Medium vs declared Medium
+SV118,SOP-016,yaml_parses,error,pass,
+SV119,SOP-016,required_fields_present,error,pass,
+SV120,SOP-016,schema_version,error,pass,"found 1.2, expected 1.2"
+SV121,SOP-016,enum:status,error,pass,'Approved'
+SV122,SOP-016,enum:owner_role,error,pass,'Lead'
+SV123,SOP-016,enum:complexity_declared,error,pass,'Simple'
+SV124,SOP-016,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV125,SOP-016,enum:quality_targets_source,error,pass,'unconfirmed'
+SV126,SOP-016,step_ids_unique,error,pass,"['S1', 'S2', 'D-LIMIT', 'S3', 'S4', 'A1', 'R1']"
+SV127,SOP-016,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV128,SOP-016,work_steps_have_skill_level,error,pass,[]
+SV129,SOP-016,task_type_in_task_types,error,pass,Expense Approval
+SV130,SOP-016,department_matches,error,pass,Finance vs Finance
+SV131,SOP-016,complexity_declared_matches,error,pass,Simple vs Simple
+SV132,SOP-016,sop_steps_matches_task_types,error,pass,3 vs 3
+SV133,SOP-016,dependency_count_matches_task_types,error,pass,0 vs 0
+SV134,SOP-016,task_approval_count_in_range,error,pass,"1 in [1, 1]"
+SV135,SOP-016,sop_steps_equals_counted_work_steps,error,pass,"declared 3, counted 3"
+SV136,SOP-016,approval_base_equals_always_rows,error,pass,1 vs 1
+SV137,SOP-016,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV138,SOP-016,matrix_stages_have_approval_steps,error,pass,[]
+SV139,SOP-016,dependencies_listed,error,pass,"0 listed, 0 declared"
+SV140,SOP-016,dependencies_well_formed,error,pass,[]
+SV141,SOP-016,dependencies_have_parallel_group,warning,pass,
+SV142,SOP-016,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV143,SOP-016,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV144,SOP-016,rework_detected_at_approval_step,error,pass,[]
+SV145,SOP-016,first_pass_yield_in_range,error,pass,0.95
+SV146,SOP-016,rework_effort_three_point,error,pass,
+SV147,SOP-016,superseded_sops_exist,warning,pass,[]
+SV148,SOP-016,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV149,SOP-016,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV150,SOP-016,standard_time_source,info,pass,illustrative_expert_estimate
+SV151,SOP-016,markdown_body_present,warning,pass,
+SV152,SOP-016,derived_complexity_matches_declared,warning,pass,CS 8.50 -> Simple vs declared Simple
+SV153,SOP-017,yaml_parses,error,pass,
+SV154,SOP-017,required_fields_present,error,pass,
+SV155,SOP-017,schema_version,error,pass,"found 1.2, expected 1.2"
+SV156,SOP-017,enum:status,error,pass,'Approved'
+SV157,SOP-017,enum:owner_role,error,pass,'Lead'
+SV158,SOP-017,enum:complexity_declared,error,pass,'Complex'
+SV159,SOP-017,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV160,SOP-017,enum:quality_targets_source,error,pass,'unconfirmed'
+SV161,SOP-017,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'D-RISK', 'S7', 'S8', 'S9', 'A1', 'A2', 'A3', 'R1']"
+SV162,SOP-017,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV163,SOP-017,work_steps_have_skill_level,error,pass,[]
+SV164,SOP-017,task_type_in_task_types,error,pass,Vendor Onboarding
+SV165,SOP-017,department_matches,error,pass,Procurement vs Procurement
+SV166,SOP-017,complexity_declared_matches,error,pass,Complex vs Complex
+SV167,SOP-017,sop_steps_matches_task_types,error,pass,8 vs 8
+SV168,SOP-017,dependency_count_matches_task_types,error,pass,2 vs 2
+SV169,SOP-017,task_approval_count_in_range,error,pass,"3 in [3, 3]"
+SV170,SOP-017,sop_steps_equals_counted_work_steps,error,pass,"declared 8, counted 8"
+SV171,SOP-017,approval_base_equals_always_rows,error,pass,3 vs 3
+SV172,SOP-017,approval_max_equals_matrix_length,error,pass,3 vs 3
+SV173,SOP-017,matrix_stages_have_approval_steps,error,pass,[]
+SV174,SOP-017,dependencies_listed,error,pass,"2 listed, 2 declared"
+SV175,SOP-017,dependencies_well_formed,error,pass,[]
+SV176,SOP-017,dependencies_have_parallel_group,warning,pass,
+SV177,SOP-017,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV178,SOP-017,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV179,SOP-017,rework_detected_at_approval_step,error,pass,[]
+SV180,SOP-017,first_pass_yield_in_range,error,pass,0.85
+SV181,SOP-017,rework_effort_three_point,error,pass,
+SV182,SOP-017,superseded_sops_exist,warning,pass,[]
+SV183,SOP-017,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV184,SOP-017,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV185,SOP-017,standard_time_source,info,pass,illustrative_expert_estimate
+SV186,SOP-017,markdown_body_present,warning,pass,
+SV187,SOP-017,derived_complexity_matches_declared,warning,pass,CS 26.00 -> Complex vs declared Complex
+SV188,SOP-018,yaml_parses,error,pass,
+SV189,SOP-018,required_fields_present,error,pass,
+SV190,SOP-018,schema_version,error,pass,"found 1.2, expected 1.2"
+SV191,SOP-018,enum:status,error,pass,'Approved'
+SV192,SOP-018,enum:owner_role,error,pass,'Lead'
+SV193,SOP-018,enum:complexity_declared,error,pass,'Simple'
+SV194,SOP-018,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV195,SOP-018,enum:quality_targets_source,error,pass,'unconfirmed'
+SV196,SOP-018,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'S4', 'D-ESC', 'S5', 'A1', 'R1']"
+SV197,SOP-018,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV198,SOP-018,work_steps_have_skill_level,error,pass,[]
+SV199,SOP-018,task_type_in_task_types,error,pass,Daily Operations Report
+SV200,SOP-018,department_matches,error,pass,Operations vs Operations
+SV201,SOP-018,complexity_declared_matches,error,pass,Simple vs Simple
+SV202,SOP-018,sop_steps_matches_task_types,error,pass,4 vs 4
+SV203,SOP-018,dependency_count_matches_task_types,error,pass,0 vs 0
+SV204,SOP-018,task_approval_count_in_range,error,pass,"0 in [0, 1]"
+SV205,SOP-018,sop_steps_equals_counted_work_steps,error,pass,"declared 4, counted 4"
+SV206,SOP-018,approval_base_equals_always_rows,error,pass,0 vs 0
+SV207,SOP-018,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV208,SOP-018,matrix_stages_have_approval_steps,error,pass,[]
+SV209,SOP-018,dependencies_listed,error,pass,"0 listed, 0 declared"
+SV210,SOP-018,dependencies_well_formed,error,pass,[]
+SV211,SOP-018,dependencies_have_parallel_group,warning,pass,
+SV212,SOP-018,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV213,SOP-018,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV214,SOP-018,rework_detected_at_approval_step,error,pass,[]
+SV215,SOP-018,first_pass_yield_in_range,error,pass,0.95
+SV216,SOP-018,rework_effort_three_point,error,pass,
+SV217,SOP-018,superseded_sops_exist,warning,pass,[]
+SV218,SOP-018,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV219,SOP-018,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV220,SOP-018,standard_time_source,info,pass,illustrative_expert_estimate
+SV221,SOP-018,markdown_body_present,warning,pass,
+SV222,SOP-018,derived_complexity_matches_declared,warning,pass,CS 8.75 -> Simple vs declared Simple
+SV223,SOP-019,yaml_parses,error,pass,
+SV224,SOP-019,required_fields_present,error,pass,
+SV225,SOP-019,schema_version,error,pass,"found 1.2, expected 1.2"
+SV226,SOP-019,enum:status,error,pass,'Approved'
+SV227,SOP-019,enum:owner_role,error,pass,'Lead'
+SV228,SOP-019,enum:complexity_declared,error,pass,'Complex'
+SV229,SOP-019,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV230,SOP-019,enum:quality_targets_source,error,pass,'unconfirmed'
+SV231,SOP-019,step_ids_unique,error,pass,"['S1', 'S2', 'D-SEV', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'A1', 'A2', 'R1']"
+SV232,SOP-019,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV233,SOP-019,work_steps_have_skill_level,error,pass,[]
+SV234,SOP-019,task_type_in_task_types,error,pass,Incident Review
+SV235,SOP-019,department_matches,error,pass,Operations vs Operations
+SV236,SOP-019,complexity_declared_matches,error,pass,Complex vs Complex
+SV237,SOP-019,sop_steps_matches_task_types,error,pass,7 vs 7
+SV238,SOP-019,dependency_count_matches_task_types,error,pass,2 vs 2
+SV239,SOP-019,task_approval_count_in_range,error,pass,"2 in [2, 2]"
+SV240,SOP-019,sop_steps_equals_counted_work_steps,error,pass,"declared 7, counted 7"
+SV241,SOP-019,approval_base_equals_always_rows,error,pass,2 vs 2
+SV242,SOP-019,approval_max_equals_matrix_length,error,pass,2 vs 2
+SV243,SOP-019,matrix_stages_have_approval_steps,error,pass,[]
+SV244,SOP-019,dependencies_listed,error,pass,"2 listed, 2 declared"
+SV245,SOP-019,dependencies_well_formed,error,pass,[]
+SV246,SOP-019,dependencies_have_parallel_group,warning,pass,
+SV247,SOP-019,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV248,SOP-019,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV249,SOP-019,rework_detected_at_approval_step,error,pass,[]
+SV250,SOP-019,first_pass_yield_in_range,error,pass,0.85
+SV251,SOP-019,rework_effort_three_point,error,pass,
+SV252,SOP-019,superseded_sops_exist,warning,pass,[]
+SV253,SOP-019,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV254,SOP-019,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV255,SOP-019,standard_time_source,info,pass,illustrative_expert_estimate
+SV256,SOP-019,markdown_body_present,warning,pass,
+SV257,SOP-019,derived_complexity_matches_declared,warning,pass,CS 22.14 -> Complex vs declared Complex
+SV258,SOP-020,yaml_parses,error,pass,
+SV259,SOP-020,required_fields_present,error,pass,
+SV260,SOP-020,schema_version,error,pass,"found 1.2, expected 1.2"
+SV261,SOP-020,enum:status,error,pass,'Approved'
+SV262,SOP-020,enum:owner_role,error,pass,'Lead'
+SV263,SOP-020,enum:complexity_declared,error,pass,'Simple'
+SV264,SOP-020,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV265,SOP-020,enum:quality_targets_source,error,pass,'unconfirmed'
+SV266,SOP-020,step_ids_unique,error,pass,"['S1', 'S2', 'D-LONG', 'S3', 'A1', 'R1']"
+SV267,SOP-020,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV268,SOP-020,work_steps_have_skill_level,error,pass,[]
+SV269,SOP-020,task_type_in_task_types,error,pass,Leave Approval
+SV270,SOP-020,department_matches,error,pass,HR vs HR
+SV271,SOP-020,complexity_declared_matches,error,pass,Simple vs Simple
+SV272,SOP-020,sop_steps_matches_task_types,error,pass,2 vs 2
+SV273,SOP-020,dependency_count_matches_task_types,error,pass,0 vs 0
+SV274,SOP-020,task_approval_count_in_range,error,pass,"1 in [1, 1]"
+SV275,SOP-020,sop_steps_equals_counted_work_steps,error,pass,"declared 2, counted 2"
+SV276,SOP-020,approval_base_equals_always_rows,error,pass,1 vs 1
+SV277,SOP-020,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV278,SOP-020,matrix_stages_have_approval_steps,error,pass,[]
+SV279,SOP-020,dependencies_listed,error,pass,"0 listed, 0 declared"
+SV280,SOP-020,dependencies_well_formed,error,pass,[]
+SV281,SOP-020,dependencies_have_parallel_group,warning,pass,
+SV282,SOP-020,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV283,SOP-020,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV284,SOP-020,rework_detected_at_approval_step,error,pass,[]
+SV285,SOP-020,first_pass_yield_in_range,error,pass,0.95
+SV286,SOP-020,rework_effort_three_point,error,pass,
+SV287,SOP-020,superseded_sops_exist,warning,pass,[]
+SV288,SOP-020,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV289,SOP-020,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV290,SOP-020,standard_time_source,info,pass,illustrative_expert_estimate
+SV291,SOP-020,markdown_body_present,warning,pass,
+SV292,SOP-020,derived_complexity_matches_declared,warning,pass,CS 8.00 -> Simple vs declared Simple
+SV293,SOP-021,yaml_parses,error,pass,
+SV294,SOP-021,required_fields_present,error,pass,
+SV295,SOP-021,schema_version,error,pass,"found 1.2, expected 1.2"
+SV296,SOP-021,enum:status,error,pass,'Approved'
+SV297,SOP-021,enum:owner_role,error,pass,'Lead'
+SV298,SOP-021,enum:complexity_declared,error,pass,'Medium'
+SV299,SOP-021,enum:standard_time_source,error,pass,'illustrative_expert_estimate'
+SV300,SOP-021,enum:quality_targets_source,error,pass,'unconfirmed'
+SV301,SOP-021,step_ids_unique,error,pass,"['S1', 'S2', 'S3', 'S4', 'D-DISC', 'S5', 'S6', 'A1', 'R1']"
+SV302,SOP-021,steps_well_formed,error,pass,"role/type enum, string name, string lists, valid three-point times"
+SV303,SOP-021,work_steps_have_skill_level,error,pass,[]
+SV304,SOP-021,task_type_in_task_types,error,pass,Employee Document Verification
+SV305,SOP-021,department_matches,error,pass,HR vs HR
+SV306,SOP-021,complexity_declared_matches,error,pass,Medium vs Medium
+SV307,SOP-021,sop_steps_matches_task_types,error,pass,5 vs 5
+SV308,SOP-021,dependency_count_matches_task_types,error,pass,1 vs 1
+SV309,SOP-021,task_approval_count_in_range,error,pass,"1 in [1, 1]"
+SV310,SOP-021,sop_steps_equals_counted_work_steps,error,pass,"declared 5, counted 5"
+SV311,SOP-021,approval_base_equals_always_rows,error,pass,1 vs 1
+SV312,SOP-021,approval_max_equals_matrix_length,error,pass,1 vs 1
+SV313,SOP-021,matrix_stages_have_approval_steps,error,pass,[]
+SV314,SOP-021,dependencies_listed,error,pass,"1 listed, 1 declared"
+SV315,SOP-021,dependencies_well_formed,error,pass,[]
+SV316,SOP-021,dependencies_have_parallel_group,warning,pass,
+SV317,SOP-021,sla_hours_match_due_rule,error,pass,"{'High': 6, 'Medium': 12, 'Low': 24}"
+SV318,SOP-021,rework_reasons_in_platform_vocabulary,error,pass,[]
+SV319,SOP-021,rework_detected_at_approval_step,error,pass,[]
+SV320,SOP-021,first_pass_yield_in_range,error,pass,0.9
+SV321,SOP-021,rework_effort_three_point,error,pass,
+SV322,SOP-021,superseded_sops_exist,warning,pass,[]
+SV323,SOP-021,times_frozen_before_effective,warning,pass,2026-10-14 <= 2026-10-14
+SV324,SOP-021,quality_targets_provenance_confirmed,warning,fail,FPY comparison is weak evidence until provenance is confirmed
+SV325,SOP-021,standard_time_source,info,pass,illustrative_expert_estimate
+SV326,SOP-021,markdown_body_present,warning,pass,
+SV327,SOP-021,derived_complexity_matches_declared,warning,pass,CS 14.60 -> Medium vs declared Medium
+SV328,SOP-013,one_active_sop_per_task_type,error,pass,BOQ Review
+SV329,SOP-014,one_active_sop_per_task_type,error,pass,Purchase Request
+SV330,SOP-015,one_active_sop_per_task_type,error,pass,Invoice Verification
+SV331,SOP-016,one_active_sop_per_task_type,error,pass,Expense Approval
+SV332,SOP-017,one_active_sop_per_task_type,error,pass,Vendor Onboarding
+SV333,SOP-018,one_active_sop_per_task_type,error,pass,Daily Operations Report
+SV334,SOP-019,one_active_sop_per_task_type,error,pass,Incident Review
+SV335,SOP-020,one_active_sop_per_task_type,error,pass,Leave Approval
+SV336,SOP-021,one_active_sop_per_task_type,error,pass,Employee Document Verification
+SV337,ALL,every_task_type_has_sop,error,pass,[]

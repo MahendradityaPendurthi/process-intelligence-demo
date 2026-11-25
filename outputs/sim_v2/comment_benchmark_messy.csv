@@ -1,0 +1,82 @@
+context,text,label,note,set,llm_label,keyword_label
+rejection,"pls check the total, its 4250 on bill but u put 4520",Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+rejection,Rs figure off by a few hundred vs the invoice copy,Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+rejection,"GST amt calculated wrong, redo",Amount mismatch,,tuning,Incorrect category,unclear
+rejection,claim value exceeds what the receipt says,Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+rejection,the sum doesnt add up,Amount mismatch,,tuning,Amount mismatch,unclear
+rejection,"bill amt and entered amt differ, kindly correct",Amount mismatch,,tuning,Amount mismatch,unclear
+rejection,"price looks inflated vs the quote, total wrong",Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+rejection,u have claimed 2 nights stay but hotel bill is for 1 night,Wrong quantity,count drives the amount,tuning,Wrong quantity,unclear
+rejection,"only 3 boxes delivered as per GRN, PO line says 5",Wrong quantity,,tuning,Wrong quantity,unclear
+rejection,number of leave days wrong - 14th was a holiday,Wrong quantity,,tuning,Wrong quantity,unclear
+rejection,units entered dont match units on the drawing,Wrong quantity,,tuning,Wrong quantity,unclear
+rejection,recount the items pls,Wrong quantity,,tuning,Wrong quantity,Wrong quantity
+rejection,qty in BOQ line 12 is 40 not 400,Wrong quantity,,tuning,Wrong quantity,Wrong quantity
+rejection,"Category looks ok, but the qty is double what was ordered",Wrong quantity,negation trap,tuning,Wrong quantity,Incorrect category
+rejection,"this is travel not office supplies, change the head",Incorrect category,,tuning,Incorrect category,Incorrect category
+rejection,should be capex not opex,Incorrect category,,tuning,Incorrect category,unclear
+rejection,wrong cost head selected. use 4410 not 4420,Incorrect category,,tuning,Incorrect category,Incorrect category
+rejection,pls tag under sick leave instead of casual,Incorrect category,,tuning,Incorrect category,unclear
+rejection,misclassified - this is a site incident not a near-miss,Incorrect category,,tuning,Incorrect category,Incorrect category
+rejection,GL mapping incorrect,Incorrect category,,tuning,Incorrect category,Incorrect category
+rejection,where is the boarding pass??,Required document missing,,tuning,Required document missing,unclear
+rejection,cant see any attachment,Required document missing,,tuning,Required document missing,Required document missing
+rejection,amount is fine but receipt not uploaded,Required document missing,negation trap,tuning,Required document missing,Required document missing
+rejection,"unsigned NDA copy only, need the signed one",Required document missing,,tuning,Required document missing,unclear
+rejection,upload pending for exp letter,Required document missing,,tuning,Required document missing,Required document missing
+rejection,attach doctor cert for >2 days sick leave,Required document missing,,tuning,Required document missing,Required document missing
+rejection,Not approving.,unclear,,tuning,unclear,unclear
+rejection,"discussed on call, pls redo",unclear,,tuning,unclear,unclear
+rejection,refer to my earlier mail,unclear,,tuning,unclear,unclear
+correction,uploaded receipt now,Required document missing,,tuning,Required document missing,Required document missing
+correction,attached signed NDA,Required document missing,,tuning,Required document missing,Required document missing
+correction,changed GL to 5120 as told,Incorrect category,,tuning,Incorrect category,Incorrect category
+correction,re-tagged under travel,Incorrect category,,tuning,Incorrect category,unclear
+correction,total corrected,Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+correction,amount revised to match bill,Amount mismatch,,tuning,Amount mismatch,Amount mismatch
+correction,fixed no. of units,Wrong quantity,,tuning,Wrong quantity,unclear
+correction,days corrected to 3,Wrong quantity,,tuning,Wrong quantity,unclear
+correction,done,unclear,,tuning,unclear,unclear
+correction,updated as discussed,unclear,,tuning,unclear,unclear
+hold,waiting on legal to clear the vendor,external_dependency,,tuning,external_dependency,unclear
+hold,bank hasnt confirmed acct details yet,external_dependency,,tuning,external_dependency,unclear
+hold,"IT access request raised with infra team, pending",external_dependency,,tuning,external_dependency,external_dependency
+hold,vendor to send revised quote,external_dependency,,tuning,external_dependency,unclear
+hold,insurance company yet to send the claim number,external_dependency,,tuning,external_dependency,unclear
+hold,Finance to confirm budget availability,external_dependency,,tuning,external_dependency,unclear
+hold,"sir is on leave, will approve on monday",approver_queue,,tuning,approver_queue,unclear
+hold,"manager has a backlog, will pick up later",approver_queue,,tuning,approver_queue,unclear
+hold,pending at approver end,approver_queue,,tuning,approver_queue,approver_queue
+hold,HOD in audit meetings all week,approver_queue,,tuning,approver_queue,unclear
+hold,approver busy w/ quarter close,approver_queue,,tuning,approver_queue,approver_queue
+hold,asked claimant for the hotel invoice,missing_info,,tuning,missing_info,missing_info
+hold,employee yet to share the medical cert,missing_info,,tuning,missing_info,missing_info
+hold,waiting for requester to clarify which cost centre,missing_info,,tuning,missing_info,missing_info
+hold,need the original bill from the staff member who raised it,missing_info,,tuning,missing_info,external_dependency
+hold,"requester didnt fill the dates, asked them",missing_info,,tuning,missing_info,missing_info
+hold,on hold,unclear,,tuning,unclear,unclear
+hold,will check tmrw,unclear,,tuning,unclear,unclear
+rejection,"tax added twice, final payable is wrong",Amount mismatch,written after the prompt was fixed; never used for tuning,holdout,Amount mismatch,unclear
+rejection,"reimb. claimed 1800, eligible as per policy is 1500",Amount mismatch,,holdout,Amount mismatch,unclear
+rejection,"5 laptops in request, budget approved for 4 only",Wrong quantity,,holdout,Amount mismatch,unclear
+rejection,"pls redo, shift count in the log is 3 not 2",Wrong quantity,,holdout,Wrong quantity,Wrong quantity
+rejection,"vendor type should be 'service provider', not 'supplier'",Incorrect category,,holdout,Incorrect category,unclear
+rejection,"filed as maternity leave, it's paternity",Incorrect category,,holdout,Incorrect category,unclear
+rejection,"rate is right, but where's the signed quotation?",Required document missing,negation trap,holdout,Required document missing,unclear
+rejection,no proof of address in the docs,Required document missing,,holdout,Required document missing,unclear
+rejection,"see comments in the meeting, resubmit",unclear,,holdout,Incorrect category,unclear
+correction,"put the right GL, 6020",Incorrect category,,holdout,Incorrect category,Incorrect category
+correction,"qty now 4, matches budget",Wrong quantity,,holdout,Wrong quantity,Wrong quantity
+correction,"tax removed from 2nd line, total ok now",Amount mismatch,,holdout,Amount mismatch,Amount mismatch
+correction,quotation scanned and attached,Required document missing,,holdout,Required document missing,Required document missing
+correction,ok resubmitting,unclear,,holdout,unclear,unclear
+hold,awaiting PO number from procurement,external_dependency,,holdout,external_dependency,unclear
+hold,courier company hasn't sent the delivery proof,external_dependency,,holdout,external_dependency,unclear
+hold,"client yet to sign off the scope, parking it",external_dependency,,holdout,external_dependency,unclear
+hold,lead travelling this week - approval delayed,approver_queue,,holdout,approver_queue,unclear
+hold,"sitting in the incharge's inbox, no response",approver_queue,,holdout,approver_queue,approver_queue
+hold,"asked the applicant for joining date, no reply",missing_info,,holdout,missing_info,unclear
+hold,staff member to resend clearer scan of ID,missing_info,,holdout,missing_info,unclear
+hold,"parked, will revisit",unclear,,holdout,unclear,unclear
+hold,dept head out sick,approver_queue,,holdout,approver_queue,unclear
+hold,waiting for HR to share the offer letter copy,external_dependency,,holdout,external_dependency,external_dependency

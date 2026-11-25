@@ -1,0 +1,10 @@
+{
+  "scenarios_in_scope": 12,
+  "detected": 12,
+  "detected_wrong_type": 0,
+  "missed": [],
+  "controls_passed": "2/2",
+  "out_of_scope": [],
+  "false_alarms": 0,
+  "false_alarms_by_type": {}
+}

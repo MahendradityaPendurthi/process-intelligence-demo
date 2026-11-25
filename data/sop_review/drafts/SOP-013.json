@@ -1,0 +1,116 @@
+{
+  "sop_id": "SOP-013",
+  "file": "SOP-013_BOQ_Review.md",
+  "format": "schema",
+  "model": "llama3.1:latest",
+  "source_sha256": "2d43afe7037ebe4e5e125513b55e865092742af103760094a2322349e73fa207",
+  "drafted_at": "2026-11-21T13:31:25",
+  "seconds": 22.9,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-013",
+    "title": "Bill of Quantities (BOQ) Review",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Create and assign ticket",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Check BOQ template checklist",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S3",
+        "name": "Check quantities and rates",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S4",
+        "name": "Summarize variance and submit",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Incharge approval",
+        "role": "Incharge",
+        "type": "approval"
+      },
+      {
+        "step_id": "R1",
+        "name": "Rework on rejection",
+        "role": "Executor",
+        "type": "rework"
+      },
+      {
+        "step_id": "D1",
+        "name": "Wait for drawings confirmation",
+        "role": "Executor",
+        "type": "decision"
+      },
+      {
+        "step_id": "A2",
+        "name": "Lead approval (exceptions only)",
+        "role": "Lead",
+        "type": "approval"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "Incharge",
+        "condition": "always",
+        "evidence": "The Incharge does not decide until D1 is confirmed."
+      },
+      {
+        "stage": "Lead",
+        "condition": "exceptions only",
+        "evidence": "See YAML `exceptions`."
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "Operations",
+        "item": "drawings revision or take-off confirmation",
+        "parallel_group": "P1",
+        "evidence": "After submission, if the drawings revision or take-off is not yet confirmed by Operations, log `DependencyWait` (D1)."
+      }
+    ],
+    "rework_reasons": [
+      "Wrong quantity",
+      "Amount mismatch",
+      "Incorrect category",
+      "Required document missing"
+    ],
+    "first_pass_yield_target": 0.9
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "Lead (exceptions only)",
+      "message": "The quote does not mention the Lead"
+    },
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    }
+  ],
+  "comparison": {
+    "steps": 1.0,
+    "approvals": 1.0,
+    "dependencies": 1.0,
+    "reasons": 1.0,
+    "fpy": 1.0,
+    "overall": 1.0,
+    "evidenced_steps": 6,
+    "detail": ""
+  }
+}

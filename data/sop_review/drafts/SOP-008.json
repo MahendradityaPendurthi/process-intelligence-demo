@@ -1,0 +1,119 @@
+{
+  "sop_id": "SOP-008",
+  "file": "SOP-008_Customer_Escalation.md",
+  "format": "legacy",
+  "model": "llama3.1:latest",
+  "source_sha256": "7c25a6bb08c91f25c1ff1fdd304bb14634bd92b0a91593161eba7fbdb86639d3",
+  "drafted_at": "2026-11-21T13:29:16",
+  "seconds": 25.6,
+  "error": null,
+  "draft": {
+    "sop_id": "SOP-008",
+    "title": "Customer Support: Customer Escalation Handling",
+    "steps": [
+      {
+        "step_id": "S1",
+        "name": "Request Submission",
+        "role": "Executor",
+        "type": "intake"
+      },
+      {
+        "step_id": "S2",
+        "name": "Initial Review",
+        "role": "Incharge",
+        "type": "work"
+      },
+      {
+        "step_id": "R1",
+        "name": "Correction and Rework",
+        "role": "Incharge",
+        "type": "rework"
+      },
+      {
+        "step_id": "S3",
+        "name": "Business Validation",
+        "role": "Lead",
+        "type": "work"
+      },
+      {
+        "step_id": "A1",
+        "name": "Approval",
+        "role": "HOD",
+        "type": "approval"
+      },
+      {
+        "step_id": "S4",
+        "name": "Operational Processing",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S5",
+        "name": "Exception Handling",
+        "role": "Executor",
+        "type": "work"
+      },
+      {
+        "step_id": "S6",
+        "name": "Completion and Closure",
+        "role": "Incharge",
+        "type": "work"
+      }
+    ],
+    "approvals": [
+      {
+        "stage": "HOD",
+        "condition": "always",
+        "evidence": "Where approval is required, the workflow shall be routed to the appropriate authority according to organizational delegation rules."
+      }
+    ],
+    "dependencies": [
+      {
+        "dep_id": "D1",
+        "provider": "External",
+        "item": "External dependencies",
+        "parallel_group": "P1",
+        "evidence": "Requests affected by external dependencies, missing information, policy exceptions, or operational blockers shall be placed on hold or escalated as appropriate."
+      }
+    ],
+    "rework_reasons": [
+      "Incorrect category",
+      "Incorrect category",
+      "Incorrect category"
+    ],
+    "first_pass_yield_target": null
+  },
+  "checks": [
+    {
+      "severity": "error",
+      "field": "approvals",
+      "item": "HOD (always)",
+      "message": "The quote does not mention the HOD"
+    },
+    {
+      "severity": "warning",
+      "field": "approvals",
+      "item": "HOD (always)",
+      "message": "Marked 'always' but the quote states a condition"
+    },
+    {
+      "severity": "info",
+      "field": "dependencies",
+      "item": "P1",
+      "message": "Parallel group with a single dependency"
+    },
+    {
+      "severity": "error",
+      "field": "rework_reasons",
+      "item": "Incorrect category",
+      "message": "Listed but not mentioned in the text"
+    },
+    {
+      "severity": "info",
+      "field": "first_pass_yield_target",
+      "item": "",
+      "message": "No first-pass yield target found"
+    }
+  ],
+  "comparison": null
+}

@@ -1,0 +1,1201 @@
+ticket_id,task_type,department,assigned_employee_id,priority,complexity,sop_steps,approval_count,dependency_count,created_at,due_at,completed_at,final_status
+T00001,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-08-21 09:00:00,2026-08-22 09:00:00,2026-08-21 14:13:00,Completed
+T00002,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-08-04 17:00:00,2026-08-05 17:00:00,2026-08-04 19:52:00,Completed
+T00003,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-09-20 08:10:00,2026-09-21 08:10:00,2026-09-20 12:52:00,Completed
+T00004,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-07-19 09:20:00,2026-07-19 21:20:00,2026-07-19 10:55:00,Completed
+T00005,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-06-11 16:20:00,2026-06-12 04:20:00,2026-06-11 20:32:00,Completed
+T00006,Daily Operations Report,Operations,E1014,High,Simple,4,0,0,2026-09-07 12:00:00,2026-09-07 18:00:00,2026-09-07 13:04:00,Completed
+T00007,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-07-18 13:10:00,2026-07-19 13:10:00,2026-07-18 20:38:00,Completed
+T00008,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-07-30 14:20:00,2026-07-31 02:20:00,2026-07-30 19:19:00,Completed
+T00009,BOQ Review,Procurement,E1008,High,Medium,3,1,1,2026-07-22 12:00:00,2026-07-22 18:00:00,2026-07-22 15:08:00,Completed
+T00010,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-09-22 15:10:00,2026-09-23 15:10:00,2026-09-22 18:20:00,Completed
+T00011,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-07-22 13:10:00,2026-07-23 01:10:00,2026-07-22 15:55:00,Completed
+T00012,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-08-27 14:40:00,2026-08-28 14:40:00,2026-08-27 18:14:00,Completed
+T00013,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-09-01 09:50:00,2026-09-01 21:50:00,2026-09-01 14:46:00,Completed
+T00014,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-09-01 12:40:00,2026-09-02 00:40:00,2026-09-01 23:10:00,Completed
+T00015,Invoice Verification,Finance,E1005,High,Medium,5,1,1,2026-06-20 13:10:00,2026-06-20 19:10:00,2026-06-20 15:44:00,Completed
+T00016,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-09-21 12:10:00,2026-09-22 12:10:00,2026-09-21 20:03:00,Completed
+T00017,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-09-07 10:10:00,2026-09-07 22:10:00,2026-09-07 11:30:00,Completed
+T00018,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-09-05 11:50:00,2026-09-06 11:50:00,2026-09-05 14:25:00,Completed
+T00019,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-07-02 11:00:00,2026-07-03 11:00:00,2026-07-02 18:54:00,Completed
+T00020,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-06-30 09:00:00,2026-07-01 09:00:00,2026-06-30 16:10:00,Completed
+T00021,Leave Approval,HR,E1022,Medium,Simple,2,1,0,2026-08-13 15:10:00,2026-08-14 03:10:00,2026-08-13 16:52:00,Completed
+T00022,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-07-23 15:50:00,2026-07-24 03:50:00,2026-07-23 21:47:00,Completed
+T00023,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-07-02 11:10:00,2026-07-03 11:10:00,2026-07-02 12:04:00,Completed
+T00024,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-09-12 16:00:00,2026-09-13 04:00:00,2026-09-12 20:22:00,Completed
+T00025,Purchase Request,Procurement,E1010,High,Medium,4,2,1,2026-08-02 15:10:00,2026-08-02 21:10:00,2026-08-02 22:25:00,Completed_Late
+T00026,Leave Approval,HR,E1024,High,Simple,2,1,0,2026-07-07 14:50:00,2026-07-07 20:50:00,2026-07-07 16:26:00,Completed
+T00027,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-06-08 17:50:00,2026-06-09 17:50:00,2026-06-09 04:03:00,Completed
+T00028,Vendor Onboarding,Procurement,E1007,High,Complex,8,3,2,2026-06-21 08:40:00,2026-06-21 14:40:00,2026-06-21 16:16:00,Completed_Late
+T00029,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-07-02 17:40:00,2026-07-03 05:40:00,2026-07-02 22:28:00,Completed
+T00030,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-07-01 12:30:00,2026-07-02 00:30:00,2026-07-01 13:40:00,Completed
+T00031,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-07-29 17:40:00,2026-07-30 17:40:00,2026-07-29 19:20:00,Completed
+T00032,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-09-21 11:20:00,2026-09-22 11:20:00,2026-09-21 14:50:00,Completed
+T00033,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-06-02 16:20:00,2026-06-03 16:20:00,2026-06-02 22:06:00,Completed
+T00034,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-07-07 17:10:00,2026-07-08 17:10:00,2026-07-07 18:19:00,Completed
+T00035,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-06-12 14:20:00,2026-06-13 14:20:00,2026-06-12 16:45:00,Completed
+T00036,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-07-27 16:50:00,2026-07-28 04:50:00,2026-07-28 00:26:00,Completed
+T00037,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-09-15 13:40:00,2026-09-16 13:40:00,2026-09-15 18:25:00,Completed
+T00038,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-08-27 11:50:00,2026-08-28 11:50:00,2026-08-27 13:56:00,Completed
+T00039,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-09-19 10:10:00,2026-09-20 10:10:00,2026-09-19 12:22:00,Completed
+T00040,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-06-21 09:30:00,2026-06-21 15:30:00,2026-06-21 15:16:00,Completed
+T00041,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-06-29 08:50:00,2026-06-30 08:50:00,2026-06-29 18:15:00,Completed
+T00042,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-08-26 16:20:00,2026-08-27 16:20:00,2026-08-26 17:11:00,Completed
+T00043,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-06-14 17:30:00,2026-06-15 05:30:00,2026-06-14 18:22:00,Completed
+T00044,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-09-24 17:10:00,2026-09-25 17:10:00,2026-09-25 04:19:00,Completed
+T00045,Invoice Verification,Finance,E1006,High,Medium,5,1,1,2026-07-17 14:00:00,2026-07-17 20:00:00,2026-07-17 16:43:00,Completed
+T00046,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-07-10 14:20:00,2026-07-11 02:20:00,2026-07-10 22:02:00,Completed
+T00047,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-08-18 17:20:00,2026-08-19 05:20:00,2026-08-18 20:37:00,Completed
+T00048,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-08-23 13:30:00,2026-08-24 13:30:00,2026-08-23 16:10:00,Completed
+T00049,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-06-11 12:40:00,2026-06-12 00:40:00,2026-06-11 20:31:00,Completed
+T00050,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-29 11:10:00,2026-06-30 11:10:00,2026-06-29 13:51:00,Completed
+T00051,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-08-31 14:30:00,2026-09-01 14:30:00,2026-08-31 22:02:00,Completed
+T00052,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-06-23 16:30:00,2026-06-24 04:30:00,2026-06-23 18:54:00,Completed
+T00053,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-08-11 17:20:00,2026-08-12 05:20:00,2026-08-12 00:32:00,Completed
+T00054,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-09-04 15:30:00,2026-09-05 03:30:00,2026-09-04 22:12:00,Completed
+T00055,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-07-06 15:00:00,2026-07-07 15:00:00,2026-07-06 16:20:00,Completed
+T00056,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-06-20 11:30:00,2026-06-21 11:30:00,2026-06-20 13:12:00,Completed
+T00057,Incident Review,Operations,E1016,High,Complex,7,2,2,2026-06-08 11:30:00,2026-06-08 17:30:00,2026-06-08 17:42:00,Completed_Late
+T00058,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-07-09 14:30:00,2026-07-10 02:30:00,2026-07-09 17:13:00,Completed
+T00059,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-08-02 08:30:00,2026-08-02 20:30:00,2026-08-02 10:44:00,Completed
+T00060,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-08-19 16:00:00,2026-08-20 04:00:00,2026-08-19 17:45:00,Completed
+T00061,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-06-24 08:20:00,2026-06-25 08:20:00,2026-06-24 10:35:00,Completed
+T00062,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-09-05 14:20:00,2026-09-06 02:20:00,2026-09-05 16:30:00,Completed
+T00063,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-08-23 09:50:00,2026-08-23 21:50:00,2026-08-23 19:26:00,Completed
+T00064,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-06-28 15:50:00,2026-06-29 03:50:00,2026-06-28 17:38:00,Completed
+T00065,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-06-14 17:00:00,2026-06-15 05:00:00,2026-06-14 17:47:00,Completed
+T00066,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-06-14 12:50:00,2026-06-15 00:50:00,2026-06-14 15:47:00,Completed
+T00067,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-07-18 09:40:00,2026-07-19 09:40:00,2026-07-18 12:24:00,Completed
+T00068,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-08-21 15:50:00,2026-08-22 15:50:00,2026-08-22 02:57:00,Completed
+T00069,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-09-08 15:30:00,2026-09-09 03:30:00,2026-09-08 20:11:00,Completed
+T00070,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-07-02 15:40:00,2026-07-03 03:40:00,2026-07-02 17:25:00,Completed
+T00071,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-06-28 13:20:00,2026-06-29 13:20:00,2026-06-28 15:59:00,Completed
+T00072,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-06-11 11:50:00,2026-06-11 23:50:00,2026-06-11 14:50:00,Completed
+T00073,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-09-10 08:00:00,2026-09-11 08:00:00,2026-09-10 10:44:00,Completed
+T00074,Daily Operations Report,Operations,E1016,High,Simple,4,0,0,2026-08-10 16:20:00,2026-08-10 22:20:00,2026-08-10 17:17:00,Completed
+T00075,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-07-03 11:00:00,2026-07-04 11:00:00,2026-07-03 17:32:00,Completed
+T00076,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-07-06 17:40:00,2026-07-07 17:40:00,2026-07-06 19:49:00,Completed
+T00077,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-06-02 16:10:00,2026-06-03 16:10:00,2026-06-02 17:30:00,Completed
+T00078,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-09-20 08:40:00,2026-09-20 20:40:00,2026-09-20 09:42:00,Completed
+T00079,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-06-15 09:30:00,2026-06-16 09:30:00,2026-06-15 10:32:00,Completed
+T00080,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-07-02 09:40:00,2026-07-02 21:40:00,2026-07-02 13:04:00,Completed
+T00081,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-07-09 17:30:00,2026-07-10 05:30:00,2026-07-09 21:17:00,Completed
+T00082,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-07-01 10:40:00,2026-07-02 10:40:00,2026-07-01 12:13:00,Completed
+T00083,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-06-30 12:50:00,2026-07-01 00:50:00,2026-06-30 15:17:00,Completed
+T00084,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-08-15 11:30:00,2026-08-15 23:30:00,2026-08-15 12:53:00,Completed
+T00085,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-06-08 10:20:00,2026-06-08 22:20:00,2026-06-08 13:49:00,Completed
+T00086,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-07-05 16:40:00,2026-07-06 16:40:00,2026-07-05 19:35:00,Completed
+T00087,BOQ Review,Procurement,E1008,High,Medium,3,1,1,2026-07-03 08:00:00,2026-07-03 14:00:00,2026-07-03 12:39:00,Completed
+T00088,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-07-05 17:00:00,2026-07-06 05:00:00,2026-07-05 19:16:00,Completed
+T00089,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-09-13 15:00:00,2026-09-14 15:00:00,2026-09-13 20:00:00,Completed
+T00090,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-08-24 14:40:00,2026-08-25 02:40:00,2026-08-24 21:02:00,Completed
+T00091,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-08-06 13:40:00,2026-08-07 01:40:00,2026-08-06 19:55:00,Completed
+T00092,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-09-21 15:00:00,2026-09-21 21:00:00,2026-09-21 22:21:00,Completed_Late
+T00093,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-08-22 10:30:00,2026-08-23 10:30:00,2026-08-22 12:52:00,Completed
+T00094,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-07-29 16:10:00,2026-07-30 16:10:00,2026-07-29 17:53:00,Completed
+T00095,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-09-07 14:20:00,2026-09-08 14:20:00,2026-09-08 01:54:00,Completed
+T00096,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-09-19 10:30:00,2026-09-19 22:30:00,2026-09-19 12:57:00,Completed
+T00097,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-08-29 11:40:00,2026-08-30 11:40:00,2026-08-29 15:20:00,Completed
+T00098,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-09-12 14:30:00,2026-09-13 02:30:00,2026-09-12 17:48:00,Completed
+T00099,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-09-20 09:30:00,2026-09-20 21:30:00,2026-09-20 10:35:00,Completed
+T00100,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-07-31 12:20:00,2026-08-01 00:20:00,2026-07-31 13:54:00,Completed
+T00101,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-08-20 15:40:00,2026-08-21 03:40:00,2026-08-20 17:26:00,Completed
+T00102,Invoice Verification,Finance,E1002,Medium,Medium,5,1,1,2026-06-13 09:30:00,2026-06-13 21:30:00,2026-06-13 11:47:00,Completed
+T00103,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-07-18 14:10:00,2026-07-19 02:10:00,2026-07-18 16:48:00,Completed
+T00104,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-09-20 14:40:00,2026-09-21 14:40:00,2026-09-20 15:43:00,Completed
+T00105,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-07-03 08:30:00,2026-07-03 20:30:00,2026-07-03 11:08:00,Completed
+T00106,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-08-21 14:50:00,2026-08-22 02:50:00,2026-08-21 17:02:00,Completed
+T00107,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-07-01 14:40:00,2026-07-02 02:40:00,2026-07-01 16:10:00,Completed
+T00108,Expense Approval,Finance,E1006,High,Simple,3,1,0,2026-06-02 17:50:00,2026-06-02 23:50:00,2026-06-02 20:09:00,Completed
+T00109,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-06-29 11:40:00,2026-06-29 23:40:00,2026-06-29 14:14:00,Completed
+T00110,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-08-22 08:20:00,2026-08-23 08:20:00,2026-08-22 11:40:00,Completed
+T00111,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-07-24 10:10:00,2026-07-24 22:10:00,2026-07-24 12:02:00,Completed
+T00112,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-09-14 15:20:00,2026-09-14 21:20:00,2026-09-14 16:23:00,Completed
+T00113,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-09-19 14:40:00,2026-09-20 14:40:00,2026-09-19 21:30:00,Completed
+T00114,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-08-14 14:50:00,2026-08-15 14:50:00,2026-08-14 15:42:00,Completed
+T00115,Invoice Verification,Finance,E1004,High,Medium,5,1,1,2026-08-22 09:50:00,2026-08-22 15:50:00,2026-08-22 11:35:00,Completed
+T00116,Purchase Request,Procurement,E1008,High,Medium,4,2,1,2026-08-03 09:00:00,2026-08-03 15:00:00,2026-08-03 16:01:00,Completed_Late
+T00117,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-08-15 10:30:00,2026-08-16 10:30:00,2026-08-15 20:38:00,Completed
+T00118,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-08-27 13:40:00,2026-08-28 13:40:00,2026-08-27 15:45:00,Completed
+T00119,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-08-24 11:50:00,2026-08-24 23:50:00,2026-08-24 20:03:00,Completed
+T00120,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-06-09 16:10:00,2026-06-10 16:10:00,2026-06-09 17:30:00,Completed
+T00121,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-06-19 10:40:00,2026-06-19 22:40:00,2026-06-19 14:02:00,Completed
+T00122,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-09-09 11:40:00,2026-09-10 11:40:00,2026-09-09 17:14:00,Completed
+T00123,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-31 15:20:00,2026-08-01 03:20:00,2026-07-31 16:09:00,Completed
+T00124,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-07-29 08:00:00,2026-07-29 20:00:00,2026-07-29 13:26:00,Completed
+T00125,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-07-12 17:10:00,2026-07-13 17:10:00,2026-07-12 20:29:00,Completed
+T00126,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-08-07 12:30:00,2026-08-08 00:30:00,2026-08-07 16:26:00,Completed
+T00127,Invoice Verification,Finance,E1004,High,Medium,5,1,1,2026-08-10 11:30:00,2026-08-10 17:30:00,2026-08-10 18:42:00,Completed_Late
+T00128,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-07-11 12:20:00,2026-07-12 00:20:00,2026-07-11 13:14:00,Completed
+T00129,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-06-13 13:10:00,2026-06-14 13:10:00,2026-06-13 16:39:00,Completed
+T00130,Daily Operations Report,Operations,E1013,High,Simple,4,0,0,2026-09-05 14:50:00,2026-09-05 20:50:00,2026-09-05 15:49:00,Completed
+T00131,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-24 15:10:00,2026-08-25 15:10:00,2026-08-24 23:08:00,Completed
+T00132,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-09-17 16:40:00,2026-09-18 04:40:00,2026-09-17 20:44:00,Completed
+T00133,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-06-24 12:50:00,2026-06-24 18:50:00,2026-06-24 16:24:00,Completed
+T00134,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-07-22 09:10:00,2026-07-22 21:10:00,2026-07-22 16:52:00,Completed
+T00135,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-07-14 10:20:00,2026-07-14 22:20:00,2026-07-14 12:36:00,Completed
+T00136,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-06-07 09:20:00,2026-06-07 21:20:00,2026-06-07 15:34:00,Completed
+T00137,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-07-26 09:20:00,2026-07-26 21:20:00,2026-07-26 11:28:00,Completed
+T00138,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-08-16 08:00:00,2026-08-17 08:00:00,2026-08-16 09:30:00,Completed
+T00139,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-06-01 15:50:00,2026-06-02 15:50:00,2026-06-01 19:15:00,Completed
+T00140,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-10 14:50:00,2026-06-11 14:50:00,2026-06-10 22:24:00,Completed
+T00141,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-07-08 09:30:00,2026-07-08 15:30:00,2026-07-08 16:30:00,Completed_Late
+T00142,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-07-26 09:10:00,2026-07-26 21:10:00,2026-07-26 10:10:00,Completed
+T00143,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-13 10:00:00,2026-07-13 22:00:00,2026-07-13 11:02:00,Completed
+T00144,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-09-02 10:10:00,2026-09-03 10:10:00,2026-09-02 23:13:00,Completed
+T00145,BOQ Review,Procurement,E1012,High,Medium,3,1,1,2026-08-27 17:50:00,2026-08-27 23:50:00,2026-08-27 20:11:00,Completed
+T00146,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-07-31 15:50:00,2026-08-01 03:50:00,2026-08-01 01:19:00,Completed
+T00147,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-06-05 08:20:00,2026-06-06 08:20:00,2026-06-05 17:39:00,Completed
+T00148,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-08-10 08:30:00,2026-08-10 20:30:00,2026-08-10 17:40:00,Completed
+T00149,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-04 10:00:00,2026-08-04 22:00:00,2026-08-04 11:37:00,Completed
+T00150,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-07-07 14:30:00,2026-07-08 02:30:00,2026-07-07 16:40:00,Completed
+T00151,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-08-11 14:20:00,2026-08-12 02:20:00,2026-08-11 16:23:00,Completed
+T00152,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-07-10 14:10:00,2026-07-11 02:10:00,2026-07-10 21:13:00,Completed
+T00153,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-08-25 16:00:00,2026-08-26 04:00:00,2026-08-25 22:33:00,Completed
+T00154,BOQ Review,Procurement,E1008,High,Medium,3,1,1,2026-09-07 15:10:00,2026-09-07 21:10:00,2026-09-07 17:14:00,Completed
+T00155,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-09-07 16:50:00,2026-09-08 16:50:00,2026-09-07 19:07:00,Completed
+T00156,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-06-21 10:50:00,2026-06-21 22:50:00,2026-06-21 11:51:00,Completed
+T00157,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-08-18 12:50:00,2026-08-19 12:50:00,2026-08-18 14:59:00,Completed
+T00158,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-07-18 17:30:00,2026-07-19 05:30:00,2026-07-19 00:55:00,Completed
+T00159,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-09-11 17:10:00,2026-09-12 17:10:00,2026-09-11 23:48:00,Completed
+T00160,Invoice Verification,Finance,E1004,High,Medium,5,1,1,2026-06-11 10:20:00,2026-06-11 16:20:00,2026-06-11 13:42:00,Completed
+T00161,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-07-28 13:00:00,2026-07-29 13:00:00,2026-07-28 19:31:00,Completed
+T00162,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-06-04 13:00:00,2026-06-05 01:00:00,2026-06-04 20:59:00,Completed
+T00163,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-06-03 12:10:00,2026-06-04 00:10:00,2026-06-03 16:11:00,Completed
+T00164,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-07-24 17:30:00,2026-07-25 17:30:00,2026-07-24 19:53:00,Completed
+T00165,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-06-19 12:30:00,2026-06-20 00:30:00,2026-06-19 15:03:00,Completed
+T00166,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-17 09:40:00,2026-07-17 21:40:00,2026-07-17 10:50:00,Completed
+T00167,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-07-18 12:50:00,2026-07-19 12:50:00,2026-07-18 20:48:00,Completed
+T00168,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-09-03 13:10:00,2026-09-04 13:10:00,2026-09-03 17:13:00,Completed
+T00169,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-08-29 15:50:00,2026-08-30 03:50:00,2026-08-29 19:59:00,Completed
+T00170,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-07-10 16:30:00,2026-07-11 04:30:00,2026-07-10 18:38:00,Completed
+T00171,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-07-13 12:00:00,2026-07-14 12:00:00,2026-07-13 19:39:00,Completed
+T00172,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-07-18 16:20:00,2026-07-19 04:20:00,2026-07-18 21:41:00,Completed
+T00173,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-07-12 09:00:00,2026-07-12 21:00:00,2026-07-12 11:39:00,Completed
+T00174,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-07-27 13:30:00,2026-07-28 01:30:00,2026-07-27 15:12:00,Completed
+T00175,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-07-22 13:40:00,2026-07-23 01:40:00,2026-07-22 18:36:00,Completed
+T00176,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-06-09 11:50:00,2026-06-10 11:50:00,2026-06-09 13:33:00,Completed
+T00177,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-07-18 15:00:00,2026-07-19 15:00:00,2026-07-18 17:31:00,Completed
+T00178,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-09-03 10:30:00,2026-09-04 10:30:00,2026-09-03 18:20:00,Completed
+T00179,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-08-18 12:50:00,2026-08-19 12:50:00,2026-08-18 15:01:00,Completed
+T00180,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-09-12 13:50:00,2026-09-13 01:50:00,2026-09-12 19:33:00,Completed
+T00181,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-09-10 13:40:00,2026-09-11 13:40:00,2026-09-10 15:54:00,Completed
+T00182,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-08-10 17:20:00,2026-08-11 05:20:00,2026-08-10 23:58:00,Completed
+T00183,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-08-31 15:40:00,2026-09-01 03:40:00,2026-08-31 21:02:00,Completed
+T00184,Expense Approval,Finance,E1002,High,Simple,3,1,0,2026-07-30 16:20:00,2026-07-30 22:20:00,2026-07-30 18:26:00,Completed
+T00185,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-08-04 08:00:00,2026-08-05 08:00:00,2026-08-04 10:00:00,Completed
+T00186,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-08-06 12:00:00,2026-08-07 12:00:00,2026-08-06 21:52:00,Completed
+T00187,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-08-04 10:40:00,2026-08-05 10:40:00,2026-08-04 13:32:00,Completed
+T00188,Invoice Verification,Finance,E1001,High,Medium,5,1,1,2026-09-14 08:00:00,2026-09-14 14:00:00,2026-09-14 12:18:00,Completed
+T00189,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-06-04 15:50:00,2026-06-05 15:50:00,2026-06-04 17:19:00,Completed
+T00190,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-07-29 09:50:00,2026-07-30 09:50:00,2026-07-29 11:12:00,Completed
+T00191,Incident Review,Operations,E1015,High,Complex,7,2,2,2026-09-19 13:50:00,2026-09-19 19:50:00,2026-09-19 20:54:00,Completed_Late
+T00192,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-06-16 12:30:00,2026-06-17 12:30:00,2026-06-16 15:28:00,Completed
+T00193,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-07-02 10:20:00,2026-07-02 22:20:00,2026-07-02 13:43:00,Completed
+T00194,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-09-21 12:30:00,2026-09-22 12:30:00,2026-09-21 13:32:00,Completed
+T00195,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-07 08:20:00,2026-06-07 20:20:00,2026-06-07 09:59:00,Completed
+T00196,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-07-26 10:20:00,2026-07-27 10:20:00,2026-07-26 11:50:00,Completed
+T00197,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-08-10 12:00:00,2026-08-11 00:00:00,2026-08-10 15:43:00,Completed
+T00198,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-06-17 09:30:00,2026-06-17 21:30:00,2026-06-17 19:59:00,Completed
+T00199,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-07-22 16:00:00,2026-07-23 16:00:00,2026-07-22 18:25:00,Completed
+T00200,Vendor Onboarding,Procurement,E1009,High,Complex,8,3,2,2026-08-17 16:10:00,2026-08-17 22:10:00,2026-08-18 02:28:00,Completed_Late
+T00201,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-08-04 16:40:00,2026-08-05 04:40:00,2026-08-04 21:48:00,Completed
+T00202,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-09-20 08:40:00,2026-09-21 08:40:00,2026-09-20 12:12:00,Completed
+T00203,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-06-07 17:30:00,2026-06-08 05:30:00,2026-06-07 20:43:00,Completed
+T00204,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-05 17:50:00,2026-06-06 17:50:00,2026-06-05 23:23:00,Completed
+T00205,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-08-04 17:30:00,2026-08-05 05:30:00,2026-08-05 00:40:00,Completed
+T00206,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-08-07 14:20:00,2026-08-08 02:20:00,2026-08-07 23:07:00,Completed
+T00207,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-08-18 15:10:00,2026-08-19 15:10:00,2026-08-18 18:09:00,Completed
+T00208,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-07-07 11:50:00,2026-07-07 23:50:00,2026-07-07 18:57:00,Completed
+T00209,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-08-09 14:30:00,2026-08-09 20:30:00,2026-08-09 17:48:00,Completed
+T00210,Invoice Verification,Finance,E1003,High,Medium,5,1,1,2026-06-28 11:40:00,2026-06-28 17:40:00,2026-06-28 16:03:00,Completed
+T00211,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-21 11:00:00,2026-08-22 11:00:00,2026-08-21 16:12:00,Completed
+T00212,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-06-21 14:50:00,2026-06-22 02:50:00,2026-06-21 18:23:00,Completed
+T00213,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-08-23 17:10:00,2026-08-24 05:10:00,2026-08-23 18:35:00,Completed
+T00214,Employee Document Verification,HR,E1020,High,Medium,5,1,1,2026-09-16 14:30:00,2026-09-16 20:30:00,2026-09-16 17:18:00,Completed
+T00215,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-07-13 12:30:00,2026-07-14 00:30:00,2026-07-13 15:09:00,Completed
+T00216,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-06-25 09:20:00,2026-06-25 21:20:00,2026-06-25 17:41:00,Completed
+T00217,Daily Operations Report,Operations,E1017,High,Simple,4,0,0,2026-08-26 11:10:00,2026-08-26 17:10:00,2026-08-26 12:24:00,Completed
+T00218,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-06-24 10:30:00,2026-06-24 16:30:00,2026-06-24 11:21:00,Completed
+T00219,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-07-09 17:50:00,2026-07-10 17:50:00,2026-07-10 01:55:00,Completed
+T00220,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-10 10:30:00,2026-07-10 22:30:00,2026-07-10 17:23:00,Completed
+T00221,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-07-29 17:20:00,2026-07-30 05:20:00,2026-07-29 20:47:00,Completed
+T00222,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-07-02 17:00:00,2026-07-03 17:00:00,2026-07-02 18:16:00,Completed
+T00223,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-09-15 16:40:00,2026-09-16 04:40:00,2026-09-15 22:14:00,Completed
+T00224,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-08-31 17:30:00,2026-08-31 23:30:00,2026-09-01 05:13:00,Completed_Late
+T00225,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-09-01 08:30:00,2026-09-01 20:30:00,2026-09-01 11:49:00,Completed
+T00226,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-07-31 08:20:00,2026-08-01 08:20:00,2026-07-31 10:22:00,Completed
+T00227,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-09-23 14:30:00,2026-09-24 14:30:00,2026-09-23 20:14:00,Completed
+T00228,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-08 14:40:00,2026-08-09 02:40:00,2026-08-08 20:26:00,Completed
+T00229,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-30 11:30:00,2026-07-01 11:30:00,2026-06-30 16:40:00,Completed
+T00230,Expense Approval,Finance,E1006,High,Simple,3,1,0,2026-07-28 17:50:00,2026-07-28 23:50:00,2026-07-28 20:24:00,Completed
+T00231,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-06-08 10:40:00,2026-06-09 10:40:00,2026-06-08 12:07:00,Completed
+T00232,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-07-09 10:50:00,2026-07-10 10:50:00,2026-07-09 14:24:00,Completed
+T00233,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-06-23 14:40:00,2026-06-24 14:40:00,2026-06-23 16:23:00,Completed
+T00234,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-07-23 10:20:00,2026-07-24 10:20:00,2026-07-23 12:43:00,Completed
+T00235,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-06-19 15:00:00,2026-06-20 15:00:00,2026-06-19 19:15:00,Completed
+T00236,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-22 09:30:00,2026-08-23 09:30:00,2026-08-22 10:29:00,Completed
+T00237,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-06-25 17:50:00,2026-06-26 05:50:00,2026-06-25 19:25:00,Completed
+T00238,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-06-28 11:50:00,2026-06-28 23:50:00,2026-06-28 15:48:00,Completed
+T00239,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-06-27 14:10:00,2026-06-28 14:10:00,2026-06-27 21:20:00,Completed
+T00240,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-07-17 16:30:00,2026-07-18 16:30:00,2026-07-17 18:52:00,Completed
+T00241,BOQ Review,Procurement,E1011,High,Medium,3,1,1,2026-07-11 14:00:00,2026-07-11 20:00:00,2026-07-11 17:14:00,Completed
+T00242,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-09-01 14:20:00,2026-09-02 14:20:00,2026-09-01 17:20:00,Completed
+T00243,Vendor Onboarding,Procurement,E1010,High,Complex,8,3,2,2026-08-23 13:20:00,2026-08-23 19:20:00,2026-08-24 01:15:00,Completed_Late
+T00244,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-09-22 16:50:00,2026-09-23 04:50:00,2026-09-23 01:53:00,Completed
+T00245,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-08-30 10:00:00,2026-08-30 22:00:00,2026-08-30 20:49:00,Completed
+T00246,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-06-03 08:40:00,2026-06-04 08:40:00,2026-06-03 09:58:00,Completed
+T00247,Invoice Verification,Finance,E1001,High,Medium,5,1,1,2026-08-04 14:10:00,2026-08-04 20:10:00,2026-08-04 16:42:00,Completed
+T00248,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-07-05 14:00:00,2026-07-05 20:00:00,2026-07-05 18:32:00,Completed
+T00249,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-09-17 09:50:00,2026-09-17 21:50:00,2026-09-17 11:30:00,Completed
+T00250,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-08-21 08:50:00,2026-08-22 08:50:00,2026-08-21 11:15:00,Completed
+T00251,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-09-23 16:00:00,2026-09-24 16:00:00,2026-09-23 19:32:00,Completed
+T00252,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-09-24 16:40:00,2026-09-25 16:40:00,2026-09-25 00:32:00,Completed
+T00253,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-06-10 12:10:00,2026-06-11 12:10:00,2026-06-10 15:06:00,Completed
+T00254,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-09-05 10:50:00,2026-09-06 10:50:00,2026-09-05 17:15:00,Completed
+T00255,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-09-08 13:00:00,2026-09-09 13:00:00,2026-09-08 21:30:00,Completed
+T00256,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-08-27 17:50:00,2026-08-28 17:50:00,2026-08-27 19:13:00,Completed
+T00257,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-07-05 10:30:00,2026-07-05 22:30:00,2026-07-05 14:43:00,Completed
+T00258,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-07-27 13:20:00,2026-07-28 13:20:00,2026-07-27 18:20:00,Completed
+T00259,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-07-16 16:00:00,2026-07-17 04:00:00,2026-07-16 22:00:00,Completed
+T00260,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-09-01 16:10:00,2026-09-02 04:10:00,2026-09-01 17:35:00,Completed
+T00261,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-08-03 10:00:00,2026-08-04 10:00:00,2026-08-03 16:10:00,Completed
+T00262,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-09-01 15:40:00,2026-09-02 15:40:00,2026-09-01 20:07:00,Completed
+T00263,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-09-13 17:10:00,2026-09-14 17:10:00,2026-09-13 18:46:00,Completed
+T00264,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-07-08 15:40:00,2026-07-09 15:40:00,2026-07-08 17:55:00,Completed
+T00265,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-08-09 10:50:00,2026-08-10 10:50:00,2026-08-09 13:29:00,Completed
+T00266,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-08 09:30:00,2026-07-08 21:30:00,2026-07-08 16:07:00,Completed
+T00267,Invoice Verification,Finance,E1004,High,Medium,5,1,1,2026-09-10 14:00:00,2026-09-10 20:00:00,2026-09-10 17:27:00,Completed
+T00268,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-08-09 08:20:00,2026-08-09 14:20:00,2026-08-09 09:30:00,Completed
+T00269,Leave Approval,HR,E1023,High,Simple,2,1,0,2026-06-22 17:00:00,2026-06-22 23:00:00,2026-06-22 18:38:00,Completed
+T00270,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-02 09:20:00,2026-06-02 21:20:00,2026-06-02 12:23:00,Completed
+T00271,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-07-21 15:50:00,2026-07-22 03:50:00,2026-07-21 19:26:00,Completed
+T00272,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-09-02 10:20:00,2026-09-03 10:20:00,2026-09-02 15:14:00,Completed
+T00273,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-09-01 15:20:00,2026-09-02 15:20:00,2026-09-01 18:20:00,Completed
+T00274,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-06-22 11:40:00,2026-06-22 23:40:00,2026-06-22 21:48:00,Completed
+T00275,Daily Operations Report,Operations,E1013,Medium,Simple,4,0,0,2026-06-24 14:30:00,2026-06-25 02:30:00,2026-06-24 15:11:00,Completed
+T00276,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-06-27 12:50:00,2026-06-28 00:50:00,2026-06-27 17:17:00,Completed
+T00277,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-07-04 15:40:00,2026-07-05 15:40:00,2026-07-04 22:25:00,Completed
+T00278,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-09-11 12:40:00,2026-09-12 12:40:00,2026-09-11 14:09:00,Completed
+T00279,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-07-18 10:40:00,2026-07-19 10:40:00,2026-07-18 14:31:00,Completed
+T00280,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-28 10:40:00,2026-08-28 22:40:00,2026-08-28 12:00:00,Completed
+T00281,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-06-02 15:10:00,2026-06-03 03:10:00,2026-06-02 18:42:00,Completed
+T00282,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-07-24 15:30:00,2026-07-25 15:30:00,2026-07-24 17:31:00,Completed
+T00283,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-08-08 12:10:00,2026-08-09 00:10:00,2026-08-08 14:58:00,Completed
+T00284,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-07-05 16:20:00,2026-07-06 04:20:00,2026-07-05 17:37:00,Completed
+T00285,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-09-03 11:20:00,2026-09-04 11:20:00,2026-09-03 12:24:00,Completed
+T00286,Leave Approval,HR,E1021,High,Simple,2,1,0,2026-06-27 17:50:00,2026-06-27 23:50:00,2026-06-27 20:31:00,Completed
+T00287,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-06-27 08:40:00,2026-06-27 20:40:00,2026-06-27 14:12:00,Completed
+T00288,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-08-13 12:40:00,2026-08-14 00:40:00,2026-08-13 20:40:00,Completed
+T00289,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-08-29 10:10:00,2026-08-29 22:10:00,2026-08-29 15:23:00,Completed
+T00290,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-08-13 12:50:00,2026-08-14 12:50:00,2026-08-13 18:29:00,Completed
+T00291,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-08-14 08:50:00,2026-08-14 20:50:00,2026-08-14 17:52:00,Completed
+T00292,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-07-21 11:30:00,2026-07-21 23:30:00,2026-07-21 14:08:00,Completed
+T00293,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-09-18 15:20:00,2026-09-19 03:20:00,2026-09-18 17:06:00,Completed
+T00294,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-06-16 10:30:00,2026-06-17 10:30:00,2026-06-16 12:58:00,Completed
+T00295,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-07-09 10:20:00,2026-07-09 22:20:00,2026-07-09 12:56:00,Completed
+T00296,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-06-07 14:50:00,2026-06-08 02:50:00,2026-06-07 17:21:00,Completed
+T00297,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-06-01 11:30:00,2026-06-02 11:30:00,2026-06-01 13:48:00,Completed
+T00298,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-07-14 09:30:00,2026-07-15 09:30:00,2026-07-14 10:09:00,Completed
+T00299,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-07-11 13:20:00,2026-07-12 13:20:00,2026-07-11 17:33:00,Completed
+T00300,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-08-07 17:00:00,2026-08-08 05:00:00,2026-08-07 19:16:00,Completed
+T00301,Employee Document Verification,HR,E1019,High,Medium,5,1,1,2026-08-18 15:10:00,2026-08-18 21:10:00,2026-08-18 18:07:00,Completed
+T00302,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-07-11 10:10:00,2026-07-11 22:10:00,2026-07-11 15:56:00,Completed
+T00303,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-09-17 12:10:00,2026-09-18 00:10:00,2026-09-17 14:09:00,Completed
+T00304,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-07-20 09:10:00,2026-07-20 21:10:00,2026-07-20 11:27:00,Completed
+T00305,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-06-17 14:40:00,2026-06-18 14:40:00,2026-06-17 15:50:00,Completed
+T00306,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-15 09:00:00,2026-08-16 09:00:00,2026-08-15 11:17:00,Completed
+T00307,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-08-29 14:00:00,2026-08-30 02:00:00,2026-08-29 23:23:00,Completed
+T00308,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-08-21 09:20:00,2026-08-22 09:20:00,2026-08-21 10:21:00,Completed
+T00309,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-07-29 17:40:00,2026-07-30 17:40:00,2026-07-29 18:37:00,Completed
+T00310,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-06-21 15:20:00,2026-06-22 03:20:00,2026-06-21 18:37:00,Completed
+T00311,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-09-22 09:00:00,2026-09-22 21:00:00,2026-09-22 12:29:00,Completed
+T00312,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-06-10 15:30:00,2026-06-11 15:30:00,2026-06-10 18:58:00,Completed
+T00313,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-06-14 17:50:00,2026-06-15 17:50:00,2026-06-15 02:26:00,Completed
+T00314,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-06-23 08:40:00,2026-06-23 20:40:00,2026-06-23 10:44:00,Completed
+T00315,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-08-13 13:00:00,2026-08-14 01:00:00,2026-08-13 14:24:00,Completed
+T00316,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-06-09 15:20:00,2026-06-10 15:20:00,2026-06-09 18:07:00,Completed
+T00317,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-09-09 12:50:00,2026-09-10 12:50:00,2026-09-09 14:00:00,Completed
+T00318,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-20 08:30:00,2026-06-21 08:30:00,2026-06-20 09:44:00,Completed
+T00319,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-09-06 14:50:00,2026-09-07 14:50:00,2026-09-06 16:51:00,Completed
+T00320,Vendor Onboarding,Procurement,E1007,High,Complex,8,3,2,2026-06-19 12:00:00,2026-06-19 18:00:00,2026-06-19 19:57:00,Completed_Late
+T00321,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-08-14 09:40:00,2026-08-14 21:40:00,2026-08-14 17:08:00,Completed
+T00322,Leave Approval,HR,E1021,High,Simple,2,1,0,2026-07-01 12:20:00,2026-07-01 18:20:00,2026-07-01 14:14:00,Completed
+T00323,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-06-30 09:10:00,2026-06-30 21:10:00,2026-06-30 17:31:00,Completed
+T00324,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-09-07 11:30:00,2026-09-07 23:30:00,2026-09-07 14:34:00,Completed
+T00325,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-08-29 17:00:00,2026-08-30 05:00:00,2026-08-29 19:33:00,Completed
+T00326,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-08-05 08:50:00,2026-08-06 08:50:00,2026-08-05 15:55:00,Completed
+T00327,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-07-02 09:30:00,2026-07-02 21:30:00,2026-07-02 18:51:00,Completed
+T00328,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-08-14 17:20:00,2026-08-15 17:20:00,2026-08-14 18:38:00,Completed
+T00329,Invoice Verification,Finance,E1001,High,Medium,5,1,1,2026-09-24 13:00:00,2026-09-24 19:00:00,2026-09-24 16:11:00,Completed
+T00330,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-06-04 14:50:00,2026-06-05 14:50:00,2026-06-04 15:59:00,Completed
+T00331,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-08-18 17:40:00,2026-08-19 05:40:00,2026-08-18 18:59:00,Completed
+T00332,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-07-06 14:10:00,2026-07-07 14:10:00,2026-07-06 21:43:00,Completed
+T00333,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-09-09 13:30:00,2026-09-10 01:30:00,2026-09-09 18:23:00,Completed
+T00334,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-08-16 11:00:00,2026-08-17 11:00:00,2026-08-16 12:06:00,Completed
+T00335,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-06-13 11:50:00,2026-06-14 11:50:00,2026-06-13 16:30:00,Completed
+T00336,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-07-01 17:20:00,2026-07-02 05:20:00,2026-07-01 19:19:00,Completed
+T00337,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-06-25 15:40:00,2026-06-26 15:40:00,2026-06-25 16:21:00,Completed
+T00338,Invoice Verification,Finance,E1003,High,Medium,5,1,1,2026-08-07 15:00:00,2026-08-07 21:00:00,2026-08-07 16:50:00,Completed
+T00339,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-06-03 10:40:00,2026-06-03 16:40:00,2026-06-03 11:37:00,Completed
+T00340,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-07-18 14:40:00,2026-07-19 14:40:00,2026-07-18 18:20:00,Completed
+T00341,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-08-21 15:50:00,2026-08-22 15:50:00,2026-08-21 18:58:00,Completed
+T00342,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-08-15 10:30:00,2026-08-15 22:30:00,2026-08-15 17:19:00,Completed
+T00343,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-09-17 17:00:00,2026-09-18 05:00:00,2026-09-18 00:35:00,Completed
+T00344,Invoice Verification,Finance,E1003,High,Medium,5,1,1,2026-09-04 09:10:00,2026-09-04 15:10:00,2026-09-04 12:59:00,Completed
+T00345,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-09-02 13:30:00,2026-09-03 13:30:00,2026-09-02 14:32:00,Completed
+T00346,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-06-07 14:30:00,2026-06-08 14:30:00,2026-06-07 16:45:00,Completed
+T00347,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-07-19 09:30:00,2026-07-19 21:30:00,2026-07-19 10:51:00,Completed
+T00348,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-03 13:20:00,2026-06-04 13:20:00,2026-06-03 14:52:00,Completed
+T00349,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-08-16 17:30:00,2026-08-17 17:30:00,2026-08-16 21:09:00,Completed
+T00350,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-07-13 11:10:00,2026-07-13 23:10:00,2026-07-13 16:49:00,Completed
+T00351,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-06-07 14:40:00,2026-06-08 02:40:00,2026-06-07 17:50:00,Completed
+T00352,Vendor Onboarding,Procurement,E1009,High,Complex,8,3,2,2026-06-27 10:50:00,2026-06-27 16:50:00,2026-06-27 20:22:00,Completed_Late
+T00353,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-06-12 16:30:00,2026-06-13 16:30:00,2026-06-12 18:55:00,Completed
+T00354,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-07-30 12:10:00,2026-07-31 00:10:00,2026-07-30 15:04:00,Completed
+T00355,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-09 14:40:00,2026-08-10 02:40:00,2026-08-09 16:53:00,Completed
+T00356,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-09-21 11:30:00,2026-09-22 11:30:00,2026-09-21 13:01:00,Completed
+T00357,Vendor Onboarding,Procurement,E1008,High,Complex,8,3,2,2026-09-05 15:10:00,2026-09-05 21:10:00,2026-09-05 23:35:00,Completed_Late
+T00358,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-07-11 09:00:00,2026-07-11 21:00:00,2026-07-11 15:10:00,Completed
+T00359,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-09-09 17:40:00,2026-09-10 05:40:00,2026-09-09 21:02:00,Completed
+T00360,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-09-06 09:00:00,2026-09-06 21:00:00,2026-09-06 17:42:00,Completed
+T00361,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-07-20 15:40:00,2026-07-21 03:40:00,2026-07-20 16:30:00,Completed
+T00362,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-09-21 13:50:00,2026-09-22 13:50:00,2026-09-21 15:42:00,Completed
+T00363,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-07-06 15:50:00,2026-07-07 15:50:00,2026-07-06 22:58:00,Completed
+T00364,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-07-05 14:40:00,2026-07-06 14:40:00,2026-07-05 17:11:00,Completed
+T00365,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-08-06 13:00:00,2026-08-07 01:00:00,2026-08-06 15:19:00,Completed
+T00366,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-09-17 16:40:00,2026-09-18 16:40:00,2026-09-17 21:27:00,Completed
+T00367,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-06-26 12:20:00,2026-06-27 00:20:00,2026-06-26 14:02:00,Completed
+T00368,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-06-23 15:40:00,2026-06-24 15:40:00,2026-06-23 19:17:00,Completed
+T00369,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-06-21 17:10:00,2026-06-22 05:10:00,2026-06-21 17:52:00,Completed
+T00370,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-07-31 10:50:00,2026-07-31 22:50:00,2026-07-31 11:41:00,Completed
+T00371,Incident Review,Operations,E1016,Low,Complex,7,2,2,2026-07-25 14:20:00,2026-07-26 14:20:00,2026-07-25 23:23:00,Completed
+T00372,Employee Document Verification,HR,E1024,High,Medium,5,1,1,2026-06-14 08:40:00,2026-06-14 14:40:00,2026-06-14 11:28:00,Completed
+T00373,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-07-09 09:30:00,2026-07-10 09:30:00,2026-07-09 18:07:00,Completed
+T00374,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-06-20 16:10:00,2026-06-21 04:10:00,2026-06-20 22:42:00,Completed
+T00375,Employee Document Verification,HR,E1021,High,Medium,5,1,1,2026-08-23 15:20:00,2026-08-23 21:20:00,2026-08-23 20:42:00,Completed
+T00376,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-09-09 15:50:00,2026-09-10 03:50:00,2026-09-09 16:49:00,Completed
+T00377,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-13 15:10:00,2026-06-14 15:10:00,2026-06-13 20:33:00,Completed
+T00378,BOQ Review,Procurement,E1012,High,Medium,3,1,1,2026-06-29 13:10:00,2026-06-29 19:10:00,2026-06-29 15:55:00,Completed
+T00379,Invoice Verification,Finance,E1001,High,Medium,5,1,1,2026-07-30 09:30:00,2026-07-30 15:30:00,2026-07-30 14:39:00,Completed
+T00380,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-06-07 10:10:00,2026-06-08 10:10:00,2026-06-07 12:54:00,Completed
+T00381,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-06-11 15:20:00,2026-06-11 21:20:00,2026-06-11 16:13:00,Completed
+T00382,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-08-13 10:30:00,2026-08-14 10:30:00,2026-08-13 14:58:00,Completed
+T00383,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-06-05 16:10:00,2026-06-06 16:10:00,2026-06-05 19:43:00,Completed
+T00384,Employee Document Verification,HR,E1024,High,Medium,5,1,1,2026-08-20 11:10:00,2026-08-20 17:10:00,2026-08-20 13:58:00,Completed
+T00385,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-06-22 09:00:00,2026-06-22 15:00:00,2026-06-22 12:49:00,Completed
+T00386,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-06-18 13:30:00,2026-06-19 01:30:00,2026-06-18 18:09:00,Completed
+T00387,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-08-04 10:00:00,2026-08-04 22:00:00,2026-08-04 13:05:00,Completed
+T00388,Incident Review,Operations,E1017,High,Complex,7,2,2,2026-08-08 17:00:00,2026-08-08 23:00:00,2026-08-08 22:32:00,Completed
+T00389,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-07-24 15:30:00,2026-07-25 03:30:00,2026-07-24 18:00:00,Completed
+T00390,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-07-09 14:50:00,2026-07-10 02:50:00,2026-07-09 17:28:00,Completed
+T00391,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-09-01 17:00:00,2026-09-02 17:00:00,2026-09-01 18:47:00,Completed
+T00392,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-06-26 13:50:00,2026-06-27 13:50:00,2026-06-26 17:13:00,Completed
+T00393,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-07-13 11:00:00,2026-07-13 23:00:00,2026-07-13 18:11:00,Completed
+T00394,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-10 09:20:00,2026-06-11 09:20:00,2026-06-10 17:20:00,Completed
+T00395,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-09-03 09:00:00,2026-09-04 09:00:00,2026-09-03 10:12:00,Completed
+T00396,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-09-21 09:20:00,2026-09-22 09:20:00,2026-09-21 11:38:00,Completed
+T00397,Incident Review,Operations,E1018,High,Complex,7,2,2,2026-09-17 15:30:00,2026-09-17 21:30:00,2026-09-17 22:01:00,Completed_Late
+T00398,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-14 14:40:00,2026-06-15 02:40:00,2026-06-14 17:46:00,Completed
+T00399,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-06-04 10:30:00,2026-06-05 10:30:00,2026-06-04 21:32:00,Completed
+T00400,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-06-29 13:40:00,2026-06-30 01:40:00,2026-06-29 19:10:00,Completed
+T00401,Incident Review,Operations,E1017,High,Complex,7,2,2,2026-08-24 14:10:00,2026-08-24 20:10:00,2026-08-24 21:07:00,Completed_Late
+T00402,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-09-18 15:10:00,2026-09-19 03:10:00,2026-09-18 21:10:00,Completed
+T00403,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-08-10 14:30:00,2026-08-11 14:30:00,2026-08-10 20:59:00,Completed
+T00404,Leave Approval,HR,E1019,Medium,Simple,2,1,0,2026-06-14 14:30:00,2026-06-15 02:30:00,2026-06-14 16:46:00,Completed
+T00405,Daily Operations Report,Operations,E1018,Medium,Simple,4,0,0,2026-08-11 11:50:00,2026-08-11 23:50:00,2026-08-11 15:07:00,Completed
+T00406,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-08-31 15:00:00,2026-09-01 03:00:00,2026-08-31 19:02:00,Completed
+T00407,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-08-06 13:50:00,2026-08-07 13:50:00,2026-08-06 15:57:00,Completed
+T00408,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-07-03 17:10:00,2026-07-04 17:10:00,2026-07-03 20:10:00,Completed
+T00409,Leave Approval,HR,E1019,High,Simple,2,1,0,2026-07-14 09:30:00,2026-07-14 15:30:00,2026-07-14 11:36:00,Completed
+T00410,Expense Approval,Finance,E1002,High,Simple,3,1,0,2026-08-24 17:40:00,2026-08-24 23:40:00,2026-08-24 23:08:00,Completed
+T00411,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-09-02 10:00:00,2026-09-02 22:00:00,2026-09-02 12:32:00,Completed
+T00412,Incident Review,Operations,E1016,High,Complex,7,2,2,2026-08-28 11:20:00,2026-08-28 17:20:00,2026-08-28 23:29:00,Completed_Late
+T00413,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-08-20 11:10:00,2026-08-20 23:10:00,2026-08-20 18:03:00,Completed
+T00414,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-08-04 16:50:00,2026-08-05 16:50:00,2026-08-05 00:14:00,Completed
+T00415,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-08-26 16:20:00,2026-08-27 04:20:00,2026-08-26 21:00:00,Completed
+T00416,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-06-26 12:10:00,2026-06-27 00:10:00,2026-06-26 19:59:00,Completed
+T00417,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-06-05 13:30:00,2026-06-06 01:30:00,2026-06-05 16:32:00,Completed
+T00418,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-07-01 16:50:00,2026-07-02 04:50:00,2026-07-02 03:29:00,Completed
+T00419,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-06-07 08:50:00,2026-06-08 08:50:00,2026-06-07 21:25:00,Completed
+T00420,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-09-05 17:40:00,2026-09-06 05:40:00,2026-09-05 22:45:00,Completed
+T00421,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-06-24 10:50:00,2026-06-25 10:50:00,2026-06-24 17:17:00,Completed
+T00422,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-09-17 12:00:00,2026-09-18 00:00:00,2026-09-17 12:44:00,Completed
+T00423,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-02 17:40:00,2026-08-03 17:40:00,2026-08-02 19:34:00,Completed
+T00424,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-06-09 16:10:00,2026-06-10 04:10:00,2026-06-09 23:10:00,Completed
+T00425,BOQ Review,Procurement,E1008,High,Medium,3,1,1,2026-07-13 13:20:00,2026-07-13 19:20:00,2026-07-13 15:57:00,Completed
+T00426,Employee Document Verification,HR,E1020,High,Medium,5,1,1,2026-06-15 13:30:00,2026-06-15 19:30:00,2026-06-15 15:59:00,Completed
+T00427,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-09-10 09:30:00,2026-09-10 21:30:00,2026-09-10 11:22:00,Completed
+T00428,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-09-11 16:30:00,2026-09-12 16:30:00,2026-09-11 18:13:00,Completed
+T00429,Daily Operations Report,Operations,E1013,Medium,Simple,4,0,0,2026-09-07 16:40:00,2026-09-08 04:40:00,2026-09-07 18:03:00,Completed
+T00430,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-06-27 16:50:00,2026-06-28 04:50:00,2026-06-27 21:00:00,Completed
+T00431,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-31 13:00:00,2026-09-01 13:00:00,2026-09-01 00:56:00,Completed
+T00432,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-07-26 13:00:00,2026-07-27 01:00:00,2026-07-26 20:41:00,Completed
+T00433,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-08-29 09:20:00,2026-08-30 09:20:00,2026-08-29 11:30:00,Completed
+T00434,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-07-21 08:30:00,2026-07-21 20:30:00,2026-07-21 16:28:00,Completed
+T00435,Employee Document Verification,HR,E1023,High,Medium,5,1,1,2026-07-09 13:00:00,2026-07-09 19:00:00,2026-07-09 17:34:00,Completed
+T00436,Vendor Onboarding,Procurement,E1008,Low,Complex,8,3,2,2026-07-23 16:10:00,2026-07-24 16:10:00,2026-07-24 03:47:00,Completed
+T00437,Daily Operations Report,Operations,E1018,Medium,Simple,4,0,0,2026-07-03 09:10:00,2026-07-03 21:10:00,2026-07-03 09:57:00,Completed
+T00438,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-07-07 17:00:00,2026-07-08 17:00:00,2026-07-07 20:45:00,Completed
+T00439,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-06-20 17:40:00,2026-06-21 05:40:00,2026-06-21 03:37:00,Completed
+T00440,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-06 13:10:00,2026-07-07 01:10:00,2026-07-06 19:33:00,Completed
+T00441,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-06-14 10:50:00,2026-06-15 10:50:00,2026-06-14 11:49:00,Completed
+T00442,Expense Approval,Finance,E1001,High,Simple,3,1,0,2026-09-02 09:50:00,2026-09-02 15:50:00,2026-09-02 14:01:00,Completed
+T00443,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-09-23 16:30:00,2026-09-24 04:30:00,2026-09-23 20:09:00,Completed
+T00444,Leave Approval,HR,E1022,Medium,Simple,2,1,0,2026-09-18 12:10:00,2026-09-19 00:10:00,2026-09-18 14:33:00,Completed
+T00445,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-08-18 10:40:00,2026-08-19 10:40:00,2026-08-18 13:15:00,Completed
+T00446,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-07-16 08:10:00,2026-07-17 08:10:00,2026-07-16 12:28:00,Completed
+T00447,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-06-06 13:00:00,2026-06-06 19:00:00,2026-06-06 14:32:00,Completed
+T00448,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-08-23 14:20:00,2026-08-24 02:20:00,2026-08-23 15:24:00,Completed
+T00449,Daily Operations Report,Operations,E1016,High,Simple,4,0,0,2026-07-16 13:30:00,2026-07-16 19:30:00,2026-07-16 14:14:00,Completed
+T00450,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-06-10 16:50:00,2026-06-11 16:50:00,2026-06-10 18:52:00,Completed
+T00451,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-06-30 14:20:00,2026-07-01 14:20:00,2026-06-30 16:29:00,Completed
+T00452,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-06-03 11:00:00,2026-06-03 23:00:00,2026-06-03 13:21:00,Completed
+T00453,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-06-08 10:20:00,2026-06-08 22:20:00,2026-06-08 18:12:00,Completed
+T00454,Employee Document Verification,HR,E1023,High,Medium,5,1,1,2026-06-11 11:30:00,2026-06-11 17:30:00,2026-06-11 14:55:00,Completed
+T00455,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-06-19 17:10:00,2026-06-20 05:10:00,2026-06-19 20:12:00,Completed
+T00456,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-08-15 09:10:00,2026-08-16 09:10:00,2026-08-15 11:41:00,Completed
+T00457,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-20 17:00:00,2026-06-21 05:00:00,2026-06-20 18:59:00,Completed
+T00458,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-08-01 10:40:00,2026-08-01 22:40:00,2026-08-01 17:13:00,Completed
+T00459,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-07-25 11:30:00,2026-07-26 11:30:00,2026-07-25 14:30:00,Completed
+T00460,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-07-25 10:20:00,2026-07-25 22:20:00,2026-07-25 13:14:00,Completed
+T00461,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-07-03 11:00:00,2026-07-03 23:00:00,2026-07-03 20:53:00,Completed
+T00462,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-28 13:30:00,2026-08-29 13:30:00,2026-08-28 15:46:00,Completed
+T00463,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-07-17 17:20:00,2026-07-18 17:20:00,2026-07-17 19:41:00,Completed
+T00464,Incident Review,Operations,E1016,Low,Complex,7,2,2,2026-07-18 16:40:00,2026-07-19 16:40:00,2026-07-19 00:04:00,Completed
+T00465,Vendor Onboarding,Procurement,E1012,High,Complex,8,3,2,2026-09-04 11:30:00,2026-09-04 17:30:00,2026-09-04 20:02:00,Completed_Late
+T00466,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-06-21 14:50:00,2026-06-22 02:50:00,2026-06-21 17:02:00,Completed
+T00467,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-09 12:10:00,2026-06-10 12:10:00,2026-06-09 16:11:00,Completed
+T00468,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-09-08 10:50:00,2026-09-09 10:50:00,2026-09-08 12:40:00,Completed
+T00469,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-09-09 17:40:00,2026-09-10 05:40:00,2026-09-10 03:11:00,Completed
+T00470,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-07-16 14:30:00,2026-07-17 14:30:00,2026-07-16 23:41:00,Completed
+T00471,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-08-14 13:20:00,2026-08-15 13:20:00,2026-08-14 17:20:00,Completed
+T00472,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-07-23 16:00:00,2026-07-24 16:00:00,2026-07-24 00:57:00,Completed
+T00473,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-07-19 17:30:00,2026-07-20 05:30:00,2026-07-20 02:08:00,Completed
+T00474,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-08-01 09:20:00,2026-08-02 09:20:00,2026-08-01 12:01:00,Completed
+T00475,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-07-16 16:40:00,2026-07-17 04:40:00,2026-07-17 02:15:00,Completed
+T00476,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-07-16 11:40:00,2026-07-17 11:40:00,2026-07-16 16:18:00,Completed
+T00477,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-09-20 12:10:00,2026-09-21 12:10:00,2026-09-20 13:39:00,Completed
+T00478,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-06-11 15:40:00,2026-06-12 03:40:00,2026-06-12 01:07:00,Completed
+T00479,Invoice Verification,Finance,E1002,High,Medium,5,1,1,2026-09-20 12:30:00,2026-09-20 18:30:00,2026-09-20 15:12:00,Completed
+T00480,Incident Review,Operations,E1016,High,Complex,7,2,2,2026-06-07 16:30:00,2026-06-07 22:30:00,2026-06-08 01:44:00,Completed_Late
+T00481,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-07-29 09:50:00,2026-07-29 21:50:00,2026-07-29 16:28:00,Completed
+T00482,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-07-12 13:40:00,2026-07-13 13:40:00,2026-07-12 16:32:00,Completed
+T00483,Expense Approval,Finance,E1004,Low,Simple,3,1,0,2026-07-17 10:30:00,2026-07-18 10:30:00,2026-07-17 12:34:00,Completed
+T00484,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-06-24 17:10:00,2026-06-25 05:10:00,2026-06-24 23:31:00,Completed
+T00485,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-09-18 14:10:00,2026-09-19 02:10:00,2026-09-18 16:27:00,Completed
+T00486,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-08-03 10:50:00,2026-08-03 22:50:00,2026-08-03 15:39:00,Completed
+T00487,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-06-13 10:00:00,2026-06-13 22:00:00,2026-06-13 16:21:00,Completed
+T00488,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-07-17 16:40:00,2026-07-18 16:40:00,2026-07-18 00:38:00,Completed
+T00489,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-08-13 16:10:00,2026-08-14 16:10:00,2026-08-13 20:31:00,Completed
+T00490,Vendor Onboarding,Procurement,E1012,High,Complex,8,3,2,2026-08-18 12:30:00,2026-08-18 18:30:00,2026-08-18 22:28:00,Completed_Late
+T00491,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-07-22 09:00:00,2026-07-23 09:00:00,2026-07-22 11:36:00,Completed
+T00492,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-08-22 14:20:00,2026-08-23 02:20:00,2026-08-22 16:52:00,Completed
+T00493,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-06-24 08:10:00,2026-06-25 08:10:00,2026-06-24 12:31:00,Completed
+T00494,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-08-10 08:00:00,2026-08-10 20:00:00,2026-08-10 10:11:00,Completed
+T00495,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-09-22 14:20:00,2026-09-23 14:20:00,2026-09-22 16:40:00,Completed
+T00496,Purchase Request,Procurement,E1009,High,Medium,4,2,1,2026-06-04 08:50:00,2026-06-04 14:50:00,2026-06-04 15:07:00,Completed_Late
+T00497,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-07-27 10:50:00,2026-07-28 10:50:00,2026-07-27 12:52:00,Completed
+T00498,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-08-08 12:20:00,2026-08-09 00:20:00,2026-08-08 14:57:00,Completed
+T00499,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-06-20 12:00:00,2026-06-21 00:00:00,2026-06-20 18:52:00,Completed
+T00500,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-09-05 15:20:00,2026-09-06 03:20:00,2026-09-05 17:33:00,Completed
+T00501,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-07-18 11:30:00,2026-07-19 11:30:00,2026-07-18 13:53:00,Completed
+T00502,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-06-29 12:00:00,2026-06-30 00:00:00,2026-06-29 21:07:00,Completed
+T00503,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-08-23 16:20:00,2026-08-24 16:20:00,2026-08-24 02:50:00,Completed
+T00504,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-07-05 17:30:00,2026-07-06 17:30:00,2026-07-05 18:22:00,Completed
+T00505,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-07-07 12:10:00,2026-07-08 12:10:00,2026-07-07 13:30:00,Completed
+T00506,Employee Document Verification,HR,E1022,High,Medium,5,1,1,2026-07-14 14:20:00,2026-07-14 20:20:00,2026-07-14 15:44:00,Completed
+T00507,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-07-05 14:00:00,2026-07-06 02:00:00,2026-07-05 17:55:00,Completed
+T00508,Vendor Onboarding,Procurement,E1012,High,Complex,8,3,2,2026-07-20 15:10:00,2026-07-20 21:10:00,2026-07-21 02:05:00,Completed_Late
+T00509,Invoice Verification,Finance,E1003,High,Medium,5,1,1,2026-07-31 14:50:00,2026-07-31 20:50:00,2026-07-31 17:54:00,Completed
+T00510,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-16 12:30:00,2026-06-17 12:30:00,2026-06-16 17:26:00,Completed
+T00511,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-07-12 08:10:00,2026-07-12 20:10:00,2026-07-12 12:01:00,Completed
+T00512,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-08-28 15:50:00,2026-08-29 15:50:00,2026-08-28 18:27:00,Completed
+T00513,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-08-19 13:50:00,2026-08-20 13:50:00,2026-08-19 14:51:00,Completed
+T00514,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-08-02 11:20:00,2026-08-02 23:20:00,2026-08-02 16:00:00,Completed
+T00515,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-07-16 10:20:00,2026-07-16 22:20:00,2026-07-16 13:30:00,Completed
+T00516,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-06-24 16:20:00,2026-06-25 04:20:00,2026-06-24 19:11:00,Completed
+T00517,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-06-09 16:10:00,2026-06-10 16:10:00,2026-06-09 19:34:00,Completed
+T00518,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-06-24 08:40:00,2026-06-24 20:40:00,2026-06-24 14:12:00,Completed
+T00519,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-08-10 10:40:00,2026-08-11 10:40:00,2026-08-10 16:09:00,Completed
+T00520,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-06-13 08:40:00,2026-06-13 20:40:00,2026-06-13 09:37:00,Completed
+T00521,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-07-17 11:40:00,2026-07-18 11:40:00,2026-07-17 14:17:00,Completed
+T00522,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-07-17 16:50:00,2026-07-18 04:50:00,2026-07-17 22:27:00,Completed
+T00523,Employee Document Verification,HR,E1020,High,Medium,5,1,1,2026-09-15 12:00:00,2026-09-15 18:00:00,2026-09-15 13:55:00,Completed
+T00524,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-25 16:50:00,2026-06-26 04:50:00,2026-06-25 19:51:00,Completed
+T00525,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-08-21 17:20:00,2026-08-22 05:20:00,2026-08-21 22:29:00,Completed
+T00526,Vendor Onboarding,Procurement,E1009,High,Complex,8,3,2,2026-08-08 17:30:00,2026-08-08 23:30:00,2026-08-09 04:07:00,Completed_Late
+T00527,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-08-17 11:40:00,2026-08-18 11:40:00,2026-08-17 18:01:00,Completed
+T00528,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-06-01 08:20:00,2026-06-02 08:20:00,2026-06-01 09:47:00,Completed
+T00529,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-09-18 13:00:00,2026-09-19 01:00:00,2026-09-18 19:17:00,Completed
+T00530,Vendor Onboarding,Procurement,E1008,Low,Complex,8,3,2,2026-06-05 15:20:00,2026-06-06 15:20:00,2026-06-05 21:58:00,Completed
+T00531,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-07-22 17:10:00,2026-07-23 17:10:00,2026-07-23 03:40:00,Completed
+T00532,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-08-16 12:00:00,2026-08-17 00:00:00,2026-08-16 17:30:00,Completed
+T00533,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-06-30 17:00:00,2026-07-01 05:00:00,2026-06-30 19:53:00,Completed
+T00534,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-07-12 16:50:00,2026-07-13 16:50:00,2026-07-12 20:29:00,Completed
+T00535,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-08-04 09:10:00,2026-08-05 09:10:00,2026-08-04 10:06:00,Completed
+T00536,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-08-10 14:20:00,2026-08-11 14:20:00,2026-08-10 17:37:00,Completed
+T00537,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-06-26 15:30:00,2026-06-27 03:30:00,2026-06-26 17:29:00,Completed
+T00538,Vendor Onboarding,Procurement,E1012,High,Complex,8,3,2,2026-07-05 14:20:00,2026-07-05 20:20:00,2026-07-05 21:30:00,Completed_Late
+T00539,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-07-12 13:40:00,2026-07-13 13:40:00,2026-07-12 15:52:00,Completed
+T00540,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-06-19 15:00:00,2026-06-20 15:00:00,2026-06-19 18:15:00,Completed
+T00541,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-07-02 17:10:00,2026-07-03 17:10:00,2026-07-02 23:17:00,Completed
+T00542,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-09-03 16:10:00,2026-09-04 04:10:00,2026-09-03 22:19:00,Completed
+T00543,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-07-19 17:50:00,2026-07-20 17:50:00,2026-07-20 00:30:00,Completed
+T00544,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-06-07 15:50:00,2026-06-08 15:50:00,2026-06-07 22:52:00,Completed
+T00545,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-06-03 12:50:00,2026-06-04 12:50:00,2026-06-03 19:21:00,Completed
+T00546,BOQ Review,Procurement,E1011,High,Medium,3,1,1,2026-06-12 10:10:00,2026-06-12 16:10:00,2026-06-12 12:56:00,Completed
+T00547,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-07-13 15:30:00,2026-07-14 15:30:00,2026-07-13 18:07:00,Completed
+T00548,Leave Approval,HR,E1021,High,Simple,2,1,0,2026-07-06 08:50:00,2026-07-06 14:50:00,2026-07-06 11:12:00,Completed
+T00549,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-08-24 10:00:00,2026-08-25 10:00:00,2026-08-24 12:45:00,Completed
+T00550,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-07-25 12:40:00,2026-07-26 12:40:00,2026-07-25 22:32:00,Completed
+T00551,Employee Document Verification,HR,E1023,High,Medium,5,1,1,2026-07-26 10:50:00,2026-07-26 16:50:00,2026-07-26 12:22:00,Completed
+T00552,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-07-11 10:50:00,2026-07-11 22:50:00,2026-07-11 19:14:00,Completed
+T00553,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-09-08 11:00:00,2026-09-09 11:00:00,2026-09-08 12:43:00,Completed
+T00554,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-06-30 08:20:00,2026-06-30 20:20:00,2026-06-30 15:26:00,Completed
+T00555,Expense Approval,Finance,E1004,Low,Simple,3,1,0,2026-06-24 14:30:00,2026-06-25 14:30:00,2026-06-24 15:41:00,Completed
+T00556,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-07-23 11:50:00,2026-07-23 17:50:00,2026-07-23 13:03:00,Completed
+T00557,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-08-28 13:30:00,2026-08-29 13:30:00,2026-08-28 16:41:00,Completed
+T00558,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-07-11 14:40:00,2026-07-12 02:40:00,2026-07-11 16:29:00,Completed
+T00559,Purchase Request,Procurement,E1007,High,Medium,4,2,1,2026-06-14 15:30:00,2026-06-14 21:30:00,2026-06-14 21:01:00,Completed
+T00560,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-08-06 08:10:00,2026-08-07 08:10:00,2026-08-06 13:37:00,Completed
+T00561,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-08-28 16:10:00,2026-08-29 04:10:00,2026-08-28 19:08:00,Completed
+T00562,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-08-14 16:10:00,2026-08-15 16:10:00,2026-08-14 18:18:00,Completed
+T00563,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-06-12 12:20:00,2026-06-13 00:20:00,2026-06-12 17:22:00,Completed
+T00564,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-08-21 13:00:00,2026-08-22 01:00:00,2026-08-21 14:57:00,Completed
+T00565,BOQ Review,Procurement,E1008,High,Medium,3,1,1,2026-08-10 14:00:00,2026-08-10 20:00:00,2026-08-10 15:56:00,Completed
+T00566,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-09-07 08:30:00,2026-09-08 08:30:00,2026-09-07 13:26:00,Completed
+T00567,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-06-02 15:30:00,2026-06-03 03:30:00,2026-06-02 23:09:00,Completed
+T00568,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-07-29 14:30:00,2026-07-30 02:30:00,2026-07-29 18:03:00,Completed
+T00569,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-08-11 11:00:00,2026-08-12 11:00:00,2026-08-11 13:31:00,Completed
+T00570,Vendor Onboarding,Procurement,E1009,High,Complex,8,3,2,2026-08-13 17:20:00,2026-08-13 23:20:00,2026-08-14 03:00:00,Completed_Late
+T00571,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-08-18 17:40:00,2026-08-19 17:40:00,2026-08-18 20:15:00,Completed
+T00572,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-07-18 14:00:00,2026-07-19 02:00:00,2026-07-18 16:50:00,Completed
+T00573,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-07-13 16:30:00,2026-07-14 16:30:00,2026-07-13 20:05:00,Completed
+T00574,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-06-12 15:50:00,2026-06-13 03:50:00,2026-06-12 21:48:00,Completed
+T00575,Invoice Verification,Finance,E1002,Medium,Medium,5,1,1,2026-08-13 17:20:00,2026-08-14 05:20:00,2026-08-13 21:03:00,Completed
+T00576,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-24 17:10:00,2026-06-25 17:10:00,2026-06-24 23:36:00,Completed
+T00577,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-08-11 11:00:00,2026-08-12 11:00:00,2026-08-11 13:55:00,Completed
+T00578,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-07-21 17:40:00,2026-07-22 05:40:00,2026-07-22 04:34:00,Completed
+T00579,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-09-11 08:50:00,2026-09-11 20:50:00,2026-09-11 10:42:00,Completed
+T00580,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-09-09 14:50:00,2026-09-10 02:50:00,2026-09-09 16:32:00,Completed
+T00581,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-08-13 13:20:00,2026-08-13 19:20:00,2026-08-13 21:35:00,Completed_Late
+T00582,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-08-13 17:30:00,2026-08-14 05:30:00,2026-08-13 22:46:00,Completed
+T00583,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-07-23 09:30:00,2026-07-24 09:30:00,2026-07-23 11:37:00,Completed
+T00584,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-09-09 08:10:00,2026-09-10 08:10:00,2026-09-09 11:09:00,Completed
+T00585,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-09-02 16:20:00,2026-09-03 16:20:00,2026-09-03 00:16:00,Completed
+T00586,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-06-27 08:30:00,2026-06-27 20:30:00,2026-06-27 10:38:00,Completed
+T00587,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-09-17 17:00:00,2026-09-18 05:00:00,2026-09-17 18:31:00,Completed
+T00588,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-08-13 12:50:00,2026-08-14 12:50:00,2026-08-13 13:43:00,Completed
+T00589,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-07-05 10:10:00,2026-07-06 10:10:00,2026-07-05 11:22:00,Completed
+T00590,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-07-05 10:50:00,2026-07-05 22:50:00,2026-07-05 12:43:00,Completed
+T00591,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-07-27 08:10:00,2026-07-27 20:10:00,2026-07-27 10:12:00,Completed
+T00592,Daily Operations Report,Operations,E1017,High,Simple,4,0,0,2026-07-21 10:50:00,2026-07-21 16:50:00,2026-07-21 12:19:00,Completed
+T00593,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-07-13 11:50:00,2026-07-13 23:50:00,2026-07-13 14:08:00,Completed
+T00594,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-09-13 15:00:00,2026-09-14 15:00:00,2026-09-13 16:27:00,Completed
+T00595,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-09-19 17:20:00,2026-09-20 17:20:00,2026-09-19 19:12:00,Completed
+T00596,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-08-02 08:00:00,2026-08-03 08:00:00,2026-08-02 11:00:00,Completed
+T00597,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-08-13 10:40:00,2026-08-14 10:40:00,2026-08-13 12:02:00,Completed
+T00598,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-08-08 15:30:00,2026-08-09 15:30:00,2026-08-08 17:17:00,Completed
+T00599,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-06-09 13:10:00,2026-06-10 01:10:00,2026-06-09 18:48:00,Completed
+T00600,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-08-24 09:50:00,2026-08-24 21:50:00,2026-08-24 12:27:00,Completed
+T00601,Employee Document Verification,HR,E1021,High,Medium,5,1,1,2026-06-13 15:10:00,2026-06-13 21:10:00,2026-06-13 17:54:00,Completed
+T00602,Expense Approval,Finance,E1002,Medium,Simple,3,1,0,2026-08-03 08:00:00,2026-08-03 20:00:00,2026-08-03 12:51:00,Completed
+T00603,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-07-28 11:10:00,2026-07-28 17:10:00,2026-07-28 12:37:00,Completed
+T00604,Purchase Request,Procurement,E1011,High,Medium,4,2,1,2026-06-12 17:00:00,2026-06-12 23:00:00,2026-06-13 00:37:00,Completed_Late
+T00605,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-07-01 14:50:00,2026-07-02 14:50:00,2026-07-01 21:13:00,Completed
+T00606,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-07-31 10:10:00,2026-08-01 10:10:00,2026-07-31 12:56:00,Completed
+T00607,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-06-18 08:00:00,2026-06-19 08:00:00,2026-06-18 09:19:00,Completed
+T00608,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-06-18 14:30:00,2026-06-19 02:30:00,2026-06-18 18:47:00,Completed
+T00609,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-07-28 14:20:00,2026-07-29 14:20:00,2026-07-28 21:36:00,Completed
+T00610,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-07-05 14:40:00,2026-07-06 14:40:00,2026-07-05 22:05:00,Completed
+T00611,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-06-19 16:20:00,2026-06-20 04:20:00,2026-06-19 18:41:00,Completed
+T00612,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-08-21 16:40:00,2026-08-22 04:40:00,2026-08-21 20:18:00,Completed
+T00613,Invoice Verification,Finance,E1006,High,Medium,5,1,1,2026-07-08 10:00:00,2026-07-08 16:00:00,2026-07-08 11:51:00,Completed
+T00614,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-08-20 15:40:00,2026-08-21 03:40:00,2026-08-20 22:53:00,Completed
+T00615,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-06-17 16:00:00,2026-06-18 16:00:00,2026-06-17 18:32:00,Completed
+T00616,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-06-15 17:10:00,2026-06-16 05:10:00,2026-06-16 00:51:00,Completed
+T00617,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-08-02 10:40:00,2026-08-03 10:40:00,2026-08-02 13:38:00,Completed
+T00618,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-07-20 11:50:00,2026-07-20 23:50:00,2026-07-20 16:59:00,Completed
+T00619,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-09-05 09:00:00,2026-09-05 21:00:00,2026-09-05 16:46:00,Completed
+T00620,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-08-27 14:30:00,2026-08-28 14:30:00,2026-08-27 17:06:00,Completed
+T00621,Invoice Verification,Finance,E1006,High,Medium,5,1,1,2026-08-26 13:40:00,2026-08-26 19:40:00,2026-08-26 17:22:00,Completed
+T00622,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-08-23 12:20:00,2026-08-24 12:20:00,2026-08-23 15:49:00,Completed
+T00623,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-08-26 11:50:00,2026-08-26 23:50:00,2026-08-26 18:33:00,Completed
+T00624,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-06-02 08:00:00,2026-06-03 08:00:00,2026-06-02 10:19:00,Completed
+T00625,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-07-07 12:10:00,2026-07-08 12:10:00,2026-07-07 14:08:00,Completed
+T00626,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-08-30 09:00:00,2026-08-31 09:00:00,2026-08-30 10:28:00,Completed
+T00627,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-08-29 10:20:00,2026-08-29 22:20:00,2026-08-29 11:50:00,Completed
+T00628,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-06-21 09:20:00,2026-06-22 09:20:00,2026-06-21 12:09:00,Completed
+T00629,Expense Approval,Finance,E1002,Medium,Simple,3,1,0,2026-06-26 17:30:00,2026-06-27 05:30:00,2026-06-26 19:27:00,Completed
+T00630,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-08-22 09:30:00,2026-08-23 09:30:00,2026-08-22 11:49:00,Completed
+T00631,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-07-28 08:30:00,2026-07-28 20:30:00,2026-07-28 15:14:00,Completed
+T00632,Incident Review,Operations,E1018,High,Complex,7,2,2,2026-08-13 08:40:00,2026-08-13 14:40:00,2026-08-13 14:25:00,Completed
+T00633,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-06-01 14:50:00,2026-06-02 14:50:00,2026-06-01 17:22:00,Completed
+T00634,Invoice Verification,Finance,E1005,High,Medium,5,1,1,2026-08-22 09:20:00,2026-08-22 15:20:00,2026-08-22 12:15:00,Completed
+T00635,Purchase Request,Procurement,E1007,High,Medium,4,2,1,2026-06-26 10:40:00,2026-06-26 16:40:00,2026-06-26 16:43:00,Completed_Late
+T00636,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-08-02 09:50:00,2026-08-02 21:50:00,2026-08-02 15:23:00,Completed
+T00637,Leave Approval,HR,E1022,High,Simple,2,1,0,2026-07-10 15:40:00,2026-07-10 21:40:00,2026-07-10 19:07:00,Completed
+T00638,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-09-20 16:10:00,2026-09-21 04:10:00,2026-09-20 20:49:00,Completed
+T00639,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-08-19 08:10:00,2026-08-19 20:10:00,2026-08-19 17:14:00,Completed
+T00640,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-09-13 09:00:00,2026-09-13 21:00:00,2026-09-13 11:35:00,Completed
+T00641,Daily Operations Report,Operations,E1013,High,Simple,4,0,0,2026-09-12 14:20:00,2026-09-12 20:20:00,2026-09-12 15:14:00,Completed
+T00642,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-08-15 10:20:00,2026-08-16 10:20:00,2026-08-15 12:07:00,Completed
+T00643,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-07-02 17:00:00,2026-07-03 17:00:00,2026-07-03 01:38:00,Completed
+T00644,Daily Operations Report,Operations,E1014,High,Simple,4,0,0,2026-06-11 08:00:00,2026-06-11 14:00:00,2026-06-11 09:16:00,Completed
+T00645,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-06-27 10:50:00,2026-06-27 22:50:00,2026-06-27 13:20:00,Completed
+T00646,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-08-16 10:50:00,2026-08-16 22:50:00,2026-08-16 15:56:00,Completed
+T00647,Invoice Verification,Finance,E1005,High,Medium,5,1,1,2026-07-01 11:00:00,2026-07-01 17:00:00,2026-07-01 14:04:00,Completed
+T00648,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-06-29 15:50:00,2026-06-30 15:50:00,2026-06-29 17:43:00,Completed
+T00649,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-06-23 10:50:00,2026-06-24 10:50:00,2026-06-23 12:55:00,Completed
+T00650,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-09-12 15:00:00,2026-09-13 03:00:00,2026-09-12 18:26:00,Completed
+T00651,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-06-15 09:10:00,2026-06-16 09:10:00,2026-06-15 10:08:00,Completed
+T00652,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-09-08 09:20:00,2026-09-09 09:20:00,2026-09-08 10:50:00,Completed
+T00653,BOQ Review,Procurement,E1007,High,Medium,3,1,1,2026-07-31 17:30:00,2026-07-31 23:30:00,2026-07-31 19:46:00,Completed
+T00654,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-07-18 10:30:00,2026-07-19 10:30:00,2026-07-18 14:23:00,Completed
+T00655,Employee Document Verification,HR,E1019,High,Medium,5,1,1,2026-06-08 12:10:00,2026-06-08 18:10:00,2026-06-08 14:10:00,Completed
+T00656,Employee Document Verification,HR,E1023,High,Medium,5,1,1,2026-08-17 10:50:00,2026-08-17 16:50:00,2026-08-17 14:14:00,Completed
+T00657,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-09-19 11:40:00,2026-09-19 23:40:00,2026-09-19 18:22:00,Completed
+T00658,BOQ Review,Procurement,E1011,High,Medium,3,1,1,2026-07-26 17:10:00,2026-07-26 23:10:00,2026-07-26 19:19:00,Completed
+T00659,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-09-02 16:00:00,2026-09-03 04:00:00,2026-09-02 19:21:00,Completed
+T00660,Daily Operations Report,Operations,E1013,Medium,Simple,4,0,0,2026-07-01 09:40:00,2026-07-01 21:40:00,2026-07-01 10:49:00,Completed
+T00661,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-08-01 12:10:00,2026-08-02 00:10:00,2026-08-01 14:48:00,Completed
+T00662,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-06-18 14:10:00,2026-06-19 02:10:00,2026-06-19 03:42:00,Completed_Late
+T00663,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-08-13 11:50:00,2026-08-13 23:50:00,2026-08-13 12:50:00,Completed
+T00664,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-15 14:20:00,2026-06-16 02:20:00,2026-06-15 16:50:00,Completed
+T00665,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-09-08 11:10:00,2026-09-09 11:10:00,2026-09-08 12:24:00,Completed
+T00666,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-07-12 13:20:00,2026-07-13 01:20:00,2026-07-12 15:12:00,Completed
+T00667,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-08-04 16:00:00,2026-08-05 04:00:00,2026-08-05 02:24:00,Completed
+T00668,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-25 15:00:00,2026-06-26 15:00:00,2026-06-25 18:26:00,Completed
+T00669,Employee Document Verification,HR,E1020,High,Medium,5,1,1,2026-06-15 10:30:00,2026-06-15 16:30:00,2026-06-15 14:28:00,Completed
+T00670,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-06-17 15:20:00,2026-06-18 15:20:00,2026-06-17 17:44:00,Completed
+T00671,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-30 16:50:00,2026-07-01 16:50:00,2026-07-01 01:07:00,Completed
+T00672,Incident Review,Operations,E1016,Low,Complex,7,2,2,2026-09-16 16:30:00,2026-09-17 16:30:00,2026-09-16 22:25:00,Completed
+T00673,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-07-18 12:00:00,2026-07-19 12:00:00,2026-07-18 13:45:00,Completed
+T00674,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-06-23 10:10:00,2026-06-24 10:10:00,2026-06-23 16:44:00,Completed
+T00675,Leave Approval,HR,E1021,High,Simple,2,1,0,2026-08-30 08:50:00,2026-08-30 14:50:00,2026-08-30 10:37:00,Completed
+T00676,Vendor Onboarding,Procurement,E1010,High,Complex,8,3,2,2026-07-09 09:00:00,2026-07-09 15:00:00,2026-07-09 14:18:00,Completed
+T00677,Daily Operations Report,Operations,E1015,Medium,Simple,4,0,0,2026-09-03 16:40:00,2026-09-04 04:40:00,2026-09-03 17:36:00,Completed
+T00678,Incident Review,Operations,E1016,High,Complex,7,2,2,2026-07-14 09:50:00,2026-07-14 15:50:00,2026-07-14 17:00:00,Completed_Late
+T00679,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-07-28 13:00:00,2026-07-29 13:00:00,2026-07-28 16:04:00,Completed
+T00680,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-06-11 16:30:00,2026-06-12 04:30:00,2026-06-11 18:57:00,Completed
+T00681,BOQ Review,Procurement,E1012,High,Medium,3,1,1,2026-07-17 14:10:00,2026-07-17 20:10:00,2026-07-17 18:55:00,Completed
+T00682,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-28 15:50:00,2026-06-29 03:50:00,2026-06-28 19:18:00,Completed
+T00683,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-09-23 14:10:00,2026-09-24 02:10:00,2026-09-23 21:44:00,Completed
+T00684,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-08-15 14:00:00,2026-08-16 14:00:00,2026-08-15 20:05:00,Completed
+T00685,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-06-26 10:30:00,2026-06-26 22:30:00,2026-06-26 17:01:00,Completed
+T00686,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-09-03 15:10:00,2026-09-04 03:10:00,2026-09-03 18:28:00,Completed
+T00687,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-16 12:30:00,2026-06-17 00:30:00,2026-06-16 17:21:00,Completed
+T00688,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-08-01 17:30:00,2026-08-02 05:30:00,2026-08-01 19:06:00,Completed
+T00689,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-06-21 17:00:00,2026-06-22 17:00:00,2026-06-21 22:14:00,Completed
+T00690,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-08-21 13:00:00,2026-08-22 13:00:00,2026-08-21 14:22:00,Completed
+T00691,Invoice Verification,Finance,E1003,High,Medium,5,1,1,2026-08-16 10:40:00,2026-08-16 16:40:00,2026-08-16 15:12:00,Completed
+T00692,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-08-28 13:00:00,2026-08-29 01:00:00,2026-08-28 15:30:00,Completed
+T00693,Incident Review,Operations,E1015,High,Complex,7,2,2,2026-09-08 15:30:00,2026-09-08 21:30:00,2026-09-09 04:15:00,Completed_Late
+T00694,Leave Approval,HR,E1022,High,Simple,2,1,0,2026-08-29 09:30:00,2026-08-29 15:30:00,2026-08-29 11:45:00,Completed
+T00695,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-17 10:30:00,2026-07-17 22:30:00,2026-07-17 11:17:00,Completed
+T00696,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-06-17 10:50:00,2026-06-18 10:50:00,2026-06-17 15:52:00,Completed
+T00697,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-07-26 08:10:00,2026-07-27 08:10:00,2026-07-26 15:09:00,Completed
+T00698,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-09-05 09:00:00,2026-09-06 09:00:00,2026-09-05 10:28:00,Completed
+T00699,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-09-17 12:40:00,2026-09-18 12:40:00,2026-09-17 15:13:00,Completed
+T00700,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-08-12 09:00:00,2026-08-12 21:00:00,2026-08-12 09:54:00,Completed
+T00701,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-09-24 16:00:00,2026-09-25 16:00:00,2026-09-24 19:21:00,Completed
+T00702,Purchase Request,Procurement,E1009,High,Medium,4,2,1,2026-07-27 09:10:00,2026-07-27 15:10:00,2026-07-27 15:18:00,Completed_Late
+T00703,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-06-16 15:00:00,2026-06-17 15:00:00,2026-06-16 16:23:00,Completed
+T00704,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-07-12 15:00:00,2026-07-13 15:00:00,2026-07-12 21:07:00,Completed
+T00705,Daily Operations Report,Operations,E1014,High,Simple,4,0,0,2026-07-23 12:30:00,2026-07-23 18:30:00,2026-07-23 13:56:00,Completed
+T00706,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-08-26 09:30:00,2026-08-26 21:30:00,2026-08-26 11:52:00,Completed
+T00707,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-08-15 09:50:00,2026-08-16 09:50:00,2026-08-15 15:54:00,Completed
+T00708,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-09-16 14:50:00,2026-09-17 14:50:00,2026-09-17 01:14:00,Completed
+T00709,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-07-31 17:30:00,2026-08-01 05:30:00,2026-07-31 23:34:00,Completed
+T00710,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-09-03 08:00:00,2026-09-03 20:00:00,2026-09-03 13:38:00,Completed
+T00711,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-09-06 09:50:00,2026-09-06 21:50:00,2026-09-06 12:50:00,Completed
+T00712,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-08-04 12:40:00,2026-08-05 00:40:00,2026-08-04 14:20:00,Completed
+T00713,Vendor Onboarding,Procurement,E1009,High,Complex,8,3,2,2026-06-16 14:30:00,2026-06-16 20:30:00,2026-06-16 23:48:00,Completed_Late
+T00714,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-08-02 09:40:00,2026-08-02 21:40:00,2026-08-02 11:52:00,Completed
+T00715,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-06-08 14:20:00,2026-06-09 02:20:00,2026-06-08 20:40:00,Completed
+T00716,Invoice Verification,Finance,E1002,Medium,Medium,5,1,1,2026-06-04 17:00:00,2026-06-05 05:00:00,2026-06-04 21:33:00,Completed
+T00717,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-07-23 13:00:00,2026-07-24 13:00:00,2026-07-23 14:41:00,Completed
+T00718,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-06-15 13:10:00,2026-06-16 01:10:00,2026-06-15 19:30:00,Completed
+T00719,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-07-05 08:50:00,2026-07-05 20:50:00,2026-07-05 13:54:00,Completed
+T00720,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-06-13 11:20:00,2026-06-13 23:20:00,2026-06-13 14:03:00,Completed
+T00721,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-06-26 15:50:00,2026-06-27 03:50:00,2026-06-26 23:09:00,Completed
+T00722,Incident Review,Operations,E1018,High,Complex,7,2,2,2026-09-11 11:40:00,2026-09-11 17:40:00,2026-09-11 17:57:00,Completed_Late
+T00723,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-09-11 16:30:00,2026-09-12 16:30:00,2026-09-11 18:18:00,Completed
+T00724,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-08-24 16:20:00,2026-08-25 16:20:00,2026-08-24 17:23:00,Completed
+T00725,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-08-20 16:10:00,2026-08-21 04:10:00,2026-08-20 19:04:00,Completed
+T00726,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-09-02 08:40:00,2026-09-03 08:40:00,2026-09-02 09:42:00,Completed
+T00727,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-07-23 13:00:00,2026-07-24 13:00:00,2026-07-23 14:51:00,Completed
+T00728,Incident Review,Operations,E1016,Low,Complex,7,2,2,2026-08-27 17:10:00,2026-08-28 17:10:00,2026-08-28 00:03:00,Completed
+T00729,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-08-11 14:30:00,2026-08-11 20:30:00,2026-08-11 15:21:00,Completed
+T00730,Employee Document Verification,HR,E1024,High,Medium,5,1,1,2026-08-24 16:10:00,2026-08-24 22:10:00,2026-08-24 20:11:00,Completed
+T00731,Employee Document Verification,HR,E1024,High,Medium,5,1,1,2026-09-23 13:50:00,2026-09-23 19:50:00,2026-09-23 18:03:00,Completed
+T00732,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-08-04 09:40:00,2026-08-04 21:40:00,2026-08-04 13:04:00,Completed
+T00733,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-06-16 13:20:00,2026-06-17 01:20:00,2026-06-16 14:40:00,Completed
+T00734,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-06-14 10:10:00,2026-06-15 10:10:00,2026-06-14 16:33:00,Completed
+T00735,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-08-09 14:30:00,2026-08-10 14:30:00,2026-08-09 17:13:00,Completed
+T00736,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-07-10 08:50:00,2026-07-11 08:50:00,2026-07-10 15:55:00,Completed
+T00737,Employee Document Verification,HR,E1024,High,Medium,5,1,1,2026-08-10 14:20:00,2026-08-10 20:20:00,2026-08-10 17:16:00,Completed
+T00738,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-07-20 08:30:00,2026-07-21 08:30:00,2026-07-20 10:58:00,Completed
+T00739,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-08-20 13:50:00,2026-08-21 01:50:00,2026-08-20 23:00:00,Completed
+T00740,Invoice Verification,Finance,E1004,High,Medium,5,1,1,2026-09-16 13:50:00,2026-09-16 19:50:00,2026-09-16 16:32:00,Completed
+T00741,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-06-09 13:30:00,2026-06-10 01:30:00,2026-06-09 19:09:00,Completed
+T00742,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-08-20 15:50:00,2026-08-21 15:50:00,2026-08-20 16:48:00,Completed
+T00743,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-07-02 16:50:00,2026-07-03 04:50:00,2026-07-03 02:51:00,Completed
+T00744,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-09-20 10:20:00,2026-09-20 22:20:00,2026-09-20 12:36:00,Completed
+T00745,Employee Document Verification,HR,E1022,High,Medium,5,1,1,2026-07-18 10:30:00,2026-07-18 16:30:00,2026-07-18 14:04:00,Completed
+T00746,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-08-18 11:00:00,2026-08-19 11:00:00,2026-08-18 14:17:00,Completed
+T00747,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-06-12 13:10:00,2026-06-13 13:10:00,2026-06-12 22:43:00,Completed
+T00748,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-06-16 11:50:00,2026-06-17 11:50:00,2026-06-16 13:19:00,Completed
+T00749,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-06-17 14:10:00,2026-06-18 14:10:00,2026-06-17 20:54:00,Completed
+T00750,Expense Approval,Finance,E1003,High,Simple,3,1,0,2026-09-10 10:00:00,2026-09-10 16:00:00,2026-09-10 11:11:00,Completed
+T00751,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-06-02 15:10:00,2026-06-02 21:10:00,2026-06-02 16:36:00,Completed
+T00752,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-10 09:40:00,2026-06-11 09:40:00,2026-06-10 10:17:00,Completed
+T00753,Leave Approval,HR,E1022,Low,Simple,2,1,0,2026-07-03 16:40:00,2026-07-04 16:40:00,2026-07-03 18:45:00,Completed
+T00754,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-06-23 12:10:00,2026-06-24 00:10:00,2026-06-23 16:25:00,Completed
+T00755,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-06-17 15:20:00,2026-06-18 15:20:00,2026-06-17 17:12:00,Completed
+T00756,Incident Review,Operations,E1015,Medium,Complex,7,2,2,2026-07-11 14:10:00,2026-07-12 02:10:00,2026-07-11 23:32:00,Completed
+T00757,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-07 11:10:00,2026-06-08 11:10:00,2026-06-07 12:54:00,Completed
+T00758,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-06-15 15:00:00,2026-06-16 15:00:00,2026-06-15 20:36:00,Completed
+T00759,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-06-12 11:20:00,2026-06-12 23:20:00,2026-06-12 22:21:00,Completed
+T00760,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-08-14 08:40:00,2026-08-15 08:40:00,2026-08-14 10:15:00,Completed
+T00761,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-06-04 12:50:00,2026-06-05 12:50:00,2026-06-04 13:39:00,Completed
+T00762,Daily Operations Report,Operations,E1018,Medium,Simple,4,0,0,2026-06-11 15:50:00,2026-06-12 03:50:00,2026-06-11 19:33:00,Completed
+T00763,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-09-19 08:50:00,2026-09-20 08:50:00,2026-09-19 09:58:00,Completed
+T00764,Daily Operations Report,Operations,E1014,High,Simple,4,0,0,2026-07-22 12:10:00,2026-07-22 18:10:00,2026-07-22 15:40:00,Completed
+T00765,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-08-22 10:00:00,2026-08-22 22:00:00,2026-08-22 12:43:00,Completed
+T00766,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-07-16 09:20:00,2026-07-17 09:20:00,2026-07-16 10:43:00,Completed
+T00767,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-09-05 14:20:00,2026-09-06 14:20:00,2026-09-05 18:25:00,Completed
+T00768,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-08-07 16:00:00,2026-08-08 04:00:00,2026-08-08 03:10:00,Completed
+T00769,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-06-07 16:00:00,2026-06-08 04:00:00,2026-06-07 20:51:00,Completed
+T00770,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-08-04 08:00:00,2026-08-04 20:00:00,2026-08-04 14:12:00,Completed
+T00771,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-08-25 15:40:00,2026-08-26 15:40:00,2026-08-25 22:01:00,Completed
+T00772,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-07-26 16:00:00,2026-07-27 16:00:00,2026-07-26 18:11:00,Completed
+T00773,Expense Approval,Finance,E1004,Low,Simple,3,1,0,2026-09-04 17:50:00,2026-09-05 17:50:00,2026-09-04 21:12:00,Completed
+T00774,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-07-09 09:10:00,2026-07-10 09:10:00,2026-07-09 14:33:00,Completed
+T00775,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-08-23 10:50:00,2026-08-24 10:50:00,2026-08-23 14:28:00,Completed
+T00776,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-07-30 10:30:00,2026-07-31 10:30:00,2026-07-30 14:24:00,Completed
+T00777,Vendor Onboarding,Procurement,E1008,Low,Complex,8,3,2,2026-06-03 15:40:00,2026-06-04 15:40:00,2026-06-04 05:20:00,Completed
+T00778,Leave Approval,HR,E1022,Medium,Simple,2,1,0,2026-07-08 08:30:00,2026-07-08 20:30:00,2026-07-08 10:21:00,Completed
+T00779,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-31 08:40:00,2026-09-01 08:40:00,2026-08-31 15:56:00,Completed
+T00780,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-08-03 17:50:00,2026-08-04 17:50:00,2026-08-03 18:51:00,Completed
+T00781,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-07-15 15:10:00,2026-07-16 15:10:00,2026-07-15 16:22:00,Completed
+T00782,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-09-22 12:50:00,2026-09-23 12:50:00,2026-09-22 20:45:00,Completed
+T00783,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-09-11 10:40:00,2026-09-12 10:40:00,2026-09-11 12:17:00,Completed
+T00784,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-06-21 17:30:00,2026-06-22 05:30:00,2026-06-21 18:13:00,Completed
+T00785,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-07-16 12:20:00,2026-07-17 12:20:00,2026-07-16 20:57:00,Completed
+T00786,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-08-11 11:30:00,2026-08-11 17:30:00,2026-08-11 15:01:00,Completed
+T00787,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-07-27 15:00:00,2026-07-28 03:00:00,2026-07-27 22:12:00,Completed
+T00788,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-06-22 09:10:00,2026-06-23 09:10:00,2026-06-22 10:49:00,Completed
+T00789,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-08-22 13:20:00,2026-08-23 13:20:00,2026-08-22 14:07:00,Completed
+T00790,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-09-15 15:20:00,2026-09-16 03:20:00,2026-09-15 16:55:00,Completed
+T00791,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-08-20 11:10:00,2026-08-21 11:10:00,2026-08-20 12:12:00,Completed
+T00792,Employee Document Verification,HR,E1021,High,Medium,5,1,1,2026-09-18 16:50:00,2026-09-18 22:50:00,2026-09-18 21:59:00,Completed
+T00793,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-06-22 14:00:00,2026-06-23 02:00:00,2026-06-23 04:26:00,Completed_Late
+T00794,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-09-01 13:20:00,2026-09-02 01:20:00,2026-09-01 19:31:00,Completed
+T00795,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-09-22 16:40:00,2026-09-23 04:40:00,2026-09-22 19:43:00,Completed
+T00796,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-09-08 11:20:00,2026-09-09 11:20:00,2026-09-08 13:36:00,Completed
+T00797,Daily Operations Report,Operations,E1013,Medium,Simple,4,0,0,2026-08-09 12:10:00,2026-08-10 00:10:00,2026-08-09 12:51:00,Completed
+T00798,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-06-04 16:40:00,2026-06-05 16:40:00,2026-06-04 19:05:00,Completed
+T00799,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-09-02 08:20:00,2026-09-02 20:20:00,2026-09-02 10:30:00,Completed
+T00800,Purchase Request,Procurement,E1007,Medium,Medium,4,2,1,2026-07-09 17:50:00,2026-07-10 05:50:00,2026-07-10 02:08:00,Completed
+T00801,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-09-17 17:10:00,2026-09-18 17:10:00,2026-09-17 19:56:00,Completed
+T00802,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-07-19 16:50:00,2026-07-20 16:50:00,2026-07-19 18:20:00,Completed
+T00803,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-08-31 14:30:00,2026-09-01 14:30:00,2026-08-31 16:24:00,Completed
+T00804,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-22 17:40:00,2026-07-23 05:40:00,2026-07-22 18:52:00,Completed
+T00805,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-08-28 15:50:00,2026-08-29 03:50:00,2026-08-28 20:48:00,Completed
+T00806,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-09-19 16:00:00,2026-09-20 16:00:00,2026-09-19 18:57:00,Completed
+T00807,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-06-16 17:30:00,2026-06-17 17:30:00,2026-06-17 00:34:00,Completed
+T00808,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-07-18 12:20:00,2026-07-19 12:20:00,2026-07-18 16:27:00,Completed
+T00809,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-06-28 10:50:00,2026-06-29 10:50:00,2026-06-28 17:41:00,Completed
+T00810,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-07-10 17:30:00,2026-07-11 05:30:00,2026-07-10 20:10:00,Completed
+T00811,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-08-21 15:30:00,2026-08-22 15:30:00,2026-08-22 00:55:00,Completed
+T00812,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-07-20 11:30:00,2026-07-20 23:30:00,2026-07-20 13:27:00,Completed
+T00813,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-08-30 08:40:00,2026-08-30 20:40:00,2026-08-30 12:17:00,Completed
+T00814,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-06-11 11:40:00,2026-06-11 23:40:00,2026-06-11 14:02:00,Completed
+T00815,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-16 16:10:00,2026-06-17 16:10:00,2026-06-16 17:09:00,Completed
+T00816,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-08-17 13:30:00,2026-08-18 13:30:00,2026-08-17 22:21:00,Completed
+T00817,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-07-19 12:00:00,2026-07-19 18:00:00,2026-07-19 21:05:00,Completed_Late
+T00818,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-06-08 17:20:00,2026-06-09 17:20:00,2026-06-08 18:48:00,Completed
+T00819,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-07-04 14:00:00,2026-07-05 14:00:00,2026-07-04 15:11:00,Completed
+T00820,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-07-05 08:20:00,2026-07-05 20:20:00,2026-07-05 09:02:00,Completed
+T00821,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-07-05 16:40:00,2026-07-06 16:40:00,2026-07-05 20:09:00,Completed
+T00822,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-07-28 09:50:00,2026-07-29 09:50:00,2026-07-28 16:35:00,Completed
+T00823,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-08-11 15:00:00,2026-08-12 03:00:00,2026-08-11 20:16:00,Completed
+T00824,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-07-05 17:20:00,2026-07-06 17:20:00,2026-07-05 23:07:00,Completed
+T00825,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-21 16:40:00,2026-06-22 16:40:00,2026-06-22 00:22:00,Completed
+T00826,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-06-27 17:40:00,2026-06-27 23:40:00,2026-06-27 19:01:00,Completed
+T00827,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-08-24 13:20:00,2026-08-25 01:20:00,2026-08-24 21:26:00,Completed
+T00828,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-08-17 15:00:00,2026-08-18 03:00:00,2026-08-17 22:34:00,Completed
+T00829,Vendor Onboarding,Procurement,E1007,High,Complex,8,3,2,2026-09-09 09:40:00,2026-09-09 15:40:00,2026-09-09 18:06:00,Completed_Late
+T00830,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-07-30 13:10:00,2026-07-31 13:10:00,2026-07-30 18:52:00,Completed
+T00831,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-09-13 17:50:00,2026-09-14 05:50:00,2026-09-13 18:40:00,Completed
+T00832,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-07-06 15:50:00,2026-07-07 03:50:00,2026-07-06 16:48:00,Completed
+T00833,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-08-12 16:30:00,2026-08-13 04:30:00,2026-08-12 20:45:00,Completed
+T00834,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-08-15 10:50:00,2026-08-16 10:50:00,2026-08-15 12:24:00,Completed
+T00835,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-09-17 08:50:00,2026-09-17 20:50:00,2026-09-17 13:55:00,Completed
+T00836,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-06-16 16:30:00,2026-06-17 16:30:00,2026-06-16 17:23:00,Completed
+T00837,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-07-24 16:30:00,2026-07-25 16:30:00,2026-07-24 22:26:00,Completed
+T00838,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-06-10 11:10:00,2026-06-11 11:10:00,2026-06-10 15:55:00,Completed
+T00839,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-06-14 15:10:00,2026-06-15 03:10:00,2026-06-14 18:03:00,Completed
+T00840,Leave Approval,HR,E1019,Medium,Simple,2,1,0,2026-08-16 17:30:00,2026-08-17 05:30:00,2026-08-16 19:00:00,Completed
+T00841,Vendor Onboarding,Procurement,E1007,High,Complex,8,3,2,2026-07-11 09:10:00,2026-07-11 15:10:00,2026-07-11 14:06:00,Completed
+T00842,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-08-26 08:40:00,2026-08-27 08:40:00,2026-08-26 10:03:00,Completed
+T00843,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-09-19 17:50:00,2026-09-20 17:50:00,2026-09-19 18:44:00,Completed
+T00844,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-08-23 08:30:00,2026-08-24 08:30:00,2026-08-23 17:07:00,Completed
+T00845,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-07-24 15:50:00,2026-07-25 15:50:00,2026-07-24 19:27:00,Completed
+T00846,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-14 16:10:00,2026-08-15 04:10:00,2026-08-14 17:57:00,Completed
+T00847,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-08-15 10:00:00,2026-08-15 22:00:00,2026-08-15 11:22:00,Completed
+T00848,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-08-21 11:00:00,2026-08-22 11:00:00,2026-08-21 14:09:00,Completed
+T00849,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-12 13:40:00,2026-08-13 13:40:00,2026-08-12 15:18:00,Completed
+T00850,Expense Approval,Finance,E1002,Medium,Simple,3,1,0,2026-06-29 08:50:00,2026-06-29 20:50:00,2026-06-29 11:34:00,Completed
+T00851,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-27 14:10:00,2026-06-28 14:10:00,2026-06-27 15:25:00,Completed
+T00852,Invoice Verification,Finance,E1005,High,Medium,5,1,1,2026-07-27 11:50:00,2026-07-27 17:50:00,2026-07-27 20:57:00,Completed_Late
+T00853,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-07-02 10:10:00,2026-07-03 10:10:00,2026-07-02 20:07:00,Completed
+T00854,Leave Approval,HR,E1020,High,Simple,2,1,0,2026-09-12 13:50:00,2026-09-12 19:50:00,2026-09-12 18:32:00,Completed
+T00855,Daily Operations Report,Operations,E1016,High,Simple,4,0,0,2026-07-18 13:40:00,2026-07-18 19:40:00,2026-07-18 15:21:00,Completed
+T00856,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-07-12 11:00:00,2026-07-12 23:00:00,2026-07-12 14:14:00,Completed
+T00857,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-06-27 09:30:00,2026-06-27 21:30:00,2026-06-27 11:19:00,Completed
+T00858,Purchase Request,Procurement,E1009,Medium,Medium,4,2,1,2026-08-06 15:10:00,2026-08-07 03:10:00,2026-08-06 21:49:00,Completed
+T00859,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-07-22 17:50:00,2026-07-23 17:50:00,2026-07-22 22:45:00,Completed
+T00860,Employee Document Verification,HR,E1020,High,Medium,5,1,1,2026-09-22 14:40:00,2026-09-22 20:40:00,2026-09-22 18:55:00,Completed
+T00861,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-08-14 08:30:00,2026-08-14 20:30:00,2026-08-14 17:33:00,Completed
+T00862,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-07-11 12:30:00,2026-07-12 12:30:00,2026-07-11 13:46:00,Completed
+T00863,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-09-16 16:40:00,2026-09-17 04:40:00,2026-09-16 20:26:00,Completed
+T00864,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-05 16:10:00,2026-06-06 16:10:00,2026-06-05 23:59:00,Completed
+T00865,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-06-25 17:10:00,2026-06-26 05:10:00,2026-06-25 20:22:00,Completed
+T00866,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-07-22 14:40:00,2026-07-23 14:40:00,2026-07-22 16:37:00,Completed
+T00867,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-30 11:50:00,2026-07-01 11:50:00,2026-06-30 19:13:00,Completed
+T00868,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-07-14 09:20:00,2026-07-15 09:20:00,2026-07-14 11:33:00,Completed
+T00869,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-07-18 10:40:00,2026-07-19 10:40:00,2026-07-18 12:19:00,Completed
+T00870,Employee Document Verification,HR,E1024,Medium,Medium,5,1,1,2026-06-29 14:30:00,2026-06-30 02:30:00,2026-06-29 17:09:00,Completed
+T00871,Purchase Request,Procurement,E1008,High,Medium,4,2,1,2026-08-12 08:10:00,2026-08-12 14:10:00,2026-08-12 15:20:00,Completed_Late
+T00872,Leave Approval,HR,E1019,Medium,Simple,2,1,0,2026-07-19 11:30:00,2026-07-19 23:30:00,2026-07-19 13:41:00,Completed
+T00873,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-09-23 12:00:00,2026-09-24 12:00:00,2026-09-23 12:58:00,Completed
+T00874,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-06-24 11:00:00,2026-06-25 11:00:00,2026-06-24 11:50:00,Completed
+T00875,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-07-18 16:00:00,2026-07-19 16:00:00,2026-07-18 16:56:00,Completed
+T00876,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-08-01 09:30:00,2026-08-02 09:30:00,2026-08-01 14:55:00,Completed
+T00877,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-08-17 17:20:00,2026-08-18 17:20:00,2026-08-17 23:28:00,Completed
+T00878,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-08-17 11:40:00,2026-08-17 17:40:00,2026-08-17 12:30:00,Completed
+T00879,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-08-22 15:20:00,2026-08-23 03:20:00,2026-08-22 22:54:00,Completed
+T00880,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-06-23 17:50:00,2026-06-24 05:50:00,2026-06-23 18:52:00,Completed
+T00881,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-07-01 10:20:00,2026-07-01 22:20:00,2026-07-01 13:51:00,Completed
+T00882,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-07-23 16:00:00,2026-07-24 16:00:00,2026-07-24 00:20:00,Completed
+T00883,Leave Approval,HR,E1019,Medium,Simple,2,1,0,2026-07-03 11:40:00,2026-07-03 23:40:00,2026-07-03 13:34:00,Completed
+T00884,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-09-04 14:10:00,2026-09-05 14:10:00,2026-09-04 17:10:00,Completed
+T00885,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-09-04 15:30:00,2026-09-05 15:30:00,2026-09-04 23:47:00,Completed
+T00886,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-09-16 10:10:00,2026-09-16 22:10:00,2026-09-16 12:46:00,Completed
+T00887,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-10 08:50:00,2026-06-11 08:50:00,2026-06-10 14:53:00,Completed
+T00888,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-07-27 08:50:00,2026-07-27 20:50:00,2026-07-27 14:14:00,Completed
+T00889,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-08-16 08:00:00,2026-08-16 20:00:00,2026-08-16 11:32:00,Completed
+T00890,Expense Approval,Finance,E1002,Medium,Simple,3,1,0,2026-06-04 08:20:00,2026-06-04 20:20:00,2026-06-04 10:30:00,Completed
+T00891,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-06-22 08:30:00,2026-06-23 08:30:00,2026-06-22 10:22:00,Completed
+T00892,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-07-25 09:10:00,2026-07-26 09:10:00,2026-07-25 10:39:00,Completed
+T00893,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-07-20 11:30:00,2026-07-21 11:30:00,2026-07-20 15:09:00,Completed
+T00894,Expense Approval,Finance,E1004,High,Simple,3,1,0,2026-07-23 12:40:00,2026-07-23 18:40:00,2026-07-23 14:20:00,Completed
+T00895,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-06-13 17:20:00,2026-06-14 05:20:00,2026-06-13 20:25:00,Completed
+T00896,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-09-06 13:50:00,2026-09-07 13:50:00,2026-09-06 17:31:00,Completed
+T00897,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-09-03 11:40:00,2026-09-03 23:40:00,2026-09-03 17:44:00,Completed
+T00898,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-09-03 14:10:00,2026-09-04 14:10:00,2026-09-03 15:36:00,Completed
+T00899,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-06-27 08:10:00,2026-06-27 20:10:00,2026-06-27 11:21:00,Completed
+T00900,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-09-09 08:40:00,2026-09-09 20:40:00,2026-09-09 11:26:00,Completed
+T00901,Leave Approval,HR,E1019,High,Simple,2,1,0,2026-07-02 11:40:00,2026-07-02 17:40:00,2026-07-02 14:42:00,Completed
+T00902,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-09-20 14:40:00,2026-09-21 14:40:00,2026-09-20 15:48:00,Completed
+T00903,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-06-07 10:10:00,2026-06-08 10:10:00,2026-06-07 11:27:00,Completed
+T00904,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-08-04 09:30:00,2026-08-04 21:30:00,2026-08-04 14:37:00,Completed
+T00905,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-07-07 17:30:00,2026-07-08 17:30:00,2026-07-07 20:21:00,Completed
+T00906,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-07-31 15:30:00,2026-08-01 03:30:00,2026-07-31 18:35:00,Completed
+T00907,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-09-18 09:20:00,2026-09-18 21:20:00,2026-09-18 12:07:00,Completed
+T00908,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-07-07 14:40:00,2026-07-08 02:40:00,2026-07-07 15:27:00,Completed
+T00909,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-06-01 08:40:00,2026-06-01 20:40:00,2026-06-01 17:18:00,Completed
+T00910,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-08-02 12:50:00,2026-08-03 12:50:00,2026-08-02 14:19:00,Completed
+T00911,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-09-06 14:20:00,2026-09-07 14:20:00,2026-09-06 21:09:00,Completed
+T00912,Expense Approval,Finance,E1004,Low,Simple,3,1,0,2026-07-25 11:10:00,2026-07-26 11:10:00,2026-07-25 13:26:00,Completed
+T00913,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-08-25 10:20:00,2026-08-25 22:20:00,2026-08-25 14:07:00,Completed
+T00914,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-09-16 10:00:00,2026-09-16 22:00:00,2026-09-16 12:46:00,Completed
+T00915,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-08-06 11:30:00,2026-08-06 23:30:00,2026-08-06 12:48:00,Completed
+T00916,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-09-02 14:50:00,2026-09-03 14:50:00,2026-09-02 17:51:00,Completed
+T00917,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-06-27 14:50:00,2026-06-28 14:50:00,2026-06-27 16:49:00,Completed
+T00918,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-07-24 12:50:00,2026-07-25 12:50:00,2026-07-24 13:47:00,Completed
+T00919,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-08-04 09:30:00,2026-08-04 21:30:00,2026-08-04 15:36:00,Completed
+T00920,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-07-27 17:00:00,2026-07-28 17:00:00,2026-07-27 18:54:00,Completed
+T00921,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-06-04 17:10:00,2026-06-05 05:10:00,2026-06-04 19:45:00,Completed
+T00922,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-08-17 16:20:00,2026-08-18 04:20:00,2026-08-17 18:46:00,Completed
+T00923,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-09-13 11:20:00,2026-09-14 11:20:00,2026-09-13 12:14:00,Completed
+T00924,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-01 15:50:00,2026-06-02 03:50:00,2026-06-01 18:13:00,Completed
+T00925,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-09-05 11:20:00,2026-09-05 23:20:00,2026-09-05 15:54:00,Completed
+T00926,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-06-03 13:00:00,2026-06-04 13:00:00,2026-06-03 19:36:00,Completed
+T00927,Expense Approval,Finance,E1006,High,Simple,3,1,0,2026-07-25 15:50:00,2026-07-25 21:50:00,2026-07-25 17:43:00,Completed
+T00928,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-09-21 17:50:00,2026-09-22 17:50:00,2026-09-22 03:31:00,Completed
+T00929,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-09-23 15:00:00,2026-09-24 03:00:00,2026-09-23 15:50:00,Completed
+T00930,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-07-26 08:10:00,2026-07-26 14:10:00,2026-07-26 11:47:00,Completed
+T00931,Leave Approval,HR,E1020,High,Simple,2,1,0,2026-09-23 09:50:00,2026-09-23 15:50:00,2026-09-23 11:19:00,Completed
+T00932,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-08-13 17:00:00,2026-08-14 17:00:00,2026-08-13 18:33:00,Completed
+T00933,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-06-29 12:00:00,2026-06-30 12:00:00,2026-06-29 14:54:00,Completed
+T00934,Expense Approval,Finance,E1002,High,Simple,3,1,0,2026-06-15 17:20:00,2026-06-15 23:20:00,2026-06-15 19:01:00,Completed
+T00935,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-07-11 13:50:00,2026-07-12 01:50:00,2026-07-11 23:26:00,Completed
+T00936,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-06-19 12:10:00,2026-06-20 00:10:00,2026-06-19 14:38:00,Completed
+T00937,Incident Review,Operations,E1017,High,Complex,7,2,2,2026-08-16 13:20:00,2026-08-16 19:20:00,2026-08-16 20:41:00,Completed_Late
+T00938,Daily Operations Report,Operations,E1016,Low,Simple,4,0,0,2026-08-03 12:50:00,2026-08-04 12:50:00,2026-08-03 13:47:00,Completed
+T00939,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-08-29 08:10:00,2026-08-29 20:10:00,2026-08-29 11:37:00,Completed
+T00940,Expense Approval,Finance,E1004,High,Simple,3,1,0,2026-07-14 14:50:00,2026-07-14 20:50:00,2026-07-14 16:19:00,Completed
+T00941,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-25 16:30:00,2026-06-26 16:30:00,2026-06-26 00:31:00,Completed
+T00942,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-07-08 10:10:00,2026-07-08 22:10:00,2026-07-08 16:00:00,Completed
+T00943,Daily Operations Report,Operations,E1014,High,Simple,4,0,0,2026-07-19 14:50:00,2026-07-19 20:50:00,2026-07-19 15:27:00,Completed
+T00944,Incident Review,Operations,E1016,High,Complex,7,2,2,2026-08-05 13:40:00,2026-08-05 19:40:00,2026-08-06 00:41:00,Completed_Late
+T00945,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-08-23 14:50:00,2026-08-24 02:50:00,2026-08-23 22:50:00,Completed
+T00946,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-07-18 08:00:00,2026-07-19 08:00:00,2026-07-18 11:42:00,Completed
+T00947,Vendor Onboarding,Procurement,E1012,Medium,Complex,8,3,2,2026-08-13 15:20:00,2026-08-14 03:20:00,2026-08-14 01:17:00,Completed
+T00948,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-08-13 10:00:00,2026-08-14 10:00:00,2026-08-13 11:46:00,Completed
+T00949,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-08-11 16:40:00,2026-08-12 16:40:00,2026-08-11 19:51:00,Completed
+T00950,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-09-05 11:50:00,2026-09-06 11:50:00,2026-09-05 13:49:00,Completed
+T00951,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-06 10:40:00,2026-06-06 22:40:00,2026-06-06 15:41:00,Completed
+T00952,Daily Operations Report,Operations,E1015,Low,Simple,4,0,0,2026-07-25 08:10:00,2026-07-26 08:10:00,2026-07-25 09:49:00,Completed
+T00953,Incident Review,Operations,E1015,Medium,Complex,7,2,2,2026-08-28 13:40:00,2026-08-29 01:40:00,2026-08-28 19:40:00,Completed
+T00954,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-06-18 17:40:00,2026-06-19 05:40:00,2026-06-18 22:38:00,Completed
+T00955,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-07-04 14:50:00,2026-07-05 14:50:00,2026-07-04 17:52:00,Completed
+T00956,Purchase Request,Procurement,E1012,Low,Medium,4,2,1,2026-06-27 09:50:00,2026-06-28 09:50:00,2026-06-27 17:49:00,Completed
+T00957,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-08-17 10:30:00,2026-08-18 10:30:00,2026-08-17 13:32:00,Completed
+T00958,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-06-09 13:50:00,2026-06-10 13:50:00,2026-06-09 19:17:00,Completed
+T00959,Vendor Onboarding,Procurement,E1010,High,Complex,8,3,2,2026-06-13 14:10:00,2026-06-13 20:10:00,2026-06-14 01:11:00,Completed_Late
+T00960,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-06-13 16:20:00,2026-06-14 04:20:00,2026-06-13 21:03:00,Completed
+T00961,Incident Review,Operations,E1017,High,Complex,7,2,2,2026-07-15 16:40:00,2026-07-15 22:40:00,2026-07-16 00:51:00,Completed_Late
+T00962,Leave Approval,HR,E1020,Medium,Simple,2,1,0,2026-06-07 13:50:00,2026-06-08 01:50:00,2026-06-07 16:31:00,Completed
+T00963,Daily Operations Report,Operations,E1015,High,Simple,4,0,0,2026-07-30 16:20:00,2026-07-30 22:20:00,2026-07-30 17:37:00,Completed
+T00964,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-07-23 13:00:00,2026-07-24 13:00:00,2026-07-23 18:40:00,Completed
+T00965,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-09-20 08:30:00,2026-09-20 20:30:00,2026-09-20 12:20:00,Completed
+T00966,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-09-22 16:50:00,2026-09-23 16:50:00,2026-09-22 19:10:00,Completed
+T00967,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-08-08 13:10:00,2026-08-09 01:10:00,2026-08-08 15:17:00,Completed
+T00968,Leave Approval,HR,E1020,Low,Simple,2,1,0,2026-08-26 16:10:00,2026-08-27 16:10:00,2026-08-26 17:54:00,Completed
+T00969,Leave Approval,HR,E1021,High,Simple,2,1,0,2026-08-03 14:10:00,2026-08-03 20:10:00,2026-08-03 16:01:00,Completed
+T00970,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-07-09 15:20:00,2026-07-10 15:20:00,2026-07-09 18:42:00,Completed
+T00971,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-08-05 08:30:00,2026-08-05 20:30:00,2026-08-05 09:52:00,Completed
+T00972,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-07-16 09:00:00,2026-07-16 15:00:00,2026-07-16 14:10:00,Completed
+T00973,Expense Approval,Finance,E1001,High,Simple,3,1,0,2026-09-24 10:30:00,2026-09-24 16:30:00,2026-09-24 12:18:00,Completed
+T00974,Incident Review,Operations,E1015,Low,Complex,7,2,2,2026-07-21 13:20:00,2026-07-22 13:20:00,2026-07-21 22:10:00,Completed
+T00975,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-06-21 10:20:00,2026-06-22 10:20:00,2026-06-21 12:37:00,Completed
+T00976,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-06-06 10:30:00,2026-06-06 22:30:00,2026-06-06 21:17:00,Completed
+T00977,Invoice Verification,Finance,E1005,Medium,Medium,5,1,1,2026-06-16 14:30:00,2026-06-17 02:30:00,2026-06-16 17:37:00,Completed
+T00978,Leave Approval,HR,E1019,High,Simple,2,1,0,2026-09-03 14:10:00,2026-09-03 20:10:00,2026-09-03 16:32:00,Completed
+T00979,Leave Approval,HR,E1024,Medium,Simple,2,1,0,2026-08-27 11:00:00,2026-08-27 23:00:00,2026-08-27 12:59:00,Completed
+T00980,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-08-02 09:30:00,2026-08-02 21:30:00,2026-08-02 15:17:00,Completed
+T00981,Vendor Onboarding,Procurement,E1010,Medium,Complex,8,3,2,2026-08-25 14:10:00,2026-08-26 02:10:00,2026-08-25 21:32:00,Completed
+T00982,Leave Approval,HR,E1024,Low,Simple,2,1,0,2026-09-18 17:50:00,2026-09-19 17:50:00,2026-09-18 20:43:00,Completed
+T00983,Purchase Request,Procurement,E1010,Medium,Medium,4,2,1,2026-09-19 08:30:00,2026-09-19 20:30:00,2026-09-19 13:27:00,Completed
+T00984,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-08-05 14:50:00,2026-08-06 14:50:00,2026-08-05 19:26:00,Completed
+T00985,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-09-23 08:10:00,2026-09-24 08:10:00,2026-09-23 14:47:00,Completed
+T00986,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-07-26 10:20:00,2026-07-27 10:20:00,2026-07-26 16:13:00,Completed
+T00987,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-07-13 13:50:00,2026-07-14 01:50:00,2026-07-13 15:11:00,Completed
+T00988,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-14 14:00:00,2026-08-15 14:00:00,2026-08-15 00:01:00,Completed
+T00989,Leave Approval,HR,E1019,High,Simple,2,1,0,2026-06-25 15:00:00,2026-06-25 21:00:00,2026-06-25 16:55:00,Completed
+T00990,Vendor Onboarding,Procurement,E1008,Low,Complex,8,3,2,2026-09-01 10:00:00,2026-09-02 10:00:00,2026-09-01 19:40:00,Completed
+T00991,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-07-28 09:30:00,2026-07-28 21:30:00,2026-07-28 14:41:00,Completed
+T00992,BOQ Review,Procurement,E1012,Medium,Medium,3,1,1,2026-06-25 14:30:00,2026-06-26 02:30:00,2026-06-25 18:04:00,Completed
+T00993,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-09-08 14:30:00,2026-09-09 14:30:00,2026-09-08 22:08:00,Completed
+T00994,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-09-21 16:30:00,2026-09-22 04:30:00,2026-09-21 22:40:00,Completed
+T00995,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-08-10 09:10:00,2026-08-11 09:10:00,2026-08-10 10:10:00,Completed
+T00996,Vendor Onboarding,Procurement,E1008,High,Complex,8,3,2,2026-09-10 08:50:00,2026-09-10 14:50:00,2026-09-10 21:58:00,Completed_Late
+T00997,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-09-01 10:30:00,2026-09-02 10:30:00,2026-09-01 13:23:00,Completed
+T00998,Vendor Onboarding,Procurement,E1007,Medium,Complex,8,3,2,2026-07-06 10:20:00,2026-07-06 22:20:00,2026-07-06 20:25:00,Completed
+T00999,Invoice Verification,Finance,E1002,Medium,Medium,5,1,1,2026-09-20 17:40:00,2026-09-21 05:40:00,2026-09-20 22:06:00,Completed
+T01000,Expense Approval,Finance,E1004,Low,Simple,3,1,0,2026-09-18 14:10:00,2026-09-19 14:10:00,2026-09-18 15:19:00,Completed
+T01001,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-08-03 10:30:00,2026-08-03 22:30:00,2026-08-03 11:22:00,Completed
+T01002,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-03 12:10:00,2026-06-04 00:10:00,2026-06-03 14:44:00,Completed
+T01003,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-29 14:00:00,2026-07-30 02:00:00,2026-07-29 18:06:00,Completed
+T01004,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-06-15 08:50:00,2026-06-16 08:50:00,2026-06-15 15:35:00,Completed
+T01005,Leave Approval,HR,E1022,Medium,Simple,2,1,0,2026-06-18 15:40:00,2026-06-19 03:40:00,2026-06-18 17:29:00,Completed
+T01006,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-08-28 12:50:00,2026-08-29 12:50:00,2026-08-28 21:36:00,Completed
+T01007,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-06-19 08:10:00,2026-06-20 08:10:00,2026-06-19 10:22:00,Completed
+T01008,Invoice Verification,Finance,E1002,High,Medium,5,1,1,2026-07-20 09:30:00,2026-07-20 15:30:00,2026-07-20 11:14:00,Completed
+T01009,Expense Approval,Finance,E1001,Medium,Simple,3,1,0,2026-06-16 13:00:00,2026-06-17 01:00:00,2026-06-16 15:05:00,Completed
+T01010,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-09-23 12:40:00,2026-09-24 12:40:00,2026-09-23 16:16:00,Completed
+T01011,Employee Document Verification,HR,E1024,Low,Medium,5,1,1,2026-09-09 08:10:00,2026-09-10 08:10:00,2026-09-09 11:58:00,Completed
+T01012,BOQ Review,Procurement,E1010,High,Medium,3,1,1,2026-06-09 09:40:00,2026-06-09 15:40:00,2026-06-09 11:03:00,Completed
+T01013,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-09-07 14:20:00,2026-09-08 02:20:00,2026-09-07 22:58:00,Completed
+T01014,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-09-11 11:30:00,2026-09-11 23:30:00,2026-09-11 13:48:00,Completed
+T01015,BOQ Review,Procurement,E1010,Medium,Medium,3,1,1,2026-06-11 17:50:00,2026-06-12 05:50:00,2026-06-11 20:03:00,Completed
+T01016,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-07-17 08:10:00,2026-07-18 08:10:00,2026-07-17 14:44:00,Completed
+T01017,Invoice Verification,Finance,E1005,High,Medium,5,1,1,2026-07-08 15:10:00,2026-07-08 21:10:00,2026-07-08 17:45:00,Completed
+T01018,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-06-18 09:50:00,2026-06-19 09:50:00,2026-06-18 14:18:00,Completed
+T01019,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-08-24 17:00:00,2026-08-25 05:00:00,2026-08-24 17:51:00,Completed
+T01020,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-07-02 09:00:00,2026-07-02 21:00:00,2026-07-02 11:18:00,Completed
+T01021,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-08-07 12:30:00,2026-08-08 00:30:00,2026-08-07 20:25:00,Completed
+T01022,Expense Approval,Finance,E1004,Medium,Simple,3,1,0,2026-08-04 10:00:00,2026-08-04 22:00:00,2026-08-04 12:44:00,Completed
+T01023,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-08-30 11:30:00,2026-08-31 11:30:00,2026-08-30 14:08:00,Completed
+T01024,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-06-28 14:40:00,2026-06-29 14:40:00,2026-06-28 23:08:00,Completed
+T01025,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-07-11 14:30:00,2026-07-12 14:30:00,2026-07-11 15:55:00,Completed
+T01026,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-07-17 17:20:00,2026-07-18 17:20:00,2026-07-17 20:51:00,Completed
+T01027,Expense Approval,Finance,E1001,High,Simple,3,1,0,2026-06-05 11:20:00,2026-06-05 17:20:00,2026-06-05 12:21:00,Completed
+T01028,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-06-07 13:00:00,2026-06-08 13:00:00,2026-06-07 16:31:00,Completed
+T01029,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-21 13:10:00,2026-07-22 01:10:00,2026-07-21 17:38:00,Completed
+T01030,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-06-04 17:30:00,2026-06-05 05:30:00,2026-06-05 00:42:00,Completed
+T01031,Purchase Request,Procurement,E1011,High,Medium,4,2,1,2026-09-07 10:40:00,2026-09-07 16:40:00,2026-09-07 15:24:00,Completed
+T01032,Expense Approval,Finance,E1001,High,Simple,3,1,0,2026-07-17 17:30:00,2026-07-17 23:30:00,2026-07-17 18:47:00,Completed
+T01033,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-08-12 15:00:00,2026-08-13 15:00:00,2026-08-12 21:45:00,Completed
+T01034,Expense Approval,Finance,E1003,Low,Simple,3,1,0,2026-07-29 13:10:00,2026-07-30 13:10:00,2026-07-29 15:39:00,Completed
+T01035,BOQ Review,Procurement,E1010,High,Medium,3,1,1,2026-09-07 15:20:00,2026-09-07 21:20:00,2026-09-07 18:13:00,Completed
+T01036,Employee Document Verification,HR,E1021,Low,Medium,5,1,1,2026-08-02 08:20:00,2026-08-03 08:20:00,2026-08-02 11:42:00,Completed
+T01037,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-09-17 17:20:00,2026-09-18 17:20:00,2026-09-17 19:53:00,Completed
+T01038,Incident Review,Operations,E1014,Medium,Complex,7,2,2,2026-08-19 08:50:00,2026-08-19 20:50:00,2026-08-19 15:14:00,Completed
+T01039,Employee Document Verification,HR,E1020,Low,Medium,5,1,1,2026-08-12 14:00:00,2026-08-13 14:00:00,2026-08-12 17:48:00,Completed
+T01040,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-09-24 15:00:00,2026-09-25 15:00:00,2026-09-24 18:31:00,Completed
+T01041,Expense Approval,Finance,E1005,Medium,Simple,3,1,0,2026-06-09 13:20:00,2026-06-10 01:20:00,2026-06-09 19:21:00,Completed
+T01042,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-06-19 11:20:00,2026-06-20 11:20:00,2026-06-19 13:59:00,Completed
+T01043,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-07-26 15:10:00,2026-07-27 15:10:00,2026-07-26 16:41:00,Completed
+T01044,Vendor Onboarding,Procurement,E1010,Low,Complex,8,3,2,2026-06-19 09:20:00,2026-06-20 09:20:00,2026-06-19 17:48:00,Completed
+T01045,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-09-15 08:00:00,2026-09-16 08:00:00,2026-09-15 11:00:00,Completed
+T01046,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-08-28 10:50:00,2026-08-29 10:50:00,2026-08-28 13:32:00,Completed
+T01047,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-06-10 17:40:00,2026-06-11 17:40:00,2026-06-10 19:40:00,Completed
+T01048,Daily Operations Report,Operations,E1016,High,Simple,4,0,0,2026-09-23 15:10:00,2026-09-23 21:10:00,2026-09-23 16:25:00,Completed
+T01049,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-09-15 10:50:00,2026-09-15 22:50:00,2026-09-15 13:13:00,Completed
+T01050,Invoice Verification,Finance,E1005,Low,Medium,5,1,1,2026-08-29 16:10:00,2026-08-30 16:10:00,2026-08-29 19:45:00,Completed
+T01051,Purchase Request,Procurement,E1007,Low,Medium,4,2,1,2026-06-02 13:20:00,2026-06-03 13:20:00,2026-06-02 20:27:00,Completed
+T01052,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-07-23 14:20:00,2026-07-24 02:20:00,2026-07-23 15:25:00,Completed
+T01053,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-07-29 14:20:00,2026-07-30 02:20:00,2026-07-29 23:53:00,Completed
+T01054,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-08-29 17:00:00,2026-08-30 05:00:00,2026-08-29 23:23:00,Completed
+T01055,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-06-13 15:40:00,2026-06-14 03:40:00,2026-06-13 18:53:00,Completed
+T01056,Leave Approval,HR,E1019,Low,Simple,2,1,0,2026-07-29 16:30:00,2026-07-30 16:30:00,2026-07-29 19:54:00,Completed
+T01057,BOQ Review,Procurement,E1009,Medium,Medium,3,1,1,2026-08-22 14:00:00,2026-08-23 02:00:00,2026-08-22 16:03:00,Completed
+T01058,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-09-16 14:50:00,2026-09-17 14:50:00,2026-09-16 20:38:00,Completed
+T01059,Expense Approval,Finance,E1002,Medium,Simple,3,1,0,2026-07-01 16:30:00,2026-07-02 04:30:00,2026-07-01 18:12:00,Completed
+T01060,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-08-21 14:50:00,2026-08-22 14:50:00,2026-08-21 17:20:00,Completed
+T01061,Daily Operations Report,Operations,E1013,Medium,Simple,4,0,0,2026-09-11 10:40:00,2026-09-11 22:40:00,2026-09-11 11:51:00,Completed
+T01062,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-07-12 11:00:00,2026-07-13 11:00:00,2026-07-12 13:12:00,Completed
+T01063,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-07-19 08:50:00,2026-07-20 08:50:00,2026-07-19 15:57:00,Completed
+T01064,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-07-09 11:40:00,2026-07-09 23:40:00,2026-07-09 13:02:00,Completed
+T01065,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-06-11 10:50:00,2026-06-11 22:50:00,2026-06-11 13:30:00,Completed
+T01066,Purchase Request,Procurement,E1009,High,Medium,4,2,1,2026-06-14 10:20:00,2026-06-14 16:20:00,2026-06-14 14:13:00,Completed
+T01067,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-08-02 08:30:00,2026-08-02 20:30:00,2026-08-02 15:43:00,Completed
+T01068,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-09-12 10:10:00,2026-09-13 10:10:00,2026-09-12 13:57:00,Completed
+T01069,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-07-15 15:40:00,2026-07-16 03:40:00,2026-07-15 17:11:00,Completed
+T01070,Leave Approval,HR,E1019,Medium,Simple,2,1,0,2026-08-17 08:40:00,2026-08-17 20:40:00,2026-08-17 09:54:00,Completed
+T01071,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-06-04 13:10:00,2026-06-05 13:10:00,2026-06-04 15:31:00,Completed
+T01072,Leave Approval,HR,E1021,Medium,Simple,2,1,0,2026-08-30 16:50:00,2026-08-31 04:50:00,2026-08-30 18:10:00,Completed
+T01073,Invoice Verification,Finance,E1006,Medium,Medium,5,1,1,2026-07-03 10:10:00,2026-07-03 22:10:00,2026-07-03 13:58:00,Completed
+T01074,BOQ Review,Procurement,E1008,Medium,Medium,3,1,1,2026-09-07 17:20:00,2026-09-08 05:20:00,2026-09-07 20:15:00,Completed
+T01075,Daily Operations Report,Operations,E1017,Low,Simple,4,0,0,2026-09-04 12:20:00,2026-09-05 12:20:00,2026-09-04 13:11:00,Completed
+T01076,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-07-28 10:00:00,2026-07-29 10:00:00,2026-07-28 13:27:00,Completed
+T01077,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-07-16 14:00:00,2026-07-17 14:00:00,2026-07-16 18:24:00,Completed
+T01078,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-08-24 13:20:00,2026-08-25 01:20:00,2026-08-24 14:21:00,Completed
+T01079,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-07-30 17:20:00,2026-07-31 05:20:00,2026-07-30 18:51:00,Completed
+T01080,Employee Document Verification,HR,E1023,High,Medium,5,1,1,2026-08-11 12:50:00,2026-08-11 18:50:00,2026-08-11 16:13:00,Completed
+T01081,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-08-27 14:20:00,2026-08-28 14:20:00,2026-08-27 18:24:00,Completed
+T01082,Incident Review,Operations,E1016,Low,Complex,7,2,2,2026-08-16 13:40:00,2026-08-17 13:40:00,2026-08-16 19:55:00,Completed
+T01083,Incident Review,Operations,E1013,High,Complex,7,2,2,2026-07-07 10:30:00,2026-07-07 16:30:00,2026-07-07 15:19:00,Completed
+T01084,Invoice Verification,Finance,E1003,Low,Medium,5,1,1,2026-09-15 14:50:00,2026-09-16 14:50:00,2026-09-15 19:48:00,Completed
+T01085,BOQ Review,Procurement,E1011,Low,Medium,3,1,1,2026-08-03 09:20:00,2026-08-04 09:20:00,2026-08-03 12:54:00,Completed
+T01086,Leave Approval,HR,E1019,High,Simple,2,1,0,2026-06-25 13:40:00,2026-06-25 19:40:00,2026-06-25 14:40:00,Completed
+T01087,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-06-07 12:00:00,2026-06-08 12:00:00,2026-06-07 13:20:00,Completed
+T01088,BOQ Review,Procurement,E1008,Low,Medium,3,1,1,2026-08-14 15:00:00,2026-08-15 15:00:00,2026-08-14 17:55:00,Completed
+T01089,Incident Review,Operations,E1017,Medium,Complex,7,2,2,2026-08-06 16:10:00,2026-08-07 04:10:00,2026-08-06 21:39:00,Completed
+T01090,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-09-07 12:50:00,2026-09-08 12:50:00,2026-09-07 16:16:00,Completed
+T01091,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-06-10 09:30:00,2026-06-11 09:30:00,2026-06-10 11:20:00,Completed
+T01092,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-06-14 13:10:00,2026-06-15 01:10:00,2026-06-14 17:07:00,Completed
+T01093,Expense Approval,Finance,E1001,High,Simple,3,1,0,2026-08-23 10:40:00,2026-08-23 16:40:00,2026-08-23 13:36:00,Completed
+T01094,Leave Approval,HR,E1021,Low,Simple,2,1,0,2026-07-22 11:00:00,2026-07-23 11:00:00,2026-07-22 12:03:00,Completed
+T01095,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-07-30 09:50:00,2026-07-31 09:50:00,2026-07-30 13:34:00,Completed
+T01096,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-07-26 11:10:00,2026-07-26 23:10:00,2026-07-26 13:12:00,Completed
+T01097,Employee Document Verification,HR,E1022,Low,Medium,5,1,1,2026-06-07 14:50:00,2026-06-08 14:50:00,2026-06-07 18:08:00,Completed
+T01098,Employee Document Verification,HR,E1019,Medium,Medium,5,1,1,2026-08-03 16:30:00,2026-08-04 04:30:00,2026-08-03 19:57:00,Completed
+T01099,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-06-09 16:00:00,2026-06-10 16:00:00,2026-06-09 20:03:00,Completed
+T01100,Purchase Request,Procurement,E1008,Low,Medium,4,2,1,2026-08-03 11:10:00,2026-08-04 11:10:00,2026-08-03 16:00:00,Completed
+T01101,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-08-29 17:30:00,2026-08-30 17:30:00,2026-08-29 19:01:00,Completed
+T01102,Invoice Verification,Finance,E1002,High,Medium,5,1,1,2026-06-24 13:30:00,2026-06-24 19:30:00,2026-06-24 15:29:00,Completed
+T01103,Expense Approval,Finance,E1006,Medium,Simple,3,1,0,2026-09-21 09:10:00,2026-09-21 21:10:00,2026-09-21 10:51:00,Completed
+T01104,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-06-06 08:40:00,2026-06-06 14:40:00,2026-06-06 09:34:00,Completed
+T01105,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-06-13 12:50:00,2026-06-14 00:50:00,2026-06-13 16:10:00,Completed
+T01106,BOQ Review,Procurement,E1007,Medium,Medium,3,1,1,2026-07-03 13:30:00,2026-07-04 01:30:00,2026-07-03 17:02:00,Completed
+T01107,Employee Document Verification,HR,E1023,Medium,Medium,5,1,1,2026-06-15 12:50:00,2026-06-16 00:50:00,2026-06-15 15:22:00,Completed
+T01108,BOQ Review,Procurement,E1007,Low,Medium,3,1,1,2026-06-19 13:30:00,2026-06-20 13:30:00,2026-06-19 15:20:00,Completed
+T01109,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-07-19 09:20:00,2026-07-19 21:20:00,2026-07-19 17:37:00,Completed
+T01110,Vendor Onboarding,Procurement,E1009,Low,Complex,8,3,2,2026-07-21 17:30:00,2026-07-22 17:30:00,2026-07-22 01:26:00,Completed
+T01111,BOQ Review,Procurement,E1009,Low,Medium,3,1,1,2026-09-10 15:40:00,2026-09-11 15:40:00,2026-09-10 18:55:00,Completed
+T01112,Leave Approval,HR,E1023,Medium,Simple,2,1,0,2026-06-20 16:20:00,2026-06-21 04:20:00,2026-06-20 17:04:00,Completed
+T01113,Employee Document Verification,HR,E1021,Medium,Medium,5,1,1,2026-07-29 08:10:00,2026-07-29 20:10:00,2026-07-29 10:40:00,Completed
+T01114,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-08-24 08:00:00,2026-08-25 08:00:00,2026-08-24 11:53:00,Completed
+T01115,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-08-31 12:10:00,2026-09-01 12:10:00,2026-08-31 16:13:00,Completed
+T01116,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-07-09 17:20:00,2026-07-10 05:20:00,2026-07-10 01:52:00,Completed
+T01117,Daily Operations Report,Operations,E1014,Low,Simple,4,0,0,2026-06-18 14:40:00,2026-06-19 14:40:00,2026-06-18 15:32:00,Completed
+T01118,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-07-19 14:00:00,2026-07-20 02:00:00,2026-07-19 19:53:00,Completed
+T01119,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-07-25 15:30:00,2026-07-26 03:30:00,2026-07-25 18:28:00,Completed
+T01120,Employee Document Verification,HR,E1020,Medium,Medium,5,1,1,2026-06-18 17:20:00,2026-06-19 05:20:00,2026-06-18 19:56:00,Completed
+T01121,Incident Review,Operations,E1016,Medium,Complex,7,2,2,2026-06-07 14:10:00,2026-06-08 02:10:00,2026-06-07 17:36:00,Completed
+T01122,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-07-05 09:20:00,2026-07-06 09:20:00,2026-07-05 10:52:00,Completed
+T01123,Daily Operations Report,Operations,E1017,Medium,Simple,4,0,0,2026-09-03 17:50:00,2026-09-04 05:50:00,2026-09-03 19:04:00,Completed
+T01124,Incident Review,Operations,E1018,Low,Complex,7,2,2,2026-06-29 10:20:00,2026-06-30 10:20:00,2026-06-29 13:45:00,Completed
+T01125,Purchase Request,Procurement,E1011,Low,Medium,4,2,1,2026-06-20 17:00:00,2026-06-21 17:00:00,2026-06-21 00:15:00,Completed
+T01126,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-08-01 10:10:00,2026-08-02 10:10:00,2026-08-01 11:48:00,Completed
+T01127,Vendor Onboarding,Procurement,E1008,Medium,Complex,8,3,2,2026-08-21 08:10:00,2026-08-21 20:10:00,2026-08-21 18:45:00,Completed
+T01128,Expense Approval,Finance,E1003,Medium,Simple,3,1,0,2026-07-31 15:20:00,2026-08-01 03:20:00,2026-07-31 17:04:00,Completed
+T01129,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-08-29 09:30:00,2026-08-29 21:30:00,2026-08-29 12:23:00,Completed
+T01130,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-06-02 17:20:00,2026-06-03 05:20:00,2026-06-02 19:27:00,Completed
+T01131,BOQ Review,Procurement,E1007,High,Medium,3,1,1,2026-09-01 15:20:00,2026-09-01 21:20:00,2026-09-01 17:32:00,Completed
+T01132,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-09-24 16:30:00,2026-09-25 16:30:00,2026-09-24 18:20:00,Completed
+T01133,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-08-31 10:20:00,2026-09-01 10:20:00,2026-08-31 11:30:00,Completed
+T01134,Purchase Request,Procurement,E1008,Medium,Medium,4,2,1,2026-07-31 17:50:00,2026-08-01 05:50:00,2026-08-01 00:57:00,Completed
+T01135,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-08-14 13:40:00,2026-08-15 01:40:00,2026-08-14 18:28:00,Completed
+T01136,Daily Operations Report,Operations,E1018,Medium,Simple,4,0,0,2026-08-25 09:30:00,2026-08-25 21:30:00,2026-08-25 10:24:00,Completed
+T01137,Invoice Verification,Finance,E1004,Medium,Medium,5,1,1,2026-09-24 10:50:00,2026-09-24 22:50:00,2026-09-24 13:44:00,Completed
+T01138,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-06-10 15:20:00,2026-06-11 03:20:00,2026-06-10 22:48:00,Completed
+T01139,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-08-11 11:10:00,2026-08-11 23:10:00,2026-08-11 19:57:00,Completed
+T01140,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-09-12 11:00:00,2026-09-13 11:00:00,2026-09-12 21:53:00,Completed
+T01141,Daily Operations Report,Operations,E1014,Medium,Simple,4,0,0,2026-09-19 09:20:00,2026-09-19 21:20:00,2026-09-19 10:56:00,Completed
+T01142,BOQ Review,Procurement,E1011,High,Medium,3,1,1,2026-08-04 13:20:00,2026-08-04 19:20:00,2026-08-04 16:57:00,Completed
+T01143,Expense Approval,Finance,E1001,Low,Simple,3,1,0,2026-09-09 16:20:00,2026-09-10 16:20:00,2026-09-09 17:47:00,Completed
+T01144,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-09-14 12:20:00,2026-09-15 00:20:00,2026-09-14 13:12:00,Completed
+T01145,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-09-18 16:40:00,2026-09-19 16:40:00,2026-09-19 02:12:00,Completed
+T01146,Purchase Request,Procurement,E1009,Low,Medium,4,2,1,2026-07-04 08:00:00,2026-07-05 08:00:00,2026-07-04 12:59:00,Completed
+T01147,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-09-13 13:50:00,2026-09-14 13:50:00,2026-09-13 18:37:00,Completed
+T01148,Vendor Onboarding,Procurement,E1007,High,Complex,8,3,2,2026-09-12 08:20:00,2026-09-12 14:20:00,2026-09-12 14:35:00,Completed_Late
+T01149,Incident Review,Operations,E1013,Medium,Complex,7,2,2,2026-09-01 08:00:00,2026-09-01 20:00:00,2026-09-01 11:50:00,Completed
+T01150,Leave Approval,HR,E1023,High,Simple,2,1,0,2026-06-04 11:40:00,2026-06-04 17:40:00,2026-06-04 13:17:00,Completed
+T01151,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-09-07 14:50:00,2026-09-08 14:50:00,2026-09-07 19:45:00,Completed
+T01152,Expense Approval,Finance,E1005,Low,Simple,3,1,0,2026-07-01 11:00:00,2026-07-02 11:00:00,2026-07-01 13:51:00,Completed
+T01153,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-06-02 11:00:00,2026-06-03 11:00:00,2026-06-02 16:18:00,Completed
+T01154,Purchase Request,Procurement,E1009,High,Medium,4,2,1,2026-06-16 09:00:00,2026-06-16 15:00:00,2026-06-16 15:48:00,Completed_Late
+T01155,Leave Approval,HR,E1023,Low,Simple,2,1,0,2026-07-27 12:20:00,2026-07-28 12:20:00,2026-07-27 14:43:00,Completed
+T01156,Invoice Verification,Finance,E1001,Low,Medium,5,1,1,2026-08-09 16:00:00,2026-08-10 16:00:00,2026-08-09 17:52:00,Completed
+T01157,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-06-18 16:10:00,2026-06-19 04:10:00,2026-06-18 19:58:00,Completed
+T01158,Vendor Onboarding,Procurement,E1010,High,Complex,8,3,2,2026-08-29 15:50:00,2026-08-29 21:50:00,2026-08-29 22:22:00,Completed_Late
+T01159,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-09-18 17:30:00,2026-09-19 17:30:00,2026-09-18 22:27:00,Completed
+T01160,Vendor Onboarding,Procurement,E1011,Medium,Complex,8,3,2,2026-06-07 12:00:00,2026-06-08 00:00:00,2026-06-07 21:51:00,Completed
+T01161,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-09-05 08:20:00,2026-09-05 20:20:00,2026-09-05 14:17:00,Completed
+T01162,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-08-10 14:50:00,2026-08-11 14:50:00,2026-08-10 15:47:00,Completed
+T01163,Vendor Onboarding,Procurement,E1008,Low,Complex,8,3,2,2026-07-19 15:50:00,2026-07-20 15:50:00,2026-07-19 20:50:00,Completed
+T01164,Vendor Onboarding,Procurement,E1009,Medium,Complex,8,3,2,2026-09-07 16:20:00,2026-09-08 04:20:00,2026-09-08 01:38:00,Completed
+T01165,BOQ Review,Procurement,E1012,Low,Medium,3,1,1,2026-06-16 12:40:00,2026-06-17 12:40:00,2026-06-16 14:48:00,Completed
+T01166,Daily Operations Report,Operations,E1016,Medium,Simple,4,0,0,2026-07-30 08:20:00,2026-07-30 20:20:00,2026-07-30 11:36:00,Completed
+T01167,BOQ Review,Procurement,E1009,High,Medium,3,1,1,2026-06-24 12:20:00,2026-06-24 18:20:00,2026-06-24 15:54:00,Completed
+T01168,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-06-07 11:00:00,2026-06-08 11:00:00,2026-06-07 11:58:00,Completed
+T01169,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-08-10 11:00:00,2026-08-10 17:00:00,2026-08-10 11:48:00,Completed
+T01170,Daily Operations Report,Operations,E1013,Low,Simple,4,0,0,2026-08-16 11:20:00,2026-08-17 11:20:00,2026-08-16 12:27:00,Completed
+T01171,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-08-13 13:50:00,2026-08-14 13:50:00,2026-08-13 19:45:00,Completed
+T01172,Employee Document Verification,HR,E1019,Low,Medium,5,1,1,2026-07-31 12:40:00,2026-08-01 12:40:00,2026-07-31 14:59:00,Completed
+T01173,Invoice Verification,Finance,E1003,Medium,Medium,5,1,1,2026-06-14 17:10:00,2026-06-15 05:10:00,2026-06-14 19:59:00,Completed
+T01174,Purchase Request,Procurement,E1012,Medium,Medium,4,2,1,2026-07-19 17:00:00,2026-07-20 05:00:00,2026-07-20 02:35:00,Completed
+T01175,Invoice Verification,Finance,E1001,Medium,Medium,5,1,1,2026-08-08 09:40:00,2026-08-08 21:40:00,2026-08-08 11:47:00,Completed
+T01176,Incident Review,Operations,E1014,Low,Complex,7,2,2,2026-09-16 17:20:00,2026-09-17 17:20:00,2026-09-17 01:58:00,Completed
+T01177,Invoice Verification,Finance,E1006,High,Medium,5,1,1,2026-08-28 11:30:00,2026-08-28 17:30:00,2026-08-28 13:38:00,Completed
+T01178,Expense Approval,Finance,E1002,Low,Simple,3,1,0,2026-07-17 15:40:00,2026-07-18 15:40:00,2026-07-17 17:30:00,Completed
+T01179,BOQ Review,Procurement,E1011,Medium,Medium,3,1,1,2026-07-02 14:50:00,2026-07-03 02:50:00,2026-07-02 16:36:00,Completed
+T01180,Leave Approval,HR,E1023,High,Simple,2,1,0,2026-06-11 14:30:00,2026-06-11 20:30:00,2026-06-11 15:42:00,Completed
+T01181,Invoice Verification,Finance,E1002,Low,Medium,5,1,1,2026-09-21 15:00:00,2026-09-22 15:00:00,2026-09-21 17:04:00,Completed
+T01182,Vendor Onboarding,Procurement,E1012,Low,Complex,8,3,2,2026-09-15 14:00:00,2026-09-16 14:00:00,2026-09-15 22:35:00,Completed
+T01183,Incident Review,Operations,E1017,Low,Complex,7,2,2,2026-06-17 14:50:00,2026-06-18 14:50:00,2026-06-17 21:18:00,Completed
+T01184,Daily Operations Report,Operations,E1018,High,Simple,4,0,0,2026-09-01 08:00:00,2026-09-01 14:00:00,2026-09-01 09:45:00,Completed
+T01185,Invoice Verification,Finance,E1002,Medium,Medium,5,1,1,2026-09-05 15:50:00,2026-09-06 03:50:00,2026-09-05 21:02:00,Completed
+T01186,Vendor Onboarding,Procurement,E1011,Low,Complex,8,3,2,2026-06-23 16:50:00,2026-06-24 16:50:00,2026-06-23 23:22:00,Completed
+T01187,Purchase Request,Procurement,E1011,Medium,Medium,4,2,1,2026-08-06 16:40:00,2026-08-07 04:40:00,2026-08-06 19:21:00,Completed
+T01188,Employee Document Verification,HR,E1023,Low,Medium,5,1,1,2026-09-13 11:30:00,2026-09-14 11:30:00,2026-09-13 13:00:00,Completed
+T01189,Invoice Verification,Finance,E1004,Low,Medium,5,1,1,2026-07-07 12:30:00,2026-07-08 12:30:00,2026-07-07 19:11:00,Completed
+T01190,Incident Review,Operations,E1013,Low,Complex,7,2,2,2026-08-25 12:10:00,2026-08-26 12:10:00,2026-08-25 18:53:00,Completed
+T01191,Invoice Verification,Finance,E1006,Low,Medium,5,1,1,2026-07-07 17:30:00,2026-07-08 17:30:00,2026-07-07 20:25:00,Completed
+T01192,BOQ Review,Procurement,E1007,High,Medium,3,1,1,2026-07-26 15:20:00,2026-07-26 21:20:00,2026-07-26 18:10:00,Completed
+T01193,Vendor Onboarding,Procurement,E1007,Low,Complex,8,3,2,2026-09-10 11:50:00,2026-09-11 11:50:00,2026-09-10 22:17:00,Completed
+T01194,BOQ Review,Procurement,E1010,Low,Medium,3,1,1,2026-08-30 13:00:00,2026-08-31 13:00:00,2026-08-30 16:54:00,Completed
+T01195,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-09-16 08:50:00,2026-09-17 08:50:00,2026-09-16 10:44:00,Completed
+T01196,Incident Review,Operations,E1018,Medium,Complex,7,2,2,2026-06-20 15:10:00,2026-06-21 03:10:00,2026-06-21 00:01:00,Completed
+T01197,Employee Document Verification,HR,E1022,Medium,Medium,5,1,1,2026-06-01 14:00:00,2026-06-02 02:00:00,2026-06-01 16:44:00,Completed
+T01198,Expense Approval,Finance,E1006,Low,Simple,3,1,0,2026-07-19 17:10:00,2026-07-20 17:10:00,2026-07-19 18:46:00,Completed
+T01199,Daily Operations Report,Operations,E1018,Low,Simple,4,0,0,2026-08-25 15:30:00,2026-08-26 15:30:00,2026-08-25 16:18:00,Completed
+T01200,Purchase Request,Procurement,E1010,Low,Medium,4,2,1,2026-09-21 12:30:00,2026-09-22 12:30:00,2026-09-21 17:47:00,Completed

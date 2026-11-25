@@ -1,0 +1,31 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Secrets and local settings (none are needed, but never commit them)
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Run logs contain absolute local paths
+*.log
+
+# Intermediate files that run_pipeline.py regenerates
+data/processed/*
+!data/processed/llm_cache/
+
+# Holdout worlds: regenerated with run_simulator.py --seed <n>;
+# their headline scores are summarised in the README
+data/simulated/v2_holdout_*/
+outputs/sim_v2_holdout_*/

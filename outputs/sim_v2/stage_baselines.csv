@@ -1,0 +1,6 @@
+stage,dependency_count,n,median_wait_h,p90_wait_h
+Incharge,0,1560,1.6265,3.8917
+Incharge,1,2041,3.6706,5.5358
+Incharge,2,1062,5.0079,7.4126
+Lead,1,407,1.1242,1.8322
+Lead,2,1062,1.2583,2.2069
